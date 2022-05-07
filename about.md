@@ -14,4 +14,4 @@ Daniel's ambitions and current projects revolve around exploring frontiers of li
 
 [quigleyd@uwm.edu](mailto:quigleyd@uwm.edu)
 
-© Cezanne Camacho, 2022. These posts are meant to be used for educational purposes. Excerpts and links from this site may be used, provided that full and clear credit is given to Daniel Quigley with appropriate and specific direction to the original content.
+© Daniel Quigley, 2022. These posts are meant to be used for educational purposes. Excerpts and links from this site may be used, provided that full and clear credit is given to Daniel Quigley with appropriate and specific direction to the original content.
