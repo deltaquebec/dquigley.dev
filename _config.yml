@@ -18,12 +18,12 @@ avatar: https://avatars.githubusercontent.com/u/9583274?s=40&v=4
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: quigleyd@uwm.edu
   facebook:
   flickr:
-  github: https://github.com/deltaquebec
+  github: deltaquebec
   instagram:
-  linkedin: www.linkedin.com/in/quigley-daniel
+  linkedin: quigley-daniel
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: 
@@ -47,7 +47,7 @@ url:
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "dquigley.dev "
+baseurl: "https://dquigley.dev"
 
 #
 # !! You don't need to change any of the configuration flags below !!
