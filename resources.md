@@ -5,3 +5,13 @@ permalink: /resources/
 ---
 
 Resources
+
+### Linguistics
+
+## Linguistics
+
+# Linguistics
+
+#### Physics
+
+##### Mathematics
