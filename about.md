@@ -8,7 +8,7 @@ Daniel Quigley is a PhD student in the linguistics department at the University 
 
 Daniel's academic interests are in the syntax/semantic interface and machine learning, and his PhD research is ellipsis resolution in natural langauge processing. He is a teaching assistant for an introductory linguistics course, a freelance mathematics and physics tutor, and Genius technician at Apple.
 
-Daniel's ambitions and current projects revolve around exploring frontiers of linguistic and AI research, as well as compiling and writing learning materials for science communication, education, and inclusivity.
+Daniel's ambitions and current projects revolve around exploring frontiers of linguistic and AI research, as well as compiling and writing learning materials for science communication, education, and inclusivity. He spends much of his time learning, creating, and resynthesizing them into a way that can be communicated back to interested people; to that end, he is trying to be better about documenting those processes, and this site will be a place to summarize and provide updates on those projects.
 
 ### Contact me
 
