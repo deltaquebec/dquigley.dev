@@ -4,8 +4,8 @@ title: Resources
 permalink: /resources/
 ---
 
-# Linguistics
+## Linguistics
 
-# Physics
+## Physics
 
-# Mathematics
+## Mathematics
