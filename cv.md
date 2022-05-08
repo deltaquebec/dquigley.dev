@@ -6,6 +6,8 @@ permalink: /cv/
 
 Full CV (updated May 2022): 
 
+Statement of PhD Research: [Statement of Research]({{ site.url }}/assets/quigley_daniel_phd_research_statement.pdf)
+
 ### Education
 
 * [University of Wisconsin - Milwaukee](https://uwm.edu/)
