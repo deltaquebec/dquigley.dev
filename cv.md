@@ -4,24 +4,78 @@ title: CV
 permalink: /cv/
 ---
 
+Full CV (updated May 2022): 
+
 ### Education
 
-* University of Wisconsin - Milwaukee
+* [University of Wisconsin - Milwaukee](https://uwm.edu/)
 
-* Universiteit Utrecht
+* [Universiteit Utrecht](https://www.uu.nl/en)
 
-* University of Wisconsin - Madison
+* [University of Wisconsin - Madison](https://www.wisc.edu/)
+
 
 ### Professional Interests
 
 * Linguistics
-  - an indented list item
+  - ellipsis; double object constructions; transitivity mismatches; grammaticalization; case stacking; construction grammar; scope; binding
 
-* Anthropology
-  - an indented list item
+* Natural Language Processing
+  - ellipsis, anaphora, coreference resolution; question answering; machine learning methods for language processing
+
+* Physics/Mathematics
+  - gravitational physics; black hole physics; early universe physics; differential geometry; geometric PDEs; geometric flows; Ricci flow
+
+
+### Professional Affiliations
+
+* [American Mathematical Society (AMS)](https://www.ams.org/home/page)
+
+* [American Physical Society (APS)](https://www.aps.org/)
+
+* [Association for Computational Linguistics (ACL)](https://www.aclweb.org)
+
+* [Association for the Advancement of Artificial Intelligence (AAAI)](https://www.aaai.org/)
+
+* [Language Creation Society (LCS)](https://conlang.org/)
+
+* [Linguistic Society of America (LSA)](https://www.linguisticsociety.org/)
+
+
+### Relevant Skills
+
+* Python
+  - IDLE; Jupyter Notebook; VIM; NumPy; Matplotlib; Pandas; Keras; Scikit Learn; Natural Language Toolkit; Gensim; Stanza; Tensorflow; Anaconda
+
+* C/C++
+  - ZeroMQ; Arduino
+
+* Computational and Statistical analysis software
+  - Mathematica; MATLAB; R; SPSS
+
+* Speech analysis tools
+  - PRAAT; Audacity; TANDEM-STRAIGHT
+
+* Web design and formatting
+  - HTML/CSS; Jekyll
+
+* Operating Systems
+  - Windows 7, 8, 10; Linux (Ubuntu, CentOS, Arch, EndeavourOS); macOS (OS X El Capitan through macOS Monterey)
+
+* Typesetting, presentation, and spreadsheet software
+  - LaTeX; Office 365; LibreOffice; iWork
+
+### Relevant Coursework
+
+* Linguistics
+  - Phonetics; Phonology; Morphology; Syntax; Semantics; 2nd Language Acquisition; Seminar: Ellipsis; Typology and Universals; Historical and Comparative Linguistics; Seminar: Research Methods
+
+* Computer Science
+  - Machine Learning and Applications; Introduction to Natural Language Processing
 
 * Physics
-  - an indented list item
+  - Quantum Field Theory; Statistical Field Theory; General Relativity; String Theory; Field Theory in Particle Physics; Cosmology; Radiative Processes; High Energy Astrophysics
 
 * Mathematics
-  - an indented list item
+  - Differential Geometry; Geometric Partial Differential Equations; Mathematical Methods in Theoretical Physics
+
