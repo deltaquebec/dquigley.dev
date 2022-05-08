@@ -19,13 +19,13 @@ Statement of PhD Research: [Statement of Research]({{ site.url }}/assets/quigley
 
 ### Professional Interests
 
-* Linguistics
+* **Linguistics**
   - ellipsis; double object constructions; transitivity mismatches; grammaticalization; case stacking; construction grammar; scope; binding
 
-* Natural Language Processing
+* **Natural Language Processing**
   - ellipsis, anaphora, coreference resolution; question answering; machine learning methods for language processing
 
-* Physics/Mathematics
+* **Physics/Mathematics**
   - gravitational physics; black hole physics; early universe physics; differential geometry; geometric PDEs; geometric flows; Ricci flow
 
 
@@ -46,38 +46,38 @@ Statement of PhD Research: [Statement of Research]({{ site.url }}/assets/quigley
 
 ### Relevant Skills
 
-* Python
+* **Python**
   - IDLE; Jupyter Notebook; VIM; NumPy; Matplotlib; Pandas; Keras; Scikit Learn; Natural Language Toolkit; Gensim; Stanza; Tensorflow; Anaconda
 
-* C/C++
+* **C/C++**
   - ZeroMQ; Arduino
 
-* Computational and Statistical analysis software
+* **Computational and Statistical analysis software**
   - Mathematica; MATLAB; R; SPSS
 
-* Speech analysis tools
+* **Speech analysis tools**
   - PRAAT; Audacity; TANDEM-STRAIGHT
 
-* Web design and formatting
+* **Web design and formatting**
   - HTML/CSS; Jekyll
 
-* Operating Systems
+* **Operating Systems**
   - Windows 7, 8, 10; Linux (Ubuntu, CentOS, Arch, EndeavourOS); macOS (OS X El Capitan through macOS Monterey)
 
-* Typesetting, presentation, and spreadsheet software
+* **Typesetting, presentation, and spreadsheet software**
   - LaTeX; Office 365; LibreOffice; iWork
 
 ### Relevant Coursework
 
-* Linguistics
+* **Linguistics**
   - Phonetics; Phonology; Morphology; Syntax; Semantics; 2nd Language Acquisition; Seminar: Ellipsis; Typology and Universals; Historical and Comparative Linguistics; Seminar: Research Methods
 
-* Computer Science
+* **Computer Science**
   - Machine Learning and Applications; Introduction to Natural Language Processing
 
-* Physics
+* **Physics**
   - Quantum Field Theory; Statistical Field Theory; General Relativity; String Theory; Field Theory in Particle Physics; Cosmology; Radiative Processes; High Energy Astrophysics
 
-* Mathematics
+* **Mathematics**
   - Differential Geometry; Geometric Partial Differential Equations; Mathematical Methods in Theoretical Physics
 
