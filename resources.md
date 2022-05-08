@@ -4,7 +4,7 @@ title: Resources
 permalink: /resources/
 ---
 
-## Linguistics
+### Linguistics
 
 + Linguistics resource
   - an indented information
@@ -15,7 +15,7 @@ permalink: /resources/
 + Linguistics resource
   - an indented information
 
-## Physics
+### Physics
 
 + Physics resource
   - an indented information
@@ -26,7 +26,7 @@ permalink: /resources/
 + Physics resource
   - an indented information
 
-## Mathematics
+### Mathematics
 
 + Mathematics resource
   - an indented information
