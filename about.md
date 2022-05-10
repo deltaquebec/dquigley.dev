@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a **PhD student** in the linguistics department at the **University of Wisconsin - Milwaukee**. I also spent one year as a Masters student at Universiteit Utrecht and studied Theoretical Physics, from which he graduated the honors college. Further back, I received a Bachelor of Science at the University of Wisconsin - Madison, setting a record for the number of majors: Physics; Astronomy; Mathematics; Linguistics; Anthropology.
+I am a PhD student in the linguistics department at the University of Wisconsin - Milwaukee. I also spent one year as a Masters student at Universiteit Utrecht and studied Theoretical Physics, from which he graduated the honors college. Further back, I received a Bachelor of Science at the University of Wisconsin - Madison, setting a record for the number of majors: Physics; Astronomy; Mathematics; Linguistics; Anthropology.
 
 My academic interests are in the syntax/semantics interface and machine learning, and my PhD research is **ellipsis resolution in natural langauge processing**; additionally, I study Algonquian linguistics, in particular Menominee syntax and semantics. My interests in physics and mathematics are entwined: gravitational physics, diferential geometry, geometric partial differential equations, and geometric flows. My involvement in anthropology and archaeology included analyses of the Indus Valley Script (an as yet unsolved writing system in South Asia), cultural diffusion and evolution of writing, and the history and development of calendrical systems. I am a teaching assistant for an introductory linguistics course at the University of Wisconsin - Milwaukee, a freelance mathematics and physics tutor, and a Genius technician at Apple.
 
