@@ -47,7 +47,7 @@ Statement of PhD Research: [Statement of Research]({{ site.url }}/assets/quigley
 ### Relevant Skills
 
 * **Python**
-  - IDLE; Jupyter Notebook; VIM; NumPy; Matplotlib; Pandas; Keras; Scikit Learn; Natural Language Toolkit; Gensim; Stanza; Tensorflow; Anaconda
+  - IDLE; Jupyter Notebook; VIM; Anaconda; NumPy; Matplotlib; Pandas; Keras; Scikit Learn; Natural Language Toolkit; Gensim; Stanza; Tensorflow
 
 * **C/C++**
   - ZeroMQ; Arduino
@@ -67,7 +67,7 @@ Statement of PhD Research: [Statement of Research]({{ site.url }}/assets/quigley
 * **Typesetting, presentation, and spreadsheet software**
   - LaTeX; Office 365; LibreOffice; iWork
 
-### Relevant Coursework
+### Graduate Coursework
 
 * **Linguistics**
   - Phonetics; Phonology; Morphology; Syntax; Semantics; 2nd Language Acquisition; Seminar: Ellipsis; Typology and Universals; Historical and Comparative Linguistics; Seminar: Research Methods
