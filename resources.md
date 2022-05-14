@@ -4,7 +4,7 @@ title: Resources
 permalink: /resources/
 ---
 
-FOrthcoming: this page will have links to various resources for the interested linguistics, physics, and mathematics students.
+Forthcoming: this page will have links to various resources for the interested linguistics, physics, and mathematics students.
 
 ### Linguistics
 
