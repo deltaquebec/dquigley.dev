@@ -28,6 +28,9 @@ Statement of PhD Research: [Statement of Research]({{ site.url }}/assets/quigley
 * **Physics/Mathematics**
   - gravitational physics; black hole physics; early universe physics; differential geometry; geometric PDEs; geometric flows; Ricci flow
 
+* **Anthropology/Archaeology**
+  - Bronze Age world; evolution of writing; Indus Valley civilization; calendrical systems; archaeoastronomy; evolution of architecture; power and social relations; gender; ethnoarchaeology
+
 
 ### Professional Affiliations
 
