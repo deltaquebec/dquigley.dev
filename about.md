@@ -12,6 +12,6 @@ My ambitions and current projects revolve around **exploring frontiers of resear
 
 ### Contact me
 
-[quigleyd@uwm.edu](mailto:quigleyd@uwm.edu)
+[dquigleydev@gmail.com](mailto:dquigleydev@gmail.com)
 
 © Daniel Quigley, 2022. These posts are meant to be used for educational purposes. Excerpts and links from this site may be used, provided that full and clear credit is given to Daniel Quigley with appropriate and specific direction to the original content.
