@@ -4,7 +4,7 @@ title: CV
 permalink: /cv/
 ---
 
-Full CV (updated May 2022): [Cirriculum Vitæ]({{ site.url }}/assets/quigley_daniel_cv.pdf)
+Full CV (updated May 2022): [Curriculum Vitæ]({{ site.url }}/assets/quigley_daniel_cv.pdf)
 
 Statement of PhD Research (updated May 2022): [Statement of Research]({{ site.url }}/assets/quigley_daniel_phd_research_statement.pdf)
 
