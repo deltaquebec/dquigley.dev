@@ -8,6 +8,8 @@ Full CV (updated May 2022): [Curriculum Vitæ]({{ site.url }}/assets/quigley_dan
 
 Statement of PhD Research (updated June 2022): [Statement of Research]({{ site.url }}/assets/quigley_daniel_research_statement.pdf)
 
+One-page summary of PhD Research (updated June 2022): [Summary of Research]({{ site.url }}/assets/quigley_daniel_research_summary.pdf)
+
 ### Education
 
 * [University of Wisconsin - Milwaukee](https://uwm.edu/)
