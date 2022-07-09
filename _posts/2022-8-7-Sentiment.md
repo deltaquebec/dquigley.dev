@@ -3,6 +3,8 @@ layout: post
 title: Data Visualization and Sentiment Analysis of Movie Reviews across Four Neural Network NLP Models
 ---
 
+The relevant code for visualizations and neural network models are available at my [GitHub](https://github.com/deltaquebec/sentiment_imdb_reviews).
+
 Sentiment analysis is the computational study of opinions, sentiments, attitudes, and emotions expressed in (written) language, and is commonly used in natural language processing to determine the polarity of a text as expressing positive or negative sentiment. This project follows as: four NLP models --- CNN, RNN, RCNN, LSTM --- were trained and tested on the [Large Movie Review Dataset v1.0](http://ai.stanford.edu/~amaas/data/sentiment/) and compared for their metric scores --- loss, accuracy, F1 macro and micro, missclassification rate, training time --- across ten epochs controlled for validation loss. Each epoch's performance is tracked and averaged.
 
 | **Model** | **Loss** | **Accuracy** | **F1<sub>macro</sub>** | **F1<sub>micro</sub>** | **Misclassification rate**  | **Training time (s)** | 
