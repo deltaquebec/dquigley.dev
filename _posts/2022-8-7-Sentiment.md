@@ -12,7 +12,7 @@ Sentiment analysis is the computational study of opinions, sentiments, attitudes
 | **RCNN**  | 0.50 | 0.83 | 0.83 | 0.83 | 0.17 | 87.49 | 
 | **LSTM**  | 0.38 | 0.84 | 0.84 | 0.84 | 0.16 | 114.31 |
 
-An ideal model will minimize validation loss, misclassification rate, and training time while maximizing accuracy and F1 scores. All other metrics relatively equal across epochs, this particular architecture favors either three or four epochs. Following from average scores, we see that a minimized loss and misclassification rate with best performing accuracy and F1 scores follow for the LSTM model, though optimized for time follows for the CNN model.
+An ideal model will minimize validation loss, misclassification rate, and training time while maximizing accuracy and F1 scores. Following from average scores, we see that a minimized loss and misclassification rate with best performing accuracy and F1 scores follow for the LSTM model, though optimized for time follows for the CNN model.
 
 ## Introduction
 
@@ -49,7 +49,23 @@ n-gram analyses for n={1, 2, 3} is visualized below. [n-grams](https://web.stanf
 
 ![vis_data_ngram](https://github.com/deltaquebec/dquigley.dev/tree/master/assets/sentiment_imdb_reviews/vis_data_ngram.png)
 
-Other visualizations such as wordclouds, number of characters in cleaned texts, number of words in cleaned texts, and average word length in cleaned texts are provided in the appendices. Note that the average word length is represented by a _probability density_, the values of which may be greater than 1; the distribution itself, however, will integrate to 1. The values of the y-axis, then, are useful for relative comparisons between categories. Converting to a probability (in which the bar heights sum to 1) in the code is simply a matter of changing the argument stat='density' to stat='probability', which is essentially equivalent to finding the area under the curve for a specific interval. See [this article](https://towardsdatascience.com/histograms-and-density-plots-in-python-f6bda88f5ac0) for more details.****
+Other visualizations such as wordclouds, number of characters in cleaned texts, number of words in cleaned texts, and average word length in cleaned texts are provided in the appendices. Note that the average word length is represented by a _probability density_, the values of which may be greater than 1; the distribution itself, however, will integrate to 1. The values of the y-axis, then, are useful for relative comparisons between categories. Converting to a probability (in which the bar heights sum to 1) in the code is simply a matter of changing the argument stat='density' to stat='probability', which is essentially equivalent to finding the area under the curve for a specific interval. See [this article](https://towardsdatascience.com/histograms-and-density-plots-in-python-f6bda88f5ac0) for more details.
+
+An ideal model will minimize validation loss, misclassification rate, and training time while maximizing accuracy and F1 scores.
+
+| **Training Epoch** | **CNN** | **RNN** | **RCNN** | **LSTM** |
+|-------|--------|---------|--------|---------|
+| **Epoch1**    | 0.82 | 0.84 | 0.83 | 0.82 | 
+| **Epoch1**    | 0.84 | 0.83 | 0.85 | 0.84 |
+| **Epoch1**    | 0.83 | 0.84 | 0.84 | 0.85 |
+| **Epoch1**    | 0.83 | 0.83 | 0.83 | 0.85 |
+| **Epoch1**    | 0.83 | 0.83 | 0.83 | 0.84 |
+| **Epoch1**    | 0.83 | 0.83 | 0.82 | 0.85 |
+| **Epoch1**    | 0.82 | 0.83 | 0.82 | 0.84 |
+| **Epoch1**    | 0.82 | 0.82 | 0.82 | 0.85 | 
+| **Epoch1**    | 0.82 | 0.82 | 0.82 | 0.84 | 
+| **Epoch1**    | 0.82 | 0.82 | 0.82 | 0.84 | 
+| **Average**   | 0.83 | 0.83 | 0.83 | 0.84 | 
 
 
 
