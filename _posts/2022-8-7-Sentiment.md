@@ -51,24 +51,83 @@ n-gram analyses for n={1, 2, 3} is visualized below. [n-grams](https://web.stanf
 
 Other visualizations such as wordclouds, number of characters in cleaned texts, number of words in cleaned texts, and average word length in cleaned texts are provided in the appendices. Note that the average word length is represented by a _probability density_, the values of which may be greater than 1; the distribution itself, however, will integrate to 1. The values of the y-axis, then, are useful for relative comparisons between categories. Converting to a probability (in which the bar heights sum to 1) in the code is simply a matter of changing the argument stat='density' to stat='probability', which is essentially equivalent to finding the area under the curve for a specific interval. See [this article](https://towardsdatascience.com/histograms-and-density-plots-in-python-f6bda88f5ac0) for more details.
 
-An ideal model will minimize validation loss, misclassification rate, and training time while maximizing accuracy and F1 scores.
+An ideal model will minimize validation loss, misclassification rate, and training time while maximizing accuracy and F1 scores. The following graphs show such measurements for the CNN model as an example, while the remaining models are given in the appendices.
 
-| **Training Epoch** | **CNN** | **RNN** | **RCNN** | **LSTM** |
-|-------|--------|---------|--------|---------|
-| **Epoch1**    | 0.82 | 0.84 | 0.83 | 0.82 | 
-| **Epoch1**    | 0.84 | 0.83 | 0.85 | 0.84 |
-| **Epoch1**    | 0.83 | 0.84 | 0.84 | 0.85 |
-| **Epoch1**    | 0.83 | 0.83 | 0.83 | 0.85 |
-| **Epoch1**    | 0.83 | 0.83 | 0.83 | 0.84 |
-| **Epoch1**    | 0.83 | 0.83 | 0.82 | 0.85 |
-| **Epoch1**    | 0.82 | 0.83 | 0.82 | 0.84 |
-| **Epoch1**    | 0.82 | 0.82 | 0.82 | 0.85 | 
-| **Epoch1**    | 0.82 | 0.82 | 0.82 | 0.84 | 
-| **Epoch1**    | 0.82 | 0.82 | 0.82 | 0.84 | 
-| **Average**   | 0.83 | 0.83 | 0.83 | 0.84 | 
+![vis_cnn_metrics_avec_avg](https://github.com/deltaquebec/dquigley.dev/tree/master/assets/sentiment_imdb_reviews/vis_cnn_metrics_avec_avg.png)
 
+![vis_cnn_time](https://github.com/deltaquebec/dquigley.dev/tree/master/assets/sentiment_imdb_reviews/vis_cnn_time.png)
 
+Interestingly, even when forcing the model onto the GPU, the LSTM is markedly temporially expensive. This expense follows from the sequential computation of the LSTM layers. We can compare the training times of each model graphically via a quick script _display.py_ that is hardcoded for comparing training times.
+
+![vis_time](https://github.com/deltaquebec/sentiment_imdb_reviews/blob/main/assets/vis_time.png)
 
 ## Discussion
 
+By inspection of epoch scores and acerage scores, the LSTM architecture performs better than the other architectures; when measured for time, however, the CNN has the better performance.
+
+This study is limited by more than a few practical concerns, not least of all those forewarned in Field and Hole, 2003. The two most practical limitations on this study are as follows: the GPU, while a good GPU, is still not an optimized machine for which to perform ML tasks; the flagship 3090 model is a better optimized GPU for such tasks, and the Apple M1 chip is an additional alternative as it is equipped with an NPU (Neural Processing Unit) specifically designed for ML tasks. Additionally, pushing the NLP models to a cluster may also facilitate improved performance.
+
+Further improving statistical-based models — Naive Bayes, KNNs, SVMs — can yield great insight into the problem. A very real and valid criticism of ML is that it is an "alchemy" (Flender, 2021; Rahimi & Recht, 2017), in that the scientific rigor of the field betrays the fact "practitioners use methods that work well in practice but are poorly understood on a theoretical level". This, however, does not defeat the value in exploring models and their respective performances to give insight to their applicability and behavior.
+
+Finally, this project explored accuracy metrics for polarity in sentiment analysis. Nuanced snetiment analyses should probe for — in addition to polarity — feelings and emotions, urgency, and intentionality.
+
+Ultimately, however, deep learning is slow, even if we optimize processing units and model architectures. 
+
+Learning rate is related as the network adapts to new information. Consider the following (original citation of this example is unknown; it is adapted here from a class lecture): suppose a scientist from Mars encounters examples of cats on Earth. Each cat n in the example set N of cats has orange fur. It stands to reason, then, that the Martian scientist will think that cats have orange fur. When trying to identify whether an animal is or is not a cat, our scientist will look for orange fur.
+
+Suppose now that our scientist encounters a black cat, and the representatives of Earth tell the bewildered Martian scientist that that animal is indeed also a cat. This is an example of supervised learning: the Martian scientist is provided with data (a black animal) that is appropriately identified as a cat. Learning rate follows (where "large" and "small" are relative to each other, and their values will depend on the problem being solved):
+
+- Large learning rate indicates that the Martian scientist will realize that “orange fur” is not the most important or useful feature of cats
+- Small learning rate indicates that the Martian scientist will simply think that this black cat is an outlier and that cats are still definitively orange
+
+As the learning rate increases, the network will "change its mind". If it is too high, however, our Martian scientist will think that all cats are black even though more were orange than were black; in other words, our scientist went too far the other way. We want to find a reasonable balance in which the learning rate is small enough that we converge to something useful, but large enough that we do not have to spend unreasonable time training it.
+
 ## Conclusion
+
+Sentiment analysis does not lack for applicability, and there are many apporaches to the problem in NLP, including statistical ML models and neural network ML models. Investigated here were three neural network models, graded across ten training epochs controlled for validation loss. It was shown that with these architectures, the LSTM model performs best when measured for loss, accuracy, and misclassification rate, while the CNN performs best when measured for training time. 
+
+## Appendices
+
+### Visualization
+
+Wordclouds are visualizations of (text) data in which the size of a word represents its frequency or importance in that data. Wordclouds are handy for visualization-at-a-glance, and have the enjoyable consequence of making a report more lively. Inspection of each wordcloud is not immediately useful; overall sentiment cannot be meaningfully extracted by inspection, as no extremes in language can be easily identified.
+
+![vis_data_cloud](https://github.com/deltaquebec/dquigley.dev/tree/master/assets/sentiment_imdb_reviews/vis_data_cloud.png)
+
+The number of characters in the text refers to simply that: the number of written characters.
+
+![vis_data_char](https://github.com/deltaquebec/dquigley.dev/tree/master/assets/sentiment_imdb_reviews/vis_data_char.png)
+
+The number of words in the text refers to simply that: the number of words.
+
+![vis_data_words](https://github.com/deltaquebec/dquigley.dev/tree/master/assets/vis_data_words.png)
+
+The average word length in the text refers to simply that: the average word length. This is reported as a probability density.
+
+![vis_data_leng](https://github.com/deltaquebec/dquigley.dev/tree/master/assets/vis_data_leng.png)
+
+### Neural Network Results
+
+Three graphs result from the code that report training time per epoch, metrics (loss, accuracy, and missclassification rate) per epoch without average values, and metrics with average values; for brevity, we report only the metrics graph with averages as a bar graph. 
+
+![vis_cnn_metrics_avec_avg](https://github.com/deltaquebec/dquigley.dev/tree/master/assets/vis_cnn_metrics_avec_avg.png)
+
+We see that the CNN model performs best at two epochs.
+
+Three graphs result from the code that report training time per epoch, metrics (loss, accuracy, and missclassification rate) per epoch without average values, and metrics with average values; for brevity, we report only the metrics graph with averages as a bar graph. 
+
+![vis_rnn_metrics_avec_avg](https://github.com/deltaquebec/dquigley.dev/tree/master/assets/vis_rnn_metrics_avec_avg.png)
+
+We see that the RNN model performs best at one or two epochs.
+
+Three graphs result from the code that report training time per epoch, metrics (loss, accuracy, and missclassification rate) per epoch without average values, and metrics with average values; for brevity, we report only the metrics graph with averages as a bar graph. 
+
+![vis_rcnn_metrics_avec_avg](https://github.com/deltaquebec/dquigley.dev/tree/master/assets/vis_rcnn_metrics_avec_avg.png)
+
+We see that the RCNN model performs best at two epochs.
+
+Three graphs result from the code that report training time per epoch, metrics (loss, accuracy, and missclassification rate) per epoch without average values, and metrics with average values; for brevity, we report only the metrics graph with averages as a bar graph. 
+
+![vis_lstm_metrics_avec_avg](https://github.com/deltaquebec/dquigley.dev/tree/master/assets/vis_lstm_metrics_avec_avg.png)
+
+We see that the LSTM model performs best at three or four epochs.
