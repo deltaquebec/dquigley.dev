@@ -26,6 +26,8 @@ The problem posed in this projects is that of binary classification of polarity:
 
 The Stanford IMDB review dataset (Maas et al., 2011) is a repository of training and testing data consisting of 50000 reviews. Out of the total records, 25000 are of positive polarity while the other 25000 are of negative polarity. 12500 positive reviews and 12500 negative reviews are in each of the training and test data.
 
+Each model follows the same general schematic template with some variation: sequential model is appropriate for a plain stack of layers where each layer has exactly one input tensor and one output tensor; embedding layer turns positive integers (indexes) into dense vectors of fixed size; dropout layer randomly sets input units to 0 with a frequency of rate at each step during training time, which helps prevent overfitting; 1D convolution layer creates a convolution kernel that is convolved with the layer input over a single spatial (or temporal) dimension to produce a tensor of outputs; dense layer is a layer that is deeply connected with its preceding layer which means the neurons of the layer are connected to every neuron of its preceding layer; LSTM layer includes many LSTM units to recall past information; output does just that; compile gives specifications about the model such as optimization, minimization of error, and which metrics to evaluate and report.
+
 | **Architecture** | **CNN** | **RNN** | **RCNN** | **LSTM** |
 |-------|--------|---------|--------|---------|
 | **sequential**      | <span>&#10003;</span> | <span>&#10003;</span> | <span>&#10003;</span>   | <span>&#10003;</span>  | 
