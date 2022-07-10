@@ -18,4 +18,9 @@ Excitingly, I am on the **job market** for **internship** opportunities in **mac
 
 [https://github.com/deltaquebec](https://github.com/deltaquebec)
 
+### LinkedIn
+
+[www.linkedin.com/in/quigley-daniel](www.linkedin.com/in/quigley-daniel)
+
+
 © Daniel Quigley, 2022. These posts are meant to be used for educational purposes. Excerpts and links from this site may be used, provided that full and clear credit is given to Daniel Quigley with appropriate and specific direction to the original content.
