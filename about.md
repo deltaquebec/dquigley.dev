@@ -23,4 +23,4 @@ Excitingly, I am on the **job market** for **internship** opportunities in **mac
 [www.linkedin.com/in/quigley-daniel](www.linkedin.com/in/quigley-daniel)
 
 
-© Daniel Quigley, 2022. These posts are meant to be used for educational purposes. Excerpts and links from this site may be used, provided that full and clear credit is given to Daniel Quigley with appropriate and specific direction to the original content.
+I believe in openness and in free and open access to education and educational materials. All work, unless specified otherwise, is [licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). © Daniel Quigley, 2022. 
