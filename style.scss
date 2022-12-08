@@ -28,7 +28,16 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+
+  .margins {
+    margin-left: calc(30% - 500px);
+    margin-right: calc(30% - 500px);
+    width: 1000px;
+    margin: 0 auto;
+  }
 }
+
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
