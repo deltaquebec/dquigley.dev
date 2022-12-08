@@ -143,8 +143,10 @@ img {
 }
 
 .margins {
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: calc(30% - 500px);
+  margin-right: calc(30% - 500px);
+  width: 1000px;
+  margin: 0 auto;
 }
 
 /*********************/
