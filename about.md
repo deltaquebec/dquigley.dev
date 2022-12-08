@@ -8,14 +8,6 @@ I am a PhD student in the [Linguistics Department](https://uwm.edu/linguistics/)
 
 Before starting my PhD, I studied [Theoretical Physics](https://www.uu.nl/en/research/institute-for-theoretical-physics) at Universiteit Utrecht in The Netherlands, from which I graduated the honors college. Further back, I received a Bachelor of Science at the University of Wisconsin - Madison, where I set a record for the number of majors: [Physics](https://www.physics.wisc.edu/); [Astronomy](http://www.astro.wisc.edu/); [Mathematics](https://math.wisc.edu/); [Linguistics](https://langsci.wisc.edu/); [Anthropology](https://www.anthropology.wisc.edu/). During my undergraduate, I worked as a student researcher with Stefan Westerhoff (who sadly passed away in the summer of 2018; he is missed) on the [IceCube](https://icecube.wisc.edu/) neutrino experiment at the South Pole, and the [High Altitude Water Cherenkov (HAWC)](https://www.hawc-observatory.org/) experiment in Mexico, which are a part of the [Wisconsin IceCube Particle Astrophysics Center](https://wipac.wisc.edu/). In the Linguistics Department, I was involved with the Wisconsin Baldwin Idea Grant [Texts for Teachers](https://news.wisc.edu/partnership-to-save-menominee-language-offers-new-resources-for-language-teachers/) project with [Monica Macaulay](https://monicamacaulay.com/) as a part of the documentation, revitalization, and preservation of the Menominee language. I worked as a student researcher in the Anthropology department with [J. Mark Kenoyer](https://www.anthropology.wisc.edu/staff/kenoyer-j-mark/) on a statistical analysis of the Indus Valley Script.
 
-<div class="margins">
-  <p>In the book <em>The Visual Display of Quantitative Information</em>, Edward Tufte discusses the use of margins in data visualizations to provide additional context and annotations.</p>
-  
-  <p>In this example, we use Jekyll's built-in support for Sass to define a class called "margins" that sets the left and right margins of an element to 30% of the total width of the page.</p>
-  
-  <p>This allows us to create a layout where the main content of the page is centered on the page, with additional information and annotations placed in the margins.</p>
-</div>
-
 Excitingly, I am on the **job market** for **internship** opportunities in **machine learning**, **natural language processing**, and **data science**. In particular, I am looking for such opportunities during the 2023 spring and summer seasons. If you think I can be a fruitful addition to your team, please reach out to me at the following:
 
 ### Contact me
