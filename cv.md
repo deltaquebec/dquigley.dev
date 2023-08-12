@@ -21,17 +21,22 @@ One-page summary of PhD Research (updated June 2022): [Summary of Research]({{ s
 ### Professional Interests
 
 * **Linguistics**
-  - ellipsis; double object constructions; transitivity mismatches; grammaticalization; case stacking; construction grammar; scope; binding
+  - formal logic; mathematical models; model theory; ellipsis; double object constructions; transitivity mismatches; case stacking; construction grammar; scope; binding; degree and comparison; typology; language change
 
 * **Natural Language Processing**
-  - ellipsis, anaphora, coreference resolution; question answering; machine learning methods for language processing
+  - formal logic; mathematical models; model theory; ellipsis, anaphora, coreference resolution; machine learning methods for language processing; human language technologies; human-computer interaction
 
-* **Physics/Mathematics**
-  - gravitational physics; black hole physics; early universe physics; differential geometry; geometric PDEs; geometric flows; Ricci flow
+* **Artificial Intelligence**
+  - neural networks; natural language processing; explainable artificial intelligence; geometric neural networks; graph neural networks
 
-* **Anthropology/Archaeology**
-  - Bronze Age world; evolution of writing; Indus Valley civilization; calendrical systems; archaeoastronomy; evolution of architecture; power and social relations; gender; ethnoarchaeology
+* **Physics**
+  - gravitational physics; black hole physics; early universe physics; topological defects; quantum field theory in curved spacetime;
+  
+* **Mathematics**
+  - differential geometry; geometric PDEs; geometric flows; Ricci flow; operator theory; formal logic; model theory
 
+* **Anthropology**
+  - writing; calendrical systems; archaeoastornomy; power and social relations; gender; ethnoarchaeology
 
 ### Professional Affiliations
 
@@ -47,41 +52,17 @@ One-page summary of PhD Research (updated June 2022): [Summary of Research]({{ s
 
 * [Linguistic Society of America (LSA)](https://www.linguisticsociety.org/)
 
-
-### Relevant Skills
-
-* **Python**
-  - IDLE; Jupyter Notebook; VIM; Anaconda; NumPy; Matplotlib; Pandas; Keras; Scikit Learn; Natural Language Toolkit; Gensim; Stanza; Tensorflow
-
-* **C/C++**
-  - ZeroMQ; Arduino
-
-* **Computational and Statistical analysis software**
-  - Mathematica; MATLAB; R; SPSS
-
-* **Speech analysis tools**
-  - PRAAT; Audacity; TANDEM-STRAIGHT
-
-* **Web design and formatting**
-  - HTML/CSS; Jekyll
-
-* **Operating Systems**
-  - Windows 7, 8, 10; Linux (Ubuntu, CentOS, Arch, EndeavourOS); macOS (OS X El Capitan through macOS Monterey)
-
-* **Typesetting, presentation, and spreadsheet software**
-  - LaTeX; Office 365; LibreOffice; iWork
-
 ### Graduate Coursework
 
 * **Linguistics**
-  - Phonetics; Phonology; Morphology; Syntax; Semantics; 2nd Language Acquisition; Seminar: Ellipsis; Typology and Universals; Historical and Comparative Linguistics; Seminar: Research Methods
+  - Phonetics; Phonology; Morphology; Syntax; Semantics; 2nd Language Acquisition; Seminar: Ellipsis; Typology and Universals; Historical and Comparative Linguistics; Seminar: Research Methods; Seminar: Double Object Constructions; Advanced Phonetics; Advanced Phonology; Advanced Syntax; Advanced Semantics; Foundations of Formal Logic
 
 * **Computer Science**
-  - Machine Learning and Applications; Introduction to Natural Language Processing
+  - Machine Learning and Applications; Introduction to Natural Language Processing; Introduction to Artificial Intelligence; Artificial Intelligence in Business; Advanced Machine Learning
 
 * **Physics**
   - Quantum Field Theory; Statistical Field Theory; General Relativity; String Theory; Field Theory in Particle Physics; Cosmology; Radiative Processes; High Energy Astrophysics
 
 * **Mathematics**
-  - Differential Geometry; Geometric Partial Differential Equations; Mathematical Methods in Theoretical Physics
+  - Differential Geometry of Curves and Surfaces; Differential Geometry; Geometric Partial Differential Equations; Mathematical Methods in Theoretical Physics
 
