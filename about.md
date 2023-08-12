@@ -10,8 +10,8 @@ permalink: /about/
 
 I'm a PhD student at the [Linguistics Department](https://uwm.edu/linguistics/), advised by [Nicholas Fleisher](https://uwm.edu/linguistics/people/fleisher-nicholas/). My research bridges the fields of linguistics, computer science, and mathematics. I specialize in:
 - Theoretical linguistics
-- Human-computer interaction
 - Human language technologies
+- Human-computer interaction
 
 Besides my research, I serve as the Instructor of Record for introductory linguistics courses at the University of Wisconsin-Milwaukee. Outside academia, I'm a freelance mathematics and physics tutor and a Genius technician at Apple.
 
