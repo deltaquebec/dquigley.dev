@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-<img src="/images/quigley_daniel_headshot.jpg" alt="Profile Picture" style="float: left; margin-right: 20px; width: 180px;">
+<img src="/images/quigley_daniel_headshot.jpg" alt="Profile Picture" style="float: right; margin-left: 20px; width: 180px;">
 
 ### Current Role
 
@@ -18,7 +18,8 @@ Besides my research, I serve as the Instructor of Record for introductory lingui
 ### Educational Background
 
 - **PhD in Linguistics**: University of Wisconsin - Milwaukee (Ongoing)
-- **MSc in Theoretical Physics**: Universiteit Utrecht - Honors College Graduate.
+- **MA in Linguistics**: University of Wisconsin - Milwaukee
+- **MSc Honors College Certificate in Theoretical Physics**: Universiteit Utrecht
 - **BSc with Majors in**: Physics, Astronomy, Mathematics, Linguistics, and Anthropology - University of Wisconsin-Madison. Proud to have set a university record with this quintuple major.
 
 ### Research and Work Experience
