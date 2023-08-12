@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research Projects
-permalink: /about/
+permalink: /research/
 ---
 
 Research stuff goes here
