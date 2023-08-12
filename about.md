@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <div style="float: right; margin-left: 15px; margin-bottom: 15px;">
-  <img src="dquigley.dev/images/quigley_daniel_headshot.jpg" alt="Profile Picture" width="200"/>
+  <img src="images/quigley_daniel_headshot.jpg" alt="Profile Picture" width="200"/>
 </div>
 
 I am a PhD student in the [Linguistics Department](https://uwm.edu/linguistics/) at the University of Wisconsin - Milwaukee, advised by [Nicholas Fleisher](https://uwm.edu/linguistics/people/fleisher-nicholas/). My research is interdisciplinary across linguistics, computer science, and mathematics, and intersects theoretical linguistics, human-computer interaction, and human language technologies. I am a teaching assistant for an introductory linguistics course at the University of Wisconsin - Milwaukee, a freelance mathematics and physics tutor, and a Genius technician at Apple.
