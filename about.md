@@ -4,11 +4,13 @@ title: About Me
 permalink: /about/
 ---
 
-<img src="/images/quigley_daniel_headshot.jpg" alt="Profile Picture" style="float: right; margin-left: 20px; width: 180px;">
-
 ### Current Role
 
 I'm a PhD student at the [Linguistics Department](https://uwm.edu/linguistics/), advised by [Nicholas Fleisher](https://uwm.edu/linguistics/people/fleisher-nicholas/). My research bridges the fields of linguistics, computer science, and mathematics. 
+
+
+<img src="/images/quigley_daniel_headshot.jpg" alt="Profile Picture" style="float: right; margin-left: 20px; width: 180px;">
+
 
 In particular, I specialize in advancing natural language processing (NLP) by merging causality and machine learning theory. My work is centered on equipping semantic vector space models with logical reasoning, thereby increasing their interpretability while maintaining efficiency. By integrating model-theoretic semantics into vector spaces, I bridge traditional logical models with modern NLP techniques. This integration aims to ensure our models are not only efficient but also trustworthy and transparent in their decision-making processes.
 
