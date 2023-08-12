@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <div style="float: right; margin-left: 15px; margin-bottom: 15px;">
-  <img src="images/quigley_daniel_headshot.jpg" alt="Profile Picture" width="200"/>
+  <img src="/images/quigley_daniel_headshot.jpg" alt="Profile Picture" width="200"/>
 </div>
 
 <p align="center"> 
