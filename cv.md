@@ -36,7 +36,7 @@ One-page summary of PhD Research (updated June 2022): [Summary of Research]({{ s
   - differential geometry; geometric PDEs; geometric flows; Ricci flow; operator theory; formal logic; model theory
 
 * **Anthropology**
-  - writing; calendrical systems; archaeoastornomy; power and social relations; gender; ethnoarchaeology
+  - writing systems; calendrical systems; archaeoastornomy; power and social relations; gender; ethnoarchaeology
 
 ### Professional Affiliations
 
