@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-### Current Role
+### [ˈdæn.jəl ˈkwɪɡ.li]
 
 I'm a PhD student at the [Linguistics Department](https://uwm.edu/linguistics/), advised by [Nicholas Fleisher](https://uwm.edu/linguistics/people/fleisher-nicholas/). My research bridges the fields of linguistics, computer science, and mathematics. 
 
