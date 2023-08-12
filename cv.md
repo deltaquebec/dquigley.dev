@@ -10,13 +10,12 @@ Statement of PhD Research (updated June 2022): [Statement of Research]({{ site.u
 
 One-page summary of PhD Research (updated June 2022): [Summary of Research]({{ site.url }}/assets/quigley_daniel_research_summary.pdf)
 
-### Education
+### Educational Background
 
-* [University of Wisconsin - Milwaukee](https://uwm.edu/)
-
-* [Universiteit Utrecht](https://www.uu.nl/en)
-
-* [University of Wisconsin - Madison](https://www.wisc.edu/)
+- **PhD in Linguistics**: [University of Wisconsin - Milwaukee](https://uwm.edu/) (Ongoing)
+- **MA in Linguistics**: [University of Wisconsin - Milwaukee](https://uwm.edu/)
+- **MSc Honors College Certificate in Theoretical Physics**: [Universiteit Utrecht](https://www.uu.nl/en)
+- **BSc with Majors in**: Physics, Astronomy, Mathematics, Linguistics, and Anthropology - [University of Wisconsin - Madison](https://www.wisc.edu/). Proud to have set a university record with this quintuple major.
 
 
 ### Professional Interests
