@@ -6,7 +6,7 @@ permalink: /cv/
 
 Full CV (updated August 2023): [Curriculum Vitæ](/assets/quigley_daniel_cv.pdf)
 
-Resume (updated August 2023): [Resume]({{ site.url }}/assets/quigley_daniel_resume.pdf)
+Resume (updated August 2023): [Resume](/assets/quigley_daniel_resume.pdf)
 
 Statement of PhD Research (updated June 2022): [Statement of Research]({{ site.url }}/assets/quigley_daniel_research_statement.pdf)
 
