@@ -8,6 +8,8 @@ Research stuff goes here
 
 \[ L = T - V \]
 
+$$ x = y ^2 $$
+
 ### PhD Research
 
 
