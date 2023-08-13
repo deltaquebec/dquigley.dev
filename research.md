@@ -4,7 +4,7 @@ title: Professional Research
 permalink: /research/
 ---
 
-My theoretical research is highly interdisciplinary, spanning linguistics, mathematics, philosophy, and computer science. My work explores the theoretical fundamentals of well-defined and grounded foundations for explainable and human-interpretable artificial intelligence and language processing. My professional research interests include the following: Category-theoretic morphisms in lingusitic semantics; non-Euclidean geometries for embedding data; theoretical foundations of neural networks.
+My theoretical research is highly interdisciplinary, spanning linguistics, mathematics, philosophy, and computer science. My work explores the theoretical fundamentals of well-defined and grounded foundations for explainable and human-interpretable artificial intelligence and language processing. My professional research interests include the following: category-theoretic morphisms in lingusitic semantics; non-Euclidean geometries for data representation; neural network theory.
 
 ### Category-theoretic morphisms in lingusitic semantics
 
@@ -47,9 +47,9 @@ $p$-adic spaces should provide better clustering of related data points than Euc
 
 There is no real reason to assume (besides perhaps visualization) that computational models should involve floating point approximations of points in a continuous Euclidean space. Intuition might invite the notion that integers, not floats, should make a better foundation for modeling (language), but done so such that the usual tools are still available such as calculus. Hence, the introduction of a framework of $p$-adic space, which happily (if you squint a little) support calculus and the triangle inequality (read, geometry), among others.
 
-### Neural Network Theory
+### Neural network theory
 
-Much of machine learning (neural network machine learning, in particular) is a wild west, built from _ad hoc_ models. Though empiracally verifiable, there is a scarcity of a principled mathematically unified foundation. Two attractive approaches to equip neural networks with grounded theoretical foundations follow from: Geometric Deep Learning; Effective Deep Learning Theory.
+Much of machine learning (neural networks, in particular) is a wild west, built from black box _ad hoc_ models. Though empirically verifiable, there is a scarcity of a principled mathematically unified foundation. Two attractive approaches to equip neural networks with grounded theoretical foundations follow from: Geometric Deep Learning and Effective Deep Learning Theory.
 
 **Geometric Deep Learning** [(Bronstein, et al., 2021)](https://arxiv.org/abs/2104.13478) is an attempt for geometric unification of a broad class of ML problems from the perspectives of **symmetry** and **invariance**. 
 
