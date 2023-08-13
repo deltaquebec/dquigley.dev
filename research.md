@@ -20,7 +20,7 @@ My work here has three main objectives:
 2. Establish connections between formal logic models from model theory and vector space semantic models, uncovering their underlying shared structures and dynamics.
 3. Use category theory to bring coherence and offer a holistic framework that can encapsulate both paradigms; by grounding these connections in the realm of category theory, I aim to provide a rigorous mathematical foundation for these integrated models.
 
-### Non-Euclidean space of states
+### Non-Euclidean geometries
 
 Language is not necessarily linear, and Euclidean space for representing language structures suffers from the curse of dimensionality rather catastrophically. Assuming all words live in some space $N$ of size $dim(N)$, then the dimensionality of a sentence of $n$ words is $dim(N)^n$ (!). Two possible alternative geometries to Euclidean space come naturally equipped to handle hierarchical, non-linear linguistic data: hyperbolic space and p-adic space.
 
