@@ -6,7 +6,7 @@ permalink: /research/
 
 Research stuff goes here
 
-\[ L = T - V \]
+$$ L = T - V $$
 
 $$ x = y ^2 $$
 
