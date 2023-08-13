@@ -9,7 +9,7 @@ My theoretical research is highly interdisciplinary, spanning linguistics, mathe
 ### Category-theoretic morphisms in lingusitic semantics
 
 
-<img src="/assets/category_formal.png" alt="Category of formal models" style="float: right; margin-left: 20px; width: 180px;">
+<img src="/assets/catmod.png" alt="Category of formal models" style="float: right; margin-left: 20px; width: 180px;">
 
 ### Non-Euclidean space of states
 
