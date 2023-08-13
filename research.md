@@ -8,19 +8,23 @@ My theoretical research is highly interdisciplinary, spanning linguistics, mathe
 
 ### Category-theoretic morphisms in lingusitic semantics
 
-Natural language processing is an interdisciplinary field that invites attention from linguistics, computer science, mathematics, philosophy; these fields coalesce to find efficient, precise, and comprehensive methods for respecting and processing semantic information. Two such frameworks are **Formal Semantics**, grounded in first order logic, and **Vector Space Models**, adapted from multi-linear algebra and differential geometry. The goal is to theoretically bridging these distinct approaches.
+Natural language processing is an interdisciplinary field that invites attention from linguistics, computer science, mathematics, philosophy; these fields coalesce to find efficient, precise, and comprehensive methods for respecting and processing semantic information. Two such frameworks are **Formal Semantics**, grounded in first order logic, and **Vector Space Models**, adapted from multi-linear algebra and differential geometry. The goal is to theoretically bridge these distinct approaches.
 
 <img src="/assets/catmod.png" alt="Category of formal models" style="float: right; margin-left: 20px; width: 180px;">
 
 By using **Category Theory** as the connecting bridge between Formal Semantics and Vector Space Semantics, I am exploring how we may integrate the two otherwise disparate paradigms and elucidate semantic morphisms — transformations that preserve structure and semantic information — between them.
 
-This work has three main objectives:
+My work here has three main objectives:
 
 1. Reformulate and prove model-theoretic morphisms between formal logic models in model theory.
 2. Establish connections between formal logic models from model theory and vector space semantic models, uncovering their underlying shared structures and dynamics.
 3. Use category theory to bring coherence and offer a holistic framework that can encapsulate both paradigms; by grounding these connections in the realm of category theory, I aim to provide a rigorous mathematical foundation for these integrated models.
 
 ### Non-Euclidean space of states
+
+Language is not necessarily linear.
+
+<img src="/assets/hyperbolic.png" alt="Hyperbolic space" style="float: left; margin-right: 20px; width: 180px;">
 
 ### Neural Network Theory
 
