@@ -4,20 +4,14 @@ title: Research Projects
 permalink: /research/
 ---
 
-Research stuff goes here
+My theoretical research is highly interdisciplinary, spanning linguistics, mathematics, philosophy, and computer science. My work aims to explore the theoretical foundations of well-defined and grounded foundations for explainable and human-interpretable artificial intelligence.
 
-$$ L = T - V $$
-
-$$ x = y ^2 $$
-
-### PhD Research
+### Category-theoretic morphisms in lingusitic semantics
 
 
 <img src="/assets/category_formal.png" alt="Category of formal models" style="float: right; margin-left: 20px; width: 180px;">
 
-### Masters Research
-
-### Hyperbolic Spaces
+### Non-Euclidean space of states
 
 ### Neural Network Theory
 
