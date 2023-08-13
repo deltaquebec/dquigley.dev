@@ -30,7 +30,7 @@ Recent work has shown that hyperbolic spaces significantly improve the performan
 
 Hyperbolic spaces are geometries with a **negative (sectional) curvature**. It is precisely this negative curvature that grants us access to efficient representation of hierarchical and non-linear information. In hyperbolic space, the distance between points grows exponentially as we move away from a central point. Hyperbolic space allows for a larger number of points to be represented within a given radius than is possible in Euclidean space. This increased capacity for representation can be especially useful in modeling large datasets or complex systems.
 
-An intriguing geometry is built from the p-adic numbers. **p-adic** space is a geoemtry defined by the p-adic numbers. There is no evidence that p-adic spaces represent the human management of language, but for machine-interpretability, it promises some interesting (and largely unexplored) directions with which to rescue efficiency of processing and understanding.
+An intriguing geometry is built from the p-adic numbers. **p-adic space** is a geoemtry defined by the p-adic numbers. There is no evidence that p-adic spaces represent the human management of language, but for machine-interpretability, it promises some interesting (and largely unexplored) directions with which to rescue efficiency of processing and understanding.
 
 In brief, to build a p-adic space:
 
