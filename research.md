@@ -6,6 +6,7 @@ permalink: /research/
 
 Research stuff goes here
 
+\[ L = T - V \]
 
 ### PhD Research
 
