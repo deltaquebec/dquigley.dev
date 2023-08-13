@@ -294,7 +294,7 @@ footer {
 table {
     width: 100%; /* The table will take up the full width of its containing element. */
     border-collapse: separate; /* Borders of table cells will be displayed as separate entities. This is necessary for 'border-spacing' to work. */
-    border-spacing: 2em 0.5em; /* This sets the horizontal space between cell borders to 2em and vertical space to 0.5em. */
+    border-spacing: 0em 0.5em; /* This sets the horizontal space between cell borders to 2em and vertical space to 0.5em. */
 }
 
 th, td {
