@@ -19,9 +19,11 @@ $$ x = y ^2 $$
 
 ### Hyperbolic Spaces
 
-### Geoemtric Neural Networks
+### Neural Network Theory
 
-Much of machine learning (neural network machine learning, in particular) is a wild west, built from _ad hoc_ models. Though empiracally verifiable, there is a scarcity of a principled mathematically unified foundation. **Geometric Deep Learning** is an attempt for geometric unification of a broad class of ML problems from the perspectives of **symmetry** and **invariance**. 
+Much of machine learning (neural network machine learning, in particular) is a wild west, built from _ad hoc_ models. Though empiracally verifiable, there is a scarcity of a principled mathematically unified foundation. Two attractive approaches to equip neural networks with grounded theoretical foundations follow from: Geometric Deep Learning; Effective Deep Learning Theory.
+
+**Geometric Deep Learning** [(Bronstein, et al., 2021)](https://arxiv.org/abs/2104.13478) is an attempt for geometric unification of a broad class of ML problems from the perspectives of **symmetry** and **invariance**. 
 
 | Architecture          | Domain Ω           | Symmetry group G                  |
 |-----------------------|--------------------|----------------------------------|
@@ -34,4 +36,6 @@ Much of machine learning (neural network machine learning, in particular) is a w
 | LSTM                  | 1D Grid            | Time warping                      |
 
 
-These principles not only underlie the breakthrough performance of convolutional neural networks and the recent success of graph neural networks but also provide a principled way to construct new types of problem-specific inductive biases. Geometric Deep Leadning serves two purposes: first, to provide a common mathematical framework to derive the most successful neural network architectures, and second, give a constructive procedure to build future architectures in a principled way.
+These principles provide a principled way to construct new types of problem-specific inductive biases. Geometric Deep Leadning serves two purposes: first, to provide a common mathematical framework to derive the most successful neural network architectures, and second, give a constructive procedure to build future architectures in a principled way.
+
+**Effective Deep Learning Theory** [(Roberts, et al., 2022)](https://arxiv.org/abs/2106.10165) develops an effective theory approach to understanding deep neural networks.
