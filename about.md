@@ -4,8 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-### [ˈdæn.jəl ˈkʰw̥ɪɡ.li]
-
 
 <img src="/images/table.jpg" alt="Profile Picture" style="float: right; margin-left: 20px; width: 180px;">
 
