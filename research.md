@@ -22,9 +22,13 @@ My work here has three main objectives:
 
 ### Non-Euclidean space of states
 
-Language is not necessarily linear.
+Language is not necessarily linear, and Euclidean space for representing language structures suffers from the curse of dimensionality rather catastrophically. Assuming all words live in some space $N$ of size $dim(N)$, then the dimensionality of a sentence of $n$ words is $dim(N)^n$ (!). Two possible alternative geometries to Euclidean space come naturally equipped to handle hierarchical, non-linear linguistic data: hyperbolic space and p-adic space.
+
+Recent work has shown that hyperbolic spaces significantly improve the performance of various tasks that benefit from hierarchical structure. Relevant language, such structures are the relationships between words in space, phrases in the sentence space, knowledge graph representations, and syntactic phrase hierarchies. Such structures better fit not in the easily conceptualized Euclidean space, but in curved **hyperbolic space**.
 
 <img src="/assets/hyperbolic.png" alt="Hyperbolic space" style="float: left; margin-right: 20px; width: 180px;">
+
+Hyperbolic spaces are spaces with a **negative (sectional) curvature**. It is precisely this negative curvature that grants us access to efficient representation of information. In hyperbolic space, the distance between points grows exponentially as we move away from a central point. Hyperbolic space allows for a larger number of points to be represented within a given radius than is possible in Euclidean space. This increased capacity for representation can be especially useful in modeling large datasets or complex systems.
 
 ### Neural Network Theory
 
