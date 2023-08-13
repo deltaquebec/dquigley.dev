@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Home
-permalink: /home/
 ---
 
 ### [ˈdæn.jəl ˈkʰw̥ɪɡ.li]
