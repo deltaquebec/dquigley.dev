@@ -22,7 +22,7 @@ My work here has three main objectives:
 
 ### Non-Euclidean geometries
 
-Language is not necessarily linear, and Euclidean space for representing language structures suffers from the curse of dimensionality rather catastrophically. Assuming all words live in some space $N$ of size $dim(N)$, then the dimensionality of a sentence of $n$ words is $dim(N)^n$. Euclidean spaces are ubiquitous, but run the risk of distorting data as the dimensionality of the data increases. Some hierarchical data, such as a tree, has a branching factor such that $b$ has $(b + 1)b^l−1$ nodes at level $l$ and $(b+1)b^l −2 \over b-1$ nodes on levels less than or equal to $l$; as we grow the levels of the tree, the number of nodes grows exponentially. Two possible alternative geometries to Euclidean space come naturally equipped to handle high dimensional, hierarchical, non-linear linguistic data: hyperbolic space and p-adic space.
+Language is not necessarily linear, and Euclidean space for representing language structures suffers from the curse of dimensionality rather catastrophically. Assuming all words live in some space $N$ of size $dim(N)$, then the dimensionality of a sentence of $n$ words is $dim(N)^n$. Euclidean spaces are ubiquitous, but run the risk of distorting data as the dimensionality of the data increases. Some hierarchical data, such as a tree, has a branching factor such that $b$ has $(b + 1)b^(l−1)$ nodes at level $l$ and $(b+1)b^l −2 \over b-1$ nodes on levels less than or equal to $l$; as we grow the levels of the tree, the number of nodes grows exponentially. Two possible alternative geometries to Euclidean space come naturally equipped to handle high dimensional, hierarchical, non-linear linguistic data: hyperbolic space and $p$-adic space.
 
 Recent work has shown that hyperbolic spaces significantly improve the performance of various tasks that benefit from hierarchical structure. Relevant to language, such structures are the relationships between words in space, phrases in the sentence space, knowledge graph representations, and syntactic phrase hierarchies. Such structures better fit not in the easily conceptualized Euclidean space, but in curved **hyperbolic space**.
 
@@ -30,21 +30,20 @@ Recent work has shown that hyperbolic spaces significantly improve the performan
 
 Hyperbolic spaces are geometries with a **negative (sectional) curvature**. It is precisely this negative curvature that grants us access to efficient representation of hierarchical and non-linear information. In hyperbolic space, the distance between points grows exponentially as we move away from a central point. Hyperbolic space allows for a larger number of points to be represented within a given radius than is possible in Euclidean space. This increased capacity for representation can be especially useful in modeling large datasets or complex systems.
 
-An intriguing geometry is built from the p-adic numbers. **p-adic space** is a geoemtry defined by the p-adic numbers. There is no evidence that p-adic spaces represent the human management of language, but for machine-interpretability, it promises some interesting (and largely unexplored) directions with which to rescue efficiency of processing and understanding.
+An intriguing geometry is built from the $p$-adic numbers. **$p$-adic space** is a geoemtry defined by the $p$-adic numbers. There is no evidence that $p$-adic spaces represent the human management of language, but for machine-interpretability, it promises some interesting (and largely unexplored) directions with which to rescue efficiency of processing and understanding.
 
-In brief, to build a p-adic space:
+In brief, to build a $p$-adic space:
 
-1. Start with a prime number p and a sequence of digits representing an integer in base-p notation.
-2. Using this representation, we can define a distance metric on the p-adic numbers. The distance between two p-adic numbers a and b is defined as the reciprocal of the highest power of p that divides the difference between a and b. This distance metric satisfies the axioms of a metric space, including the triangle inequality.
-3. Use category theory to bring coherence and offer a holistic framework that can encapsulate both paradigms; by grounding these connections in the realm of category theory, I aim to provide a rigorous mathematical foundation for these integrated models.
+1. Start with a prime number $p$ and a sequence of digits representing an integer in base-$p$ notation.
+2. Using this representation, we can define a distance metric on the $p$-adic numbers. The distance between two $p$-adic numbers $a$ and $b$ is defined as the reciprocal of the highest power of $p$ that divides the difference between $a$ and $b$. This distance metric satisfies the axioms of a metric space, including the triangle inequality.
 
-A p-adic space is a metric space that is defined using the p-adic numbers as the underlying set of points and the p-adic distance metric.
+A $p$-adic space is a metric space that is defined using the $p$-adic numbers as the underlying set of points and the $p$-adic distance metric.
 
 <img src="/assets/padic.png" alt="3-adic space" style="float: right; margin-left: 20px; width: 240px;">
 
-p-adic spaces should provide better clustering of related data points than Euclidean space or hyperbolic space. This is because p-adic spaces can represent more points within a given radius than Euclidean or hyperbolic space.
+$p$-adic spaces should provide better clustering of related data points than Euclidean space or hyperbolic space. This is because $p$-adic spaces can represent more points within a given radius than Euclidean or hyperbolic space.
 
-There is no real reason to assume (besides perhaps visualization) that computational models should involve floating point approximations of points in a continuous Euclidean space. Intuition might invite the notion that integers, not floats, should make a better foundation for modeling (language), but done so such that the usual tools are still available such as calculus. Hence, the introduction of a framework of p-adic space, which happily (if you squint a little) support calculus and the triangle inequality (read, geometry), among others.
+There is no real reason to assume (besides perhaps visualization) that computational models should involve floating point approximations of points in a continuous Euclidean space. Intuition might invite the notion that integers, not floats, should make a better foundation for modeling (language), but done so such that the usual tools are still available such as calculus. Hence, the introduction of a framework of $p$-adic space, which happily (if you squint a little) support calculus and the triangle inequality (read, geometry), among others.
 
 ### Neural Network Theory
 
