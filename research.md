@@ -22,7 +22,7 @@ My work here has three main objectives:
 
 ### Non-Euclidean geometries
 
-Language is not necessarily linear, and Euclidean space for representing language structures suffers from the curse of dimensionality rather catastrophically. Assuming all words live in some space \\( N \\) of size $dim(N)$, then the dimensionality of a sentence of $n$ words is $dim(N)^n$ (!). Two possible alternative geometries to Euclidean space come naturally equipped to handle hierarchical, non-linear linguistic data: hyperbolic space and p-adic space.
+Language is not necessarily linear, and Euclidean space for representing language structures suffers from the curse of dimensionality rather catastrophically. Assuming all words live in some space $ N $ of size $dim(N)$, then the dimensionality of a sentence of $n$ words is $dim(N)^n$ (!). Two possible alternative geometries to Euclidean space come naturally equipped to handle hierarchical, non-linear linguistic data: hyperbolic space and p-adic space.
 
 Recent work has shown that hyperbolic spaces significantly improve the performance of various tasks that benefit from hierarchical structure. Relevant to language, such structures are the relationships between words in space, phrases in the sentence space, knowledge graph representations, and syntactic phrase hierarchies. Such structures better fit not in the easily conceptualized Euclidean space, but in curved **hyperbolic space**.
 
