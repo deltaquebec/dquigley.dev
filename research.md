@@ -63,11 +63,9 @@ Much of machine learning (neural network machine learning, in particular) is a w
 | Transformer           | Complete Graph     | Permutation Σn                   |
 | LSTM                  | 1D Grid            | Time warping                      |
 
-
-These principles provide a principled way to construct new types of problem-specific inductive biases. Geometric Deep Leadning serves two purposes: first, to provide a common mathematical framework to derive the most successful neural network architectures, and second, give a constructive procedure to build future architectures in a principled way.
-
-**Effective Deep Learning Theory** [(Roberts, et al., 2022)](https://arxiv.org/abs/2106.10165) develops an effective theory approach to understanding deep neural networks that borrows from theoretical physics. The approach here provides a clear and pedagogical explanation of how deep neural networks work. Because of my background in physics, the approach suggested here, borrowing with statistical physics, is especially encouraging; it is possible to have a general theory of deep learning derived from first principles, in which the guiding philosophy is that nearly-simple phenomena in practice should correspond to nearly-simple effective theories.
+**Effective Deep Learning Theory** [(Roberts, et al., 2022)](https://arxiv.org/abs/2106.10165) develops an **effective theory approach** to understanding deep neural networks that borrows from theoretical physics. The approach here provides a clear and pedagogical explanation of how deep neural networks work. 
 
 $$f(x; θ^*) ≈ f (x)$$
 
+Each of these theory-first perspectives endeavor to derive, explain, and provide methods to construct new types of problem-specific inductive biases. Geometric Deep Learning serves two purposes: first, to provide a common mathematical framework to derive the most successful neural network architectures, and second, give a constructive procedure to build future architectures in a principled way. Effective Deep Learning Theory, with no small influence by my background in physics, is especially encouraging, in that it argues for a general theory of deep learning derived from first principles, in which the guiding philosophy is that nearly-simple phenomena in practice should correspond to nearly-simple effective theories.
 
