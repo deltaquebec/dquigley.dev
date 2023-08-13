@@ -7,6 +7,14 @@ permalink: /about/
 
 <img src="/images/euler.jpg" alt="Profile Picture" style="float: left; margin-right: 20px; width: 180px;">
 
-Born and raised in Milwaukee, Wisconsin, I have deep Midwestern roots. My journey took me to Madison for my undergraduate years, and then, craving a change of scenery and culture, I packed my bags and headed to the Netherlands for my Master's certificate. Although the Netherlands was an incredible adventure, Milwaukee called me back, and I returned home for my PhD.
+Born and raised in Milwaukee, Wisconsin, I have deep Midwestern roots (and the accent to match). My academics took me to Madison for my undergraduate years, and then, craving a change of scenery and culture, I lived in the Netherlands during my Master's certificate. Although the Netherlands was an incredible adventure, Milwaukee called me back, and I returned home for my PhD.
 
 I am a cinéaste and contend that were things different, I might have become a filmmaker. I enjoy collecting books as much as reading them, and attempt science fiction and fantasy creative writing every now and again, and much of my time is spent in a café, bookstore, or bookstore café.
+
+I believe that technical expertise without translation is lost knowledge. Or, pretentiously:
+
+- _Scientia technica sine translatione perit_
+- _Technisches Fachwissen ohne Übersetzung ist verlorenes Wissen_
+- _L'expertise technique sans traduction est un savoir perdu_
+
+I believe in openness and in free and open access to education and educational materials. All work presented here, unless specified otherwise, is [licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). © Daniel Quigley, 2023. 
