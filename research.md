@@ -20,6 +20,8 @@ My work here has three main objectives:
 2. Establish connections between formal logic models from model theory and vector space semantic models, uncovering their underlying shared structures and dynamics.
 3. Use category theory to bring coherence and offer a holistic framework that can encapsulate both paradigms; by grounding these connections in the realm of category theory, I aim to provide a rigorous mathematical foundation for these integrated models.
 
+In exploring the relationships between models, we will have a clearer understanding of the relationship between formal logic models in linguistic semantics and vector space models in AI. The hope is that this will lay the groundwork for new hybrid models that take advantage of the strengths of both paradigms, and that category theory will offer a universal language that facilitates dialogue between both appraoches, and so encourage greater interdisciplinary collaboration.
+
 ### Non-Euclidean geometries
 
 Language is not necessarily linear, and Euclidean space for representing language structures suffers from the curse of dimensionality rather catastrophically. Assuming all words live in some space $N$ of size $dim(N)$, then the dimensionality of a sentence of $n$ words is $dim(N)^n$. Euclidean spaces are ubiquitous, but run the risk of distorting data as the dimensionality of the data increases. Some hierarchical data, such as a tree, has a branching factor such that $b$ has $(b + 1)b^{l-1}$ nodes at level $l$ and $(b+1)b^l −2 \over b-1$ nodes on levels less than or equal to $l$; as we grow the levels of the tree, the number of nodes grows exponentially. Two possible alternative geometries to Euclidean space come naturally equipped to handle high dimensional, hierarchical, non-linear linguistic data: hyperbolic space and $p$-adic space.
@@ -64,4 +66,8 @@ Much of machine learning (neural network machine learning, in particular) is a w
 
 These principles provide a principled way to construct new types of problem-specific inductive biases. Geometric Deep Leadning serves two purposes: first, to provide a common mathematical framework to derive the most successful neural network architectures, and second, give a constructive procedure to build future architectures in a principled way.
 
-**Effective Deep Learning Theory** [(Roberts, et al., 2022)](https://arxiv.org/abs/2106.10165) develops an effective theory approach to understanding deep neural networks.
+**Effective Deep Learning Theory** [(Roberts, et al., 2022)](https://arxiv.org/abs/2106.10165) develops an effective theory approach to understanding deep neural networks that borrows from theoretical physics. The approach here provides a clear and pedagogical explanation of how deep neural networks work. Because of my background in physics, the approach suggested here, borrowing with statistical physics, is especially encouraging; it is possible to have a general theory of deep learning derived from first principles, in which the guiding philosophy is that nearly-simple phenomena in practice should correspond to nearly-simple effective theories.
+
+$$f(x; θ^*) ≈ f (x)$$
+
+
