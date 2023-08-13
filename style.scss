@@ -294,11 +294,11 @@ footer {
 table {
     width: 100%; /* The table will take up the full width of its containing element. */
     border-collapse: separate; /* Borders of table cells will be displayed as separate entities. This is necessary for 'border-spacing' to work. */
-    border-spacing: 0em 0.5em; /* This sets the horizontal space between cell borders to 2em and vertical space to 0.5em. */
+    border-spacing: 2em 0.5em; /* This sets the horizontal space between cell borders to 2em and vertical space to 0.5em. */
 }
 
 th, td {
-    padding: 8px 12px; /* Sets the internal spacing (padding) of both table headers (th) and table data (td) cells. Top and bottom padding is 8px, left and right padding is 12px. */
+    padding: 8px 8px; /* Sets the internal spacing (padding) of both table headers (th) and table data (td) cells. Top and bottom padding is 8px, left and right padding is 12px. */
     /* border: 1px solid #ddd; /* Every table cell (both headers and data) will have a 1-pixel-wide, solid border with a light gray color. */
     text-align: left; /* Text within the cells will be left-aligned. */
 }
