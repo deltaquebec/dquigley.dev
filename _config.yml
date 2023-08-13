@@ -85,3 +85,9 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+kramdown:
+  math_engine: mathjax
+  math_engine_opts:
+    mode: mathjax
+
