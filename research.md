@@ -6,7 +6,7 @@ permalink: /research/
 
 My theoretical research is highly interdisciplinary, spanning linguistics, mathematics, philosophy, and computer science. My work explores the theoretical fundamentals of well-defined and grounded foundations for explainable and human-interpretable artificial intelligence and language processing. My professional research interests include the following: category-theoretic morphisms in lingusitic semantics; non-Euclidean geometries for data representation; neural network theory.
 
-### Category-theoretic morphisms in lingusitic semantics
+### Category-theoretic morphisms in linguistic semantics
 
 Natural language processing is an interdisciplinary field that invites attention from linguistics, computer science, mathematics, philosophy; these fields coalesce to find efficient, precise, and comprehensive methods for respecting and processing semantic information. Two such frameworks are **Formal Semantics**, grounded in first order logic, and **Vector Space Models**, adapted from multi-linear algebra and differential geometry. The goal is to theoretically bridge these distinct approaches.
 
@@ -20,7 +20,7 @@ My work here has three main objectives:
 2. Establish connections between formal logic models from model theory and vector space semantic models, uncovering their underlying shared structures and dynamics.
 3. Use category theory to bring coherence and offer a holistic framework that can encapsulate both paradigms; by grounding these connections in the realm of category theory, I aim to provide a rigorous mathematical foundation for these integrated models.
 
-In exploring the relationships between models, we will have a clearer understanding of the relationship between formal logic models in linguistic semantics and vector space models in AI. The hope is that this will lay the groundwork for new hybrid models that take advantage of the strengths of both paradigms, and that category theory will offer a universal language that facilitates dialogue between both appraoches, and so encourage greater interdisciplinary collaboration.
+This work is a part of the movement for explainable AI, and the hope is that by approaching each paradigm in this way, we can learn of the relationships between formal logic models in linguistic semantics and vector space models in AI. To that end, category theory offers a universal language that facilitates dialogue between both paradigms, and so encourages greater interdisciplinary collaboration.
 
 ### Non-Euclidean geometries
 
@@ -32,7 +32,7 @@ Recent work has shown that hyperbolic spaces significantly improve the performan
 
 Hyperbolic spaces are geometries with a **negative (sectional) curvature**. It is precisely this negative curvature that grants us access to efficient representation of hierarchical and non-linear information. In hyperbolic space, the distance between points grows exponentially as we move away from a central point. Hyperbolic space allows for a larger number of points to be represented within a given radius than is possible in Euclidean space. This increased capacity for representation can be especially useful in modeling large datasets or complex systems.
 
-An intriguing geometry is built from the $p$-adic numbers. **$p$-adic space** is a geoemtry defined by the $p$-adic numbers. There is no evidence that $p$-adic spaces represent the human management of language, but for machine-interpretability, it promises some interesting (and largely unexplored) directions with which to rescue efficiency of processing and understanding.
+An intriguing geometry is built from the $p$-adic numbers. **$p$-adic space** is a geometry defined by the $p$-adic numbers. There is no evidence that $p$-adic spaces represent the human management of language, but for machine-interpretability, it promises some interesting (and largely unexplored) directions with which to rescue efficiency of processing and understanding.
 
 In brief, to build a $p$-adic space:
 
