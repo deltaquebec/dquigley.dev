@@ -34,7 +34,7 @@ One-page summary of PhD Research (updated June 2022): [Summary of Research]({{ s
   - neural networks; natural language processing; explainable artificial intelligence; geometric neural networks; graph neural networks
 
 * **Physics**
-  - gravitational physics; black hole physics; early universe physics; topological defects; quantum field theory in curved spacetime;
+  - gravitational physics; black hole physics; early universe physics; topological defects; quantum field theory in curved spacetime
   
 * **Mathematics**
   - differential geometry; geometric PDEs; geometric flows; Ricci flow; operator theory; formal logic; model theory
