@@ -25,7 +25,7 @@ One-page summary of PhD Research (updated June 2022): [Summary of Research]({{ s
 ### Professional Interests
 
 * **Linguistics**
-  - formal logic; mathematical models; model theory; ellipsis; double object constructions; transitivity mismatches; case stacking; construction grammar; scope; binding; degree and comparison; typology; language change
+  - ellipsis; double object constructions; transitivity mismatches; case stacking; construction grammar; scope; binding; degree and comparison; typology; language change; formal logic; mathematical models; model theory; 
 
 * **Natural Language Processing**
   - formal logic; mathematical models; model theory; ellipsis, anaphora, coreference resolution; machine learning methods for language processing; human language technologies; human-computer interaction
