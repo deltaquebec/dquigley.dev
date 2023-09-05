@@ -42,20 +42,6 @@ One-page summary of PhD Research (updated June 2022): [Summary of Research]({{ s
 * **Anthropology**
   - writing systems; calendrical systems; archaeoastornomy; power and social relations; gender; ethnoarchaeology
 
-### Professional Affiliations
-
-* [American Mathematical Society (AMS)](https://www.ams.org/home/page)
-
-* [American Physical Society (APS)](https://www.aps.org/)
-
-* [Association for Computational Linguistics (ACL)](https://www.aclweb.org)
-
-* [Association for the Advancement of Artificial Intelligence (AAAI)](https://www.aaai.org/)
-
-* [Language Creation Society (LCS)](https://conlang.org/)
-
-* [Linguistic Society of America (LSA)](https://www.linguisticsociety.org/)
-
 ### Graduate Coursework
 
 * **Linguistics**
