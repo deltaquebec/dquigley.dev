@@ -4,7 +4,7 @@ title: Professional Research
 permalink: /research/
 ---
 
-My theoretical research is highly interdisciplinary, spanning linguistics, mathematics, philosophy, and computer science. My work explores the theoretical fundamentals of well-defined and grounded foundations for explainable and human-interpretable artificial intelligence and language processing. My professional research interests include the following: category-theoretic morphisms in lingusitic semantics; non-Euclidean geometries for data representation; neural network theory.
+My research is highly interdisciplinary, spanning linguistics, mathematics, philosophy, and computer science. My work explores the theoretical fundamentals of well-defined and grounded foundations for explainable and human-interpretable artificial intelligence and language processing. My professional research interests include the following: category-theoretic morphisms in lingusitic semantics; non-Euclidean geometries for data representation; neural network theory.
 
 ### Category-theoretic morphisms in linguistic semantics
 
