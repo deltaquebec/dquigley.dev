@@ -7,7 +7,7 @@ permalink: /about/
 
 <img src="/images/euler.jpg" alt="Profile Picture" style="float: left; margin-right: 20px; width: 180px;">
 
-Born and raised in Milwaukee, Wisconsin, I have deep Midwestern roots (and the accent to match). My academics took me to Madison for my undergraduate years, and then, craving a change of scenery and culture, I lived in the Netherlands during my Master's certificate. Although the Netherlands was an incredible adventure, Milwaukee called me back, and I returned home for my PhD.
+Born and raised in Milwaukee, Wisconsin, I have deep Midwestern roots (and the accent to match). I studied physics, astronomy, mathematics, linguistics, and anthropology at UW-Madison for my undergraduate years, and I lived in the Netherlands during my Master's certificate at Universiteit Utrecht. I am now again home in Milwaukee for my PhD at UW-Milwaukee.
 
 I am a cinéaste and contend that were things different, I might have become a filmmaker. I enjoy collecting books as much as reading them, and attempt science fiction and fantasy creative writing every now and again. Much of my time is spent in a café, bookstore, or bookstore café.
 
