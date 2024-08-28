@@ -1,12 +1,10 @@
----
----
-
 //
 // IMPORTS
 //
 
 @import "reset";
 @import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -18,8 +16,11 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+  background: $white;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
   color: $darkGray;
 }
 
@@ -30,13 +31,10 @@ body {
   width: 100%;
 }
 
-
-
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700; // Bold weight
   color: $darkerGray;
-  font-weight: bold;
-
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
@@ -68,12 +66,17 @@ h4 {
 
 p {
   margin: 15px 0;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400; // Regular weight
 }
 
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400; // Regular weight
+
   &:hover, &:active {
     color: $blue;
   }
@@ -101,11 +104,15 @@ ul ul, ol ul {
 }
 
 em, i {
-  font-style: italic;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: italic; // Regular italic
 }
 
 strong, b {
-  font-weight: bold;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700; // Bold weight
+  font-style: normal;
 }
 
 img {
@@ -118,7 +125,9 @@ img {
 }
 
 .date {
-  font-style: italic;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: italic; // Regular italic
   color: $gray;
 }
 
@@ -136,12 +145,12 @@ img {
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /*********************/
@@ -196,7 +205,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: "Atkinson Hyperlegible", sans-serif;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -215,7 +224,8 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400; // Regular weight
   font-size: 18px;
 
   @include mobile {
@@ -259,8 +269,10 @@ nav {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 400; // Regular weight
     font-size: 22px;
-    font-style: italic;
+    font-style: italic; // Italic style
   }
 
   .comments {
@@ -270,6 +282,8 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 700; // Bold weight
   }
 }
 
@@ -283,6 +297,8 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400; // Regular weight
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
@@ -292,19 +308,19 @@ footer {
 
 /* Table Styles */
 table {
-    width: 100%; /* The table will take up the full width of its containing element. */
-    border-collapse: separate; /* Borders of table cells will be displayed as separate entities. This is necessary for 'border-spacing' to work. */
-    border-spacing: 0em 0.5em; /* This sets the horizontal space between cell borders to 2em and vertical space to 0.5em. */
+  width: 100%; /* The table will take up the full width of its containing element. */
+  border-collapse: separate; /* Borders of table cells will be displayed as separate entities. This is necessary for 'border-spacing' to work. */
+  border-spacing: 0em 0.5em; /* This sets the horizontal space between cell borders to 2em and vertical space to 0.5em. */
 }
 
 th, td {
-    padding: 8px 8px; /* Sets the internal spacing (padding) of both table headers (th) and table data (td) cells. Top and bottom padding is 8px, left and right padding is 12px. */
-    /* border: 1px solid #ddd; /* Every table cell (both headers and data) will have a 1-pixel-wide, solid border with a light gray color. */
-    text-align: left; /* Text within the cells will be left-aligned. */
+  padding: 8px 8px; /* Sets the internal spacing (padding) of both table headers (th) and table data (td) cells. Top and bottom padding is 8px, left and right padding is 12px. */
+  text-align: left; /* Text within the cells will be left-aligned. */
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400; // Regular weight
 }
 
 th {
-    background-color: #f5f5f5; /* Table headers will have a light grey background color. */
-    font-weight: bold; /* Text within the table headers will be displayed in bold. */
+  background-color: #f5f5f5; /* Table headers will have a light grey background color. */
+  font-weight: 700; /* Text within the table headers will be displayed in bold. */
 }
-
