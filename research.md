@@ -14,7 +14,7 @@ One may wonder: to what extent do formal semantics and distributional semantics 
 
 This is a natural question in the domain of **category theory**, which is, itself, the study of structures and relationships by abstraction; that is, category theory is the study of structures by abstracting them and their relationships. It is the natural tool of choice, then, with which to study structures; the structures in which we are interested here are those which represent meaning in natural language.
 
-<img src="/assets/modint.png" alt="Category of formal models" style="float: right; margin-left: 20px; width: 180px;">
+<img src="/assets/modint.PNG" alt="Category of formal models" style="float: right; margin-left: 20px; width: 180px;">
 
 By using category theory as the connection between formal semantics and distributional semantics, I am exploring how we may integrate the two otherwise disparate paradigms and elucidate transformations that preserve structure and semantic information between them. My work here has three main objectives:
 
