@@ -16,7 +16,9 @@ This is a natural question in the domain of **category theory**, which is, itsel
 
 <img src="/assets/modint.PNG" alt="Category of formal models" style="float: right; margin-left: 20px; width: 360px;">
 
-By using category theory as the connection between formal semantics and distributional semantics, I am exploring how we may integrate the two otherwise disparate paradigms and elucidate transformations that preserve structure and semantic information between them. My work here has three main objectives:
+By using category theory as the connection between formal semantics and distributional semantics, I am exploring how we may integrate the two otherwise disparate paradigms and elucidate transformations that preserve structure and semantic information between them. 
+
+My work here has three main objectives:
 
 1. Reformulate and prove model-theoretic morphisms between extensional and intensional models.
 2. Connect formal logic models from model theory and vector space semantic models, uncovering any underlying shared structures and dynamics between the two.
