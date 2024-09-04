@@ -4,7 +4,7 @@ title: Curriculum Vitæ
 permalink: /cv/
 ---
 
-Full CV (updated February 2024): [Curriculum Vitæ](/assets/quigley_daniel_cv.pdf)
+Full CV (updated September 2024): [Curriculum Vitæ](/assets/quigley_daniel_cv.pdf)
 
 {% comment %}
 Resume (updated August 2023): [Resume](/assets/quigley_daniel_resume.pdf)
