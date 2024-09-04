@@ -6,21 +6,21 @@ permalink: /research/
 
 My research is highly interdisciplinary, spanning linguistics, mathematics, philosophy, and computer science. My domains of interest are in mathematical linguistics, theoretical deep learning, neuro-symbolic artificial intielligence, and philosophy of science.
 
-### Category-theoretic morphisms in linguistic semantics
+### Category-theoretic semantics
 
-Natural language processing is an interdisciplinary field that invites attention from linguistics, computer science, mathematics, philosophy; these fields coalesce to find efficient, precise, and comprehensive methods for respecting and processing semantic information. Two such frameworks are **Formal Semantics**, grounded in first order logic, and **Vector Space Models**, adapted from multi-linear algebra and differential geometry. The goal is to theoretically bridge these distinct approaches.
+**Formal semantics** analyzes language meaning using mathematical structures and logical models, which are categorized as either **extensional** (meaning is derived from observable realities), or **intensional** (meaning depends on context including modalities like necessity and possibility). These frameworks help map linguistic expressions to reality. In contrast, **distributional semantics** (the underlying linguistics of modern machine language understanding) posits that meaning arises from usage context, aligned with Firth’s principle: ‘You shall know a word by the company it keeps’. This approach models word meanings as vectors in a high-dimensional space, where semantic relationships are defined by proximity and interaction, often represented on a geodesically convex Riemannian manifold, allowing for semantic analysis through various interpolative methods.
+
+One may wonder: to what extent do formal semantics and distributional semantics relate as computational processes for understanding natural language? To what extent does one formal structure relate to the other?
+
+This is a natural question in the domain of **category theory**, which is, itself, the study of structures and relationships by abstraction; that is, category theory is the study of structures by abstracting them and their relationships. It is the natural tool of choice, then, with which to study structures; the structures in which we are interested here are those which represent meaning in natural language.
 
 <img src="/assets/catmod.png" alt="Category of formal models" style="float: right; margin-left: 20px; width: 180px;">
 
-By using **Category Theory** as the connection between Formal Semantics and Vector Space Semantics, I am exploring how we may integrate the two otherwise disparate paradigms and elucidate semantic morphisms — transformations that preserve structure and semantic information — between them.
+By using category theory as the connection between formal semantics and distributional semantics, I am exploring how we may integrate the two otherwise disparate paradigms and elucidate transformations that preserve structure and semantic information between them. My work here has three main objectives:
 
-My work here has three main objectives:
-
-1. Reformulate and prove model-theoretic morphisms between formal logic models.
-2. Connect formal logic models from model theory and vector space semantic models, uncovering any underlying shared structures and dynamics.
-3. Use category theory to bring a coherence, consistent, and holistic framework that encapsulates both paradigms; by grounding these connections in the framework of category theory, I aim to provide a rigorous mathematical foundation for these integrated models.
-
-This work is a part of the movement for explainable AI. To that end, category theory offers a universal language that facilitates dialogue between otherwise disparate paradigms, and so encourages interdisciplinary collaboration.
+1. Reformulate and prove model-theoretic morphisms between extensional and intensional models.
+2. Connect formal logic models from model theory and vector space semantic models, uncovering any underlying shared structures and dynamics between the two.
+3. Use category theory to bring a coherent framework to both paradigms; by grounding these connections in the framework of category theory, I aim to provide a rigorous mathematical foundation for these integrated models, giving a map of semantics that is flexibly formal and distributional.
 
 ### Non-Euclidean geometries
 
@@ -71,5 +71,7 @@ Much of machine learning (neural networks, in particular) is a wild west, built 
 
 $$f(x; θ^*) ≈ f (x)$$
 
-Each of these theory-first perspectives endeavor to derive, explain, and provide methods to construct new types of problem-specific inductive biases. Geometric Deep Learning serves two purposes: first, to provide a common mathematical framework to derive the most successful neural network architectures, and second, give a constructive procedure to build future architectures in a principled way. Effective Deep Learning Theory argues for a general theory of deep learning derived from first principles, in which the guiding philosophy is that nearly-simple phenomena in practice should correspond to nearly-simple effective theories.
+**Categorical Deep Learning** [(Gavranović, et al., 2024)](https://arxiv.org/abs/2402.15332) give a general-purpose framework for specifying and studying deep learning architectures through the framework of category theory. In particular, Geometric Deep Learning is, in fact, contained within such a categorical framework; furthermore, Categorical Deep Learning establishes a common, unifying framework for how category theory can be applied to AI. Something must be said as well for the aesthetic, the beauty, of mathematics, and it is my opinion that category theory has that in spades; application to deep learning brings in a consistent beauty toa  computer science otherwise hindered by ad hoc characterizations.
+
+Each of these perspectives endeavor to derive, explain, and provide methods to construct new types of problem-specific inductive biases. Geometric Deep Learning serves two purposes: first, to provide a common mathematical framework to derive the most successful neural network architectures, and second, give a constructive procedure to build future architectures in a principled way. Effective Deep Learning Theory argues for a general theory of deep learning derived from first principles, in which the guiding philosophy is that nearly-simple phenomena in practice should correspond to nearly-simple effective theories. Categorical Deep Learning seeks to give a general-purpose framework for deep learning architectures that otherwise subsumes the afforementioned theories.
 
