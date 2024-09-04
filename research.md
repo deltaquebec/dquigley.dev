@@ -10,11 +10,13 @@ My research is highly interdisciplinary, spanning linguistics, mathematics, phil
 
 **Formal semantics** analyzes language meaning using mathematical structures and logical models, which are categorized as either **extensional** (meaning is derived from observable realities), or **intensional** (meaning depends on context including modalities like necessity and possibility). These frameworks help map linguistic expressions to reality. In contrast, **distributional semantics** (the underlying linguistics of modern machine language understanding) posits that meaning arises from usage context, aligned with Firth’s principle: ‘You shall know a word by the company it keeps’. This approach models word meanings as vectors in a high-dimensional space, where semantic relationships are defined by proximity and interaction, often represented on a geodesically convex Riemannian manifold, allowing for semantic analysis through various interpolative methods.
 
+<img src="/assets/fsint.PNG" alt="Intensional model" style="float: left; margin-left: 20px; width: 340px;">
+
 One may wonder: to what extent do formal semantics and distributional semantics relate as computational processes for understanding natural language? To what extent does one formal structure relate to the other?
 
 This is a natural question in the domain of **category theory**, which is, itself, the study of structures and relationships by abstraction; that is, category theory is the study of structures by abstracting them and their relationships. It is the natural tool of choice, then, with which to study structures; the structures in which we are interested here are those which represent meaning in natural language.
 
-<img src="/assets/modint.PNG" alt="Category of formal models" style="float: right; margin-left: 20px; width: 360px;">
+<img src="/assets/modint.PNG" alt="Category of formal models" style="float: right; margin-left: 20px; width: 340px;">
 
 By using category theory as the connection between formal semantics and distributional semantics, I am exploring how we may integrate the two otherwise disparate paradigms and elucidate transformations that preserve structure and semantic information between them. 
 
