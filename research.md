@@ -53,7 +53,7 @@ There is no real reason to assume (besides perhaps visualization) that computati
 
 ### Neural network theory
 
-Much of machine learning (neural networks, in particular) is a wild west, built from black box _ad hoc_ models. Though empirically verifiable, there is a scarcity of a principled and mathematically unified foundation. Two attractive approaches to equip neural networks with grounded theoretical foundations follow from: Geometric Deep Learning and Effective Deep Learning Theory.
+Much of machine learning (neural networks, in particular) is a wild west, built from black box _ad hoc_ models. Though empirically verifiable, there is a scarcity of a principled and mathematically unified foundation. Three attractive approaches to equip neural networks with grounded theoretical foundations follow from: Geometric Deep Learning; Effective Deep Learning Theory; Categorical Deep Learning.
 
 **Geometric Deep Learning** [(Bronstein, et al., 2021)](https://arxiv.org/abs/2104.13478) is an attempt for a geometric unification of a broad class of ML problems from the perspectives of **symmetry** and **invariance**. 
 
@@ -71,7 +71,7 @@ Much of machine learning (neural networks, in particular) is a wild west, built 
 
 $$f(x; θ^*) ≈ f (x)$$
 
-**Categorical Deep Learning** [(Gavranović, et al., 2024)](https://arxiv.org/abs/2402.15332) give a general-purpose framework for specifying and studying deep learning architectures through the framework of category theory. In particular, Geometric Deep Learning is, in fact, contained within such a categorical framework; furthermore, Categorical Deep Learning establishes a common, unifying framework for how category theory can be applied to AI. Something must be said as well for the aesthetic, the beauty, of mathematics, and it is my opinion that category theory has that in spades; application to deep learning brings in a consistent beauty toa  computer science otherwise hindered by ad hoc characterizations.
+**Categorical Deep Learning** [(Gavranović, et al., 2024)](https://arxiv.org/abs/2402.15332) give a general-purpose framework for specifying and studying deep learning architectures through the framework of category theory. In particular, Geometric Deep Learning is, in fact, contained within such a categorical framework; furthermore, Categorical Deep Learning establishes a common, unifying framework for how category theory can be applied to AI. Something must be said as well for the aesthetic, the _beauty_, of mathematics, and it is my opinion that category theory has that in spades; application to deep learning brings in a consistent beauty toa  computer science otherwise hindered by _ad hoc_ characterizations.
 
 Each of these perspectives endeavor to derive, explain, and provide methods to construct new types of problem-specific inductive biases. Geometric Deep Learning serves two purposes: first, to provide a common mathematical framework to derive the most successful neural network architectures, and second, give a constructive procedure to build future architectures in a principled way. Effective Deep Learning Theory argues for a general theory of deep learning derived from first principles, in which the guiding philosophy is that nearly-simple phenomena in practice should correspond to nearly-simple effective theories. Categorical Deep Learning seeks to give a general-purpose framework for deep learning architectures that otherwise subsumes the afforementioned theories.
 
