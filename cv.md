@@ -42,17 +42,3 @@ One-page summary of PhD Research (updated June 2022): [Summary of Research]({{ s
 * **Anthropology**
   - writing systems; calendrical systems; archaeoastornomy; power and social relations; gender; ethnoarchaeology
 
-### Graduate Coursework
-
-* **Linguistics**
-  - Phonetics; Phonology; Morphology; Syntax; Semantics; 2nd Language Acquisition; Seminar: Ellipsis; Typology and Universals; Historical and Comparative Linguistics; Seminar: Research Methods; Seminar: Double Object Constructions; Advanced Phonetics; Advanced Phonology; Advanced Syntax; Advanced Semantics; Foundations of Formal Logic
-
-* **Computer Science**
-  - Machine Learning and Applications; Introduction to Natural Language Processing; Introduction to Artificial Intelligence; Artificial Intelligence in Business; Advanced Machine Learning
-
-* **Physics**
-  - Quantum Field Theory; Statistical Field Theory; General Relativity; String Theory; Field Theory in Particle Physics; Cosmology; Radiative Processes; High Energy Astrophysics
-
-* **Mathematics**
-  - Differential Geometry of Curves and Surfaces; Differential Geometry; Geometric Partial Differential Equations; Mathematical Methods in Theoretical Physics
-
