@@ -14,3 +14,4 @@ My graduate research specializes in mathematical linguistics, especially in natu
 
 I serve as the Instructor of Record for introductory linguistics courses at the [University of Wisconsin - Milwaukee](https://uwm.edu/), and I have a position as a Research Assistant in the [Electrical Engineering](https://uwm.edu/engineering/departments/electrical-engineering/) department on a causal AI project with [Jun Zhang](https://uwm.edu/engineering/people/zhang-jun/) and [Shuaiqi (Roger) Shen](https://uwm.edu/engineering/people/shen-shuaiqi-roger/). Outside academia, I'm a freelance data and machine learning scientist; I am currently contracted with [Eruditis](https://www.linkedin.com/company/eruditis/).
 
+This site uses the [Atkinson Hyperlegible](https://brailleinstitute.org/freefont) font for the purpose of accessibility for low-vision readers.
