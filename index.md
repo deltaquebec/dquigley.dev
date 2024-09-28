@@ -5,10 +5,11 @@ title: Home
 
 ### [ˈdæn.jəl ˈkʰw̥ɪ.ɡli]
 
+<img src="/images/quigley_daniel_headshot.jpg" alt="Profile Picture" style="float: right; margin-right: 20px; width: 180px;">
+
 I'm a PhD student at the [University of Wisconsin - Milwaukee](https://uwm.edu/) [Linguistics Department](https://uwm.edu/linguistics/), advised by [Nicholas Fleisher](https://uwm.edu/linguistics/people/fleisher-nicholas/). My research is interdisciplinary, and involves aspects of linguistics, mathematics, philosophy, and computer science. 
 
 
-<img src="/images/quigley_daniel_headshot.jpg" alt="Profile Picture" style="float: right; margin-left: 20px; width: 180px;">
 
 My graduate research specializes in mathematical linguistics, especially in natural language semantics. My work is coincident with natural language processing (NLP), logic, and category theory.
 
