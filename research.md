@@ -10,7 +10,7 @@ My research is highly interdisciplinary, spanning linguistics, mathematics, phil
 
 **Formal semantics** analyzes language meaning using mathematical structures and logical models, which are categorized as either **extensional** (meaning is derived from observable realities), or **intensional** (meaning depends on context including modalities like necessity and possibility). These frameworks help map linguistic expressions to reality. 
 
-<img src="/assets/fsint.PNG" alt="Intensional model" style="float: left; margin-left: 20px; width: 340px;">
+<img src="/assets/fsint.PNG" alt="Intensional model" style="float: left; margin-right: 20px; width: 340px;">
 
 In contrast, **distributional semantics** (the underlying linguistics of modern machine language understanding) posits that meaning arises from usage context, aligned with Firth’s principle: ‘You shall know a word by the company it keeps’. This approach models word meanings as vectors in a high-dimensional space, where semantic relationships are defined by proximity and interaction, often represented on a geodesically convex Riemannian manifold, allowing for semantic analysis through various interpolative methods.
 
