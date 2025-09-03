@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My dissertation: or, we wonder what is a cat
+title: My dissertation: or, what is a cat?
 ---
 
 _Turn right at the corner of Axiom_
@@ -55,7 +55,7 @@ _a sip of infinite regress. Now close your eyes,_
 
 _and stay a while with me._
 
-_The Time-and-Place; or, a Procrastination_, Daniel Quigley (2024)
+_---The Time-and-Place; or, a Procrastination_, Daniel Quigley (2024)
 
 I successfully defended my dissertation on May 2, 2025. My dissertation, titled _Neurosymbolic Semantics_, is a work in mathematical linguistics; the story goes as follows: you and I have access to discrete and continuous representations of meaning, of reasoning; we need different levels of representation to cover a range of cognitive phenomena; these two kinds of semantics, we claim, are accessible and compatible, and this compatibility can be characterized as neurosymbolic.
 
