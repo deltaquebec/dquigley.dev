@@ -124,3 +124,24 @@ Five main results follow:
 4. we acquire a generalized vector logic compatible with compositionality that respects the representation of logical operators within distributional spaces;
 5. we show a possible formulation of and solution to grounding problems, in which our neurosymbolic semantics is shown to be grounded according to what we identify as four criteria for doing so.
 
+## Some passing remarks
+
+It may yet be the case that linguists, mathematicians, philosophers, and computer scientists might one day be friends, and discuss, at the heart of it all: how language can ‘be’ and how it can ‘be described’. Let us indulge in a straw-man, and borrow an exposition from Kornai (2007). To the mathematician encountering linguistics for the first time, the whole area appears as a random collection of loosely connected observations, held together somewhat superficially by terminology and tools borrowed from logic and set theory; likewise, to the linguist encountering mathematics for the first time, the whole enterprise seems an exercise in stating the obvious with unnecessary precision and formality. To say nothing of the philosopher and the computer scientist, whom we might imagine engaged in mutual contempt: the former dismissing the latter as a mere symbol manipulator, and the latter viewing the former as a sojourner to endless recursions of questions that might otherwise be resolved with a proper algorithm, should the philosopher learn to code.
+
+It is precisely in this way that, perhaps, we wish to offend all equally, and in so doing, in our mutual offense, establish a common ground from which to work. Perhaps the most valuable experience from this whole enterprize was in working with linguists, mathematicians, philosophers, computer scientists, and cognitive scientists, among an innumerable host of friends and colleagues. Discussing, chatting, critiquing, talking, lauing, learning how to communicate one with the other, these have been invaluable. Much work in this dissertation followed naturally from such interdisciplinary cooperation, and underratedly, reflection. We might wonder, as Seton remarked:
+
+> Life’s greatest lessons don’t come from focus or concentration. They come from breathing and simply noticing.
+
+## A handful or references
+
+Marco Baroni, Raffaella Bernardi, and Roberto Zamparelli. Frege in space: A program for composition distributional semantics. Linguistic Issues in Language Technology, 9, 2014.
+
+George E. P. Box. Science and statistics. Journal of the American Statistical Association, 71(356):791–799, 1976.
+
+Carlos A Driscoll, David W Macdonald, and Stephen J O’Brien. From wild animals to domestic pets, an evolutionary view of domestication. Proceedings of the National Academy of Sciences, 106(supplement_1):9971–9978, 2009.
+
+Carlos A Driscoll, Marilyn Menotti-Raymond, Alfred L Roca, Karsten Hupe, Warren E Johnson, Eli Geffen, Eric H Harley, Miguel Delibes, Dominique Pontier, Andrew C Kitchener, et al. The near eastern origin of cat domestication. Science, 317(5837):519– 523, 2007.
+
+András Kornai. Mathematical Linguistics. Advanced Information and Knowledge Processing. Springer London, 1 edition, November 2007.
+
+D.H. Wolpert. The supervised learning no-free-lunch-theorems. In Soft Computing and Industry, pages 25–42. Springer, 2002.
