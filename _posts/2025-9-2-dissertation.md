@@ -133,7 +133,7 @@ It is precisely in this way that, perhaps, we wish to offend all equally, and in
 
 > Life’s greatest lessons don’t come from focus or concentration. They come from breathing and simply noticing.
 
-## A handful or references
+## A handful of references
 
 Marco Baroni, Raffaella Bernardi, and Roberto Zamparelli. Frege in space: A program for composition distributional semantics. Linguistic Issues in Language Technology, 9, 2014.
 
