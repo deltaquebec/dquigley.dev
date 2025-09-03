@@ -60,7 +60,7 @@ _&mdash;The Time-and-Place; or, a Procrastination_, Daniel Quigley (2024)
 
 I successfully defended my dissertation on May 2, 2025. My dissertation, titled _Neurosymbolic Semantics_, is a work in mathematical linguistics; the story goes as follows: you and I have access to discrete and continuous representations of meaning, of reasoning; we need different levels of representation to cover a range of cognitive phenomena; these two kinds of semantics, we claim, are accessible and compatible, and this compatibility can be characterized as neurosymbolic.
 
-I am thankful for my community of advisors, colleagues, and friends across domains for their support, interest, patience, and encouragement. Interdisciplinary science is a unique balance of communication and coordination, not least of all for keeping everyone on the same page! Two linguists, a mathematician, a dog, and a philosopher (and a computer scientist, by honorable mention), whom I often referred to as “the Avengers”, saw my work through with willingness, interest, and excitement to engage in such interdisciplinary science, for which I am thankful.
+I am thankful for my community of advisors, colleagues, and friends across domains for their support, interest, patience, and encouragement. Interdisciplinary science is a unique balance of communication and coordination, not least of all for keeping everyone on the same page! Two linguists (my advisor: [Nicholas Fleisher](https://uwm.edu/linguistics/people/fleisher-nicholas/); [Hamid Ouali](https://uwm.edu/linguistics/people/ouali-hamid/)), a mathematician ([Jeb Willenbring](https://uwm.edu/math/people/willenbring-jeb/)), a dog (Ringo), and a philosopher ([Matthew Knachel](https://uwm.edu/philosophy/about/directory/knachel-matthew/)) (and a computer scientist, by honorable mention: [Susan McRoy](https://uwm.edu/engineering/directory/mcroy-susan/)), whom I referred to as “the Avengers”, saw my work through with willingness, interest, and excitement to engage in such interdisciplinary science, for which I am thankful.
 
 <p align="center"> 
 <img src="/assets/dissertation/committe.jpg" alt="The Avengers and the dissertator">
@@ -68,7 +68,7 @@ I am thankful for my community of advisors, colleagues, and friends across domai
 
 It has been an incredibly rewarding journey; thank you all for your support over the years! What follows here is my dissertation in brief. The full dissertation may be found here:
 
-[Neurosymbolic semantics]([https://github.com/deltaquebec/sentiment_paradise_lost](https://minds.wisconsin.edu/handle/1793/95448))
+[Neurosymbolic semantics](https://minds.wisconsin.edu/handle/1793/95448)
 
 ## Introduction
 
