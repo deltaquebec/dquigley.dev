@@ -18,7 +18,7 @@ One-page summary of PhD Research (updated June 2022): [Summary of Research]({{ s
 
 ### Educational Background
 
-- **PhD in Linguistics**: [University of Wisconsin - Milwaukee](https://uwm.edu/) (Ongoing)
+- **PhD in Linguistics**: [University of Wisconsin - Milwaukee](https://uwm.edu/)
 - **MA in Linguistics**: [University of Wisconsin - Milwaukee](https://uwm.edu/)
 - **MSc Honors College Certificate in Theoretical Physics**: [Universiteit Utrecht](https://www.uu.nl/en)
 - **BSc with Majors in**: Physics, Astronomy, Mathematics, Linguistics, and Anthropology - [University of Wisconsin - Madison](https://www.wisc.edu/). Proud to have set a university record with this quintuple major.
@@ -27,7 +27,7 @@ One-page summary of PhD Research (updated June 2022): [Summary of Research]({{ s
 ### Professional Interests
 
 * **Linguistics**
-  - ellipsis; double object constructions; transitivity mismatches; case stacking; construction grammar; scope; binding; degree and comparison; typology; language change; formal logic; mathematical models; model theory; 
+  - semantics; semiotics; ellipsis; double object constructions; case stacking; construction grammar; typology; language change; formal logic; mathematical models; model theory 
 
 * **Natural Language Processing**
   - formal logic; mathematical models; model theory; ellipsis, anaphora, coreference resolution; machine learning methods for language processing; human language technologies; human-computer interaction
@@ -39,7 +39,7 @@ One-page summary of PhD Research (updated June 2022): [Summary of Research]({{ s
   - gravitational physics; black hole physics; early universe physics; topological defects; quantum field theory in curved spacetime
   
 * **Mathematics**
-  - differential geometry; geometric PDEs; geometric flows; Ricci flow; operator theory; formal logic; model theory
+  - category theory; type theory; homotopy type theory; formal logic; model theory; differential geometry; geometric PDEs; geometric flows; Ricci flow
 
 * **Anthropology**
   - writing systems; calendrical systems; archaeoastornomy; power and social relations; gender; ethnoarchaeology
