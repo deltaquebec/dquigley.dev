@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My dissertation: or, what is a cat?
+title: My dissertation: or, we wonder what is a cat
 ---
 
 _Turn right at the corner of Axiom_
