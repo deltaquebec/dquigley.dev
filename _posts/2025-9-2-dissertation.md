@@ -62,7 +62,7 @@ I successfully defended my dissertation on May 2, 2025. My dissertation, titled 
 I am thankful for my community of advisors, colleagues, and friends across domains for their support, interest, patience, and encouragement. Interdisciplinary science is a unique balance of communication and coordination, not least of all for keeping everyone on the same page! Two linguists, a mathematician, a dog, and a philosopher (and a computer scientist, by honorable mention), whom I often referred to as “the Avengers”, saw my work through with willingness, interest, and excitement to engage in such interdisciplinary science, for which I am thankful.
 
 <p align="center"> 
-<img src="/assets/dissertation/committee.jpg" alt="The Avengers and the dissertator">
+<img src="/assets/dissertation/committe.jpg" alt="The Avengers and the dissertator">
 </p>
 
 It has been an incredibly rewarding journey; thank you all for your support over the years! What follows here is my dissertation in brief. The full dissertation may be found here:
