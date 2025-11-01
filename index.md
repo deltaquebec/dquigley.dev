@@ -7,12 +7,8 @@ title: Home
 
 <img src="/images/quigley_daniel_headshot.jpg" alt="Profile Picture" style="float: left; margin-right: 20px; width: 180px;">
 
-I'm a PhD student at the [University of Wisconsin - Milwaukee](https://uwm.edu/) [Linguistics Department](https://uwm.edu/linguistics/), advised by [Nicholas Fleisher](https://uwm.edu/linguistics/people/fleisher-nicholas/). My research is interdisciplinary, and involves aspects of linguistics, mathematics, philosophy, and computer science. 
+I'm a postdoctoral researcher at [Indiana University Bloomington](https://bloomington.iu.edu/) at the [Center for Possible Minds](https://www.possibleminds.org/). My research is interdisciplinary, and involves aspects of linguistics, mathematics, philosophy, and computer science. I work on problems of semantics, meaning representation, reasoning, and abstraction. Prior to my work at Indiana, I was a PhD student at the [University of Wisconsin - Milwaukee](https://uwm.edu/) [Linguistics Department](https://uwm.edu/linguistics/), advised by [Nicholas Fleisher](https://uwm.edu/linguistics/people/fleisher-nicholas/), which specialized in mathematical linguistics, especially in natural language semantics, coincident with natural language processing (NLP), logic, and category theory.
 
-
-
-My graduate research specializes in mathematical linguistics, especially in natural language semantics. My work is coincident with natural language processing (NLP), logic, and category theory.
-
-I serve as the Instructor of Record for introductory linguistics courses at the [University of Wisconsin - Milwaukee](https://uwm.edu/), and I have a position as a Research Assistant in the [Electrical Engineering](https://uwm.edu/engineering/departments/electrical-engineering/) department on a causal AI project with [Jun Zhang](https://uwm.edu/engineering/people/zhang-jun/) and [Shuaiqi (Roger) Shen](https://uwm.edu/engineering/people/shen-shuaiqi-roger/). Outside academia, I'm a freelance data and machine learning scientist; I am currently contracted with [Eruditis](https://www.linkedin.com/company/eruditis/).
+Outside academia, I am a technical advisor for [Obviate AI](https://www.obviate.ai/); additionally, I am currently contracted with [Eruditis](https://www.linkedin.com/company/eruditis/) as a machine learning scientist.
 
 This site uses the [Atkinson Hyperlegible](https://brailleinstitute.org/freefont) font for the purpose of accessibility for low-vision readers.
