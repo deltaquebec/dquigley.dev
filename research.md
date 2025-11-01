@@ -4,8 +4,23 @@ title: Professional Research
 permalink: /research/
 ---
 
-My research is highly interdisciplinary, spanning linguistics, mathematics, philosophy, and computer science. My domains of interest are in mathematical linguistics, theoretical deep learning, neuro-symbolic artificial intielligence, and philosophy of science.
+My research is highly interdisciplinary, spanning linguistics, mathematics, philosophy, and computer science. My domains of interest are in mathematical linguistics, theoretical deep learning, neuro-symbolic artificial intielligence, and philosophy of science. My research focuses on developing mathematical frameworks to study intelligence across natural, artificial, and collective systems. 
 
+Intelligence manifests in diverse forms, from neural networks and slime molds to social groups and AI systems, yet research across neuroscience, computer science, biology, and related fields often proceeds in isolation. A major barrier to progress is the absence of shared conceptual and mathematical tools that can connect across these domains. I work to establish formal frameworks that treat intelligence as a structural and functional property of systems, rather than a uniquely human trait. This requires moving beyond anthropocentric assumptions to examine the underlying capacities that emerge across different substrates and organizational scales: perception; learning; memory; reasoning; adaptation.
+
+Some core questions of interest include:
+
+- What regularities exist across different forms of intelligence?
+- How do systems represent and generalize information?
+- What principles govern learning and adaptation at different scales?
+- How can we characterize and predict the behavior of intelligent systems across substrates?
+
+The goal is to identify common principles that operate across scales and systems, especially in the domain of meaning, reasoning, and abstraction. 
+
+
+
+
+<!---
 ### Category-theoretic semantics
 
 **Formal semantics** analyzes language meaning using mathematical structures and logical models, which are categorized as either **extensional** (meaning is derived from observable realities), or **intensional** (meaning depends on context including modalities like necessity and possibility). These frameworks help map linguistic expressions to reality. 
@@ -80,4 +95,4 @@ $$f(x; θ^*) ≈ f (x)$$
 **Categorical Deep Learning** [(Gavranović, et al., 2024)](https://arxiv.org/abs/2402.15332) give a general-purpose framework for specifying and studying deep learning architectures through the framework of category theory. In particular, Geometric Deep Learning is, in fact, contained within such a categorical framework; furthermore, Categorical Deep Learning establishes a common, unifying framework for how category theory can be applied to AI. Something must be said as well for the aesthetic, the _beauty_, of mathematics, and it is my opinion that category theory has that in spades; application to deep learning brings in a consistent beauty toa  computer science otherwise hindered by _ad hoc_ characterizations.
 
 Each of these perspectives endeavor to derive, explain, and provide methods to construct new types of problem-specific inductive biases. Geometric Deep Learning serves two purposes: first, to provide a common mathematical framework to derive the most successful neural network architectures, and second, give a constructive procedure to build future architectures in a principled way. Effective Deep Learning Theory argues for a general theory of deep learning derived from first principles, in which the guiding philosophy is that nearly-simple phenomena in practice should correspond to nearly-simple effective theories. Categorical Deep Learning seeks to give a general-purpose framework for deep learning architectures that otherwise subsumes the afforementioned theories.
-
+-->
