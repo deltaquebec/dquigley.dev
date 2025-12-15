@@ -18,9 +18,7 @@ We are interested in, therefore, provisioning such a vocabulary. We recast groun
 
 This is part 1 of a series of posts walking through the paper [On measuring grounding and generalizing grounding problems][https://www.arxiv.org/abs/2512.06205]
 
----
-
-### Consider: why accuracy is a poor proxy
+## Consider: why accuracy is a poor proxy
 
 Before introducing the framework, consider why we need one at all! An obvious candidate for measuring "understanding" in natural and artificial systems is _accuracy_: does the model get the right answer?
 
@@ -32,9 +30,7 @@ In our terms, accuracy is _at best_ one coordinate in a higher-dimensional audit
 
 Can accuracy be made meaningful with better test design? Certainly! Provided we build multiple parallel forms to enforce measurement invariance, systematically vary nuisance factors, and report full distributions rather than point estimates. That is, in effect, our proposal: make invariances and perturbations explicit, report the full profile, treat accuracy as one coordinate among several.
 
----
-
-### Grounding as audit
+## Grounding as audit
 
 We define grounding as follows:
 
@@ -44,9 +40,7 @@ Several features of this definition matter: first, grounding is a matter of _deg
 
 We operationalize grounding through five desiderata, each evaluated relative to an **evaluation tuple**: (context *k*, meaning type *t*, threat model *U*, reference distribution *P*). The context specifies the particular situation; the meaning type specifies what kind of meaning is at stake (linguistic, world-referential, social-pragmatic); the threat model declares what perturbations we expect the system to withstand; the reference distribution specifies the population against which we measure.
 
----
-
-### The desiderata
+## The desiderata
 
 **G0 (authenticity)** The relevant semantic mechanisms must reside inside the agent, not be supplied post-hoc by external analysts. We distinguish weak authenticity (mechanisms implemented inside the agent) from strong authenticity (mechanisms implemented _and_ acquired through agent-internal learning or evolution).
 
@@ -66,9 +60,7 @@ The distinction between G2a and G2b matters. A lookup table might achieve perfec
 
 **G4 (compositionality)** The meaning of a complex expression is determined (up to tolerance) by the meanings of its parts plus their mode of combination. A system that has learned _left-of_ and _behind_ separately should handle "the red mug behind the bowl" in a novel scene without having memorized that exact string.
 
----
-
-### A worked example
+## A toy example
 
 Consider the instruction: "Pick up the red mug to the left of the bowl."
 
@@ -86,9 +78,7 @@ Now the audit:
 
 *Compositionality (G4)*: Can the system handle novel combinations? If it knows "left-of" and "behind", can it interpret "the red mug behind the bowl" in an unseen kitchen without having encountered that exact phrase?
 
----
-
-### What this framework is and is not
+## What this framework is and is not
 
 The framework is diagnostic; it provides vocabulary for stating grounding claims precisely and criteria for testing them. It does not resolve underlying metaphysical debates about whether meaning is ultimately narrow (supervening on internal states) or wide (constitutively involving world and social context). We remain neutral on that question here, though the desiderata can be indexed to different meaning types for investigators with different theoretical commitments.
 
@@ -96,9 +86,7 @@ A candid note: the framework is not as neutral as we might wish. G2b, the etiolo
 
 Grounding is also not general intelligence. The desiderata audit how meanings are established and maintained, not what a system can achieve. A model may be highly capable yet poorly grounded for certain tasks (if its competence derives from memorization rather than systematic representation, for instance). A model may be narrowly capable yet well-grounded within its domain (if that narrow capability reflects genuine semantic structure). Our criteria capture the former phenomenon, not the latter.
 
----
-
-### What comes next
+## What comes next
 
 This post introduced the problem and the diagnostic framework. Subsequent posts will apply the framework to three cases: model-theoretic semantics (which achieves exact compositionality but lacks etiological warrant); large language models (which show correlational faithfulness and local robustness for linguistic tasks, but face grounding gaps for world-referential meaning); human natural language (which meets the desiderata under strong authenticity through evolutionary and developmental acquisition).
 
