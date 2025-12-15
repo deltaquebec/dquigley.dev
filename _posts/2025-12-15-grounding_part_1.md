@@ -16,7 +16,7 @@ An embodied agent (e.g., you, me, a robot) told "pick up the red mug" must link 
 
 We are interested in, therefore, provisioning such a vocabulary. We recast grounding from a binary verdict (grounded or not) into a diagnostic audit across explicit criteria. The goal is not to settle metaphysical debates about the nature of meaning, but to give researchers, philosophers, computer scientists, linguists, a shared framework for stating claims precisely and testing them empirically.
 
-This is part 1 of a series of posts walking through the paper [On measuring grounding and generalizing grounding problems][https://www.arxiv.org/abs/2512.06205]
+This is part 1 of a series of posts walking through the paper [On measuring grounding and generalizing grounding problems](https://www.arxiv.org/abs/2512.06205).
 
 ## Consider: why accuracy is a poor proxy
 
