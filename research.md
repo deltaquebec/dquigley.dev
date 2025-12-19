@@ -4,21 +4,17 @@ title: Professional Research
 permalink: /research/
 ---
 
-My research is highly interdisciplinary, spanning linguistics, mathematics, philosophy, and computer science. My domains of interest are in mathematical linguistics, theoretical deep learning, neuro-symbolic artificial intielligence, and philosophy of science. My research focuses on developing mathematical frameworks to study intelligence across natural, artificial, and collective systems. 
+My research develops mathematical frameworks for meaning, reasoning, and abstraction, using category theory and formal semantics to study symbolic and subsymbolic approaches to language and cognition. 
 
-Intelligence manifests in diverse forms, from neural networks and slime molds to social groups and AI systems, yet research across neuroscience, computer science, biology, and related fields often proceeds in isolation. A major barrier to progress is the absence of shared conceptual and mathematical tools that can connect across these domains. I work to establish formal frameworks that treat intelligence as a structural and functional property of systems, rather than a uniquely human trait. This requires moving beyond anthropocentric assumptions to examine the underlying capacities that emerge across different substrates and organizational scales: perception; learning; memory; reasoning; adaptation.
+My dissertation proved homomorphisms between intensional semantics and vector spaces, developed a vector logic for extensional formal semantics, and proposed a taxonomy of grounding problems for neurosymbolic AI. My current work applies categorical and relational methods to abstraction and analogy in ARC-style reasoning tasks.
+
+Intelligence manifests across substrates, be they neural, artificial, or collective, but research often proceeds in isolation. I am interested in whether formal frameworks can identify shared principles, particularly around representation and generalization, without anthropocentric assumptions.
 
 Some core questions of interest include:
 
-- What regularities exist across different forms of intelligence?
-- How do systems represent and generalize information?
-- What principles govern learning and adaptation at different scales?
-- How can we characterize and predict the behavior of intelligent systems across substrates?
-
-The goal is to identify common principles that operate across scales and systems, especially in the domain of meaning, reasoning, and abstraction. 
-
-
-
+- What structural correspondences hold between discrete symbolic systems and continuous learned representations?
+- Can category-theoretic methods characterize abstraction substrate-neutrally?
+- How do we measure whether formal models are tracking something cognitively real?
 
 <!---
 ### Category-theoretic semantics
