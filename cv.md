@@ -16,6 +16,10 @@ Statement of PhD Research (updated June 2022): [Statement of Research]({{ site.u
 One-page summary of PhD Research (updated June 2022): [Summary of Research]({{ site.url }}/assets/quigley_daniel_research_summary.pdf)
 {% endcomment %}
 
+### Current Appointment
+
+- **Postdoctoral researcher**: [Center for Possible Minds](https://www.possibleminds.org/)
+
 ### Educational Background
 
 - **PhD in Linguistics**: [University of Wisconsin - Milwaukee](https://uwm.edu/)
