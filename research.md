@@ -8,7 +8,7 @@ My research develops mathematical frameworks for meaning, reasoning, and abstrac
 
 My dissertation proved homomorphisms between intensional semantics and vector spaces, developed a vector logic for extensional formal semantics, and proposed a taxonomy of grounding problems for neurosymbolic AI. My current work applies categorical and relational methods to abstraction and analogy in ARC-style reasoning tasks.
 
-Intelligence manifests across substrates, be they neural, artificial, or collective, but research often proceeds in isolation. I am interested in whether formal frameworks can identify shared principles, particularly around representation and generalization, without anthropocentric assumptions.
+Intelligence manifests across substrates, be they neural, artificial, or collective, but research often proceeds in isolation. I am interested in whether formal frameworks can identify shared principles, particularly around representation and generalization.
 
 Some core questions of interest include:
 
