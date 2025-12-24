@@ -71,7 +71,6 @@ Under these conditions, marginal steals become unprofitable. A gift that's 10% b
 
 If you want a calm game, invite people who are easily embarrassed! If you want chaos, invite people with no shame!
 
----
 
 ## Finding 2: Seat 2 is Charlie Brown's
 
