@@ -165,4 +165,4 @@ _Finally, let fun be not the least of things. The gift exchange game is a social
 
 ---
 
-*The full paper—including formal proofs, trajectory combinatorics, and complete simulation results—is available [here](https://github.com/deltaquebec/gift_exchange_game).*
+*The full paper, including formal proofs, trajectory combinatorics, and complete simulation results, is available [here](https://github.com/deltaquebec/gift_exchange_game).*
