@@ -160,8 +160,7 @@ Some implementation and strategy follows:
 This above all: **it is supposed to be fun.** The math is interesting, understanding the dynamics can help you play better. But if strategic optimization is ruining the vibe, you have missed the point. The relationships matter more than the outcomes.
 
 
-_Finally, let fun be not the least of things. The gift exchange game is a social game, where the primary objective is to have fun. Strategic elements should never supplant the game's fundamental purpose of creating an entertaining gift-giving experience. Formalities here should always come a distant second to having fun with friends and family. Payers should feel free to make suboptimal choices that enhance the social experience. It is not that these are all mutually exclusive; understanding the game's structure may encourage an appreciation and spark interesting discussions, but if competition compromises fun, then the former should be relaxed for the sake of latter. Have fun; please do not be that guy.
-_ 
+_Finally, let fun be not the least of things. The gift exchange game is a social game, where the primary objective is to have fun. Strategic elements should never supplant the game's fundamental purpose of creating an entertaining gift-giving experience. Formalities here should always come a distant second to having fun with friends and family. Payers should feel free to make suboptimal choices that enhance the social experience. It is not that these are all mutually exclusive; understanding the game's structure may encourage an appreciation and spark interesting discussions, but if competition compromises fun, then the former should be relaxed for the sake of latter. Have fun; please do not be that guy._ 
 
 
 ---
