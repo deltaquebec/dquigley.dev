@@ -56,8 +56,25 @@ Then I crossed these behavioral features with different preference structures: g
 
 Full factorial design: 16 feature combinations; 3 valuation models; 5,000 games each; 240,000 total simulations.
 
+## Finding 1: consensus creates carnage
 
-## Finding 1: shame governs everything
+Not all gift pools are equal. I simulated three different "valuation structures": independent preferences; correlated preferences; negative correlated preferences:
+
+1. every player's valuations are randomly generated; there is no correlation between what you want and what I want; in this way, one person's trash really is another's treasure;
+2. gifts have objective "quality" that everyone partially agrees on; personal taste still varies, but there is consensus that the $100 gift card is better than the novelty socks, for example; in this model, some gifts are just *better*;
+3. players split into camps with opposing tastes (the wine lovers and the teetotalers, for example). Your gain is not my loss, because I did not want that thing anyway.
+
+**Correlated preferences increased stealing by 47%.** 
+
+When consensus exists, desirable gifts become contested resources. The early opener who unwraps something universally good becomes a target for everyone in the order; chains get longer as players fight over the same prizes, and the drama escalates!
+
+Under independent preferences, conflict naturally dissipates: you steal the wine; I did not want the wine. I take the book; you did not want the book.
+
+Negative correlation was the most peaceful. Almost definitionally, every steal takes something the victim would not have ranked highly in the first place; aggression is muted because the incentives do not collide.
+
+If you want peace, curate gifts that are weird and subjective, things that will appeal intensely to specific people, but leave others cold. If you want a bloodbath, add one obviously premium item; that gift will be stolen four times and generate 80% of the evening's drama.
+
+## Finding 2: shame governs everything
 
 Consider: what stops people from stealing? I tested multiple hypotheses.
 
@@ -71,10 +88,25 @@ The mechanism is intuitive upon reflection: each steal incurs a base awkwardness
 
 Under these conditions, marginal steals become unprofitable. A gift that's 10% better than yours is not worth the social friction; you need a *substantial* upgrade to justify the awkwardness.
 
+<p align="center"> 
+<img src="/assets/gift/independent_chain_length.png" alt="Distribution of length of steal chains for the independent valuation model">
+<em>Distribution of length of steal chains for the independent valuation model</em>
+</p>
+
+<p align="center"> 
+<img src="/assets/gift/correlated_chain_length.png" alt="Distribution of length of steal chains for the correlated valuation model">
+<em>Distribution of length of steal chains for the correlated valuation model</em>
+</p>
+
+<p align="center"> 
+<img src="/assets/gift/neg_correlated_chain_length.png" alt="Distribution of length of steal chains for the negative correlated valuation model">
+<em>Distribution of length of steal chains for the negative correlated valuation model</em>
+</p>
+
 If you want a calm game, invite people who are easily embarrassed! If you want chaos, invite people with no shame!
 
 
-## Finding 2: Seat 2 is Charlie Brown's
+## Finding 3: Seat 2 is Charlie Brown's
 
 In going first, there is nothing to steal yet, so you are forced to open blind. But most rule variants compensate for this: **Player 1 gets a final swap** after everyone else has acted. They survey the complete landscape of opened gifts, then take whatever they want. No chain is triggered, and the game is over.
 
@@ -104,25 +136,6 @@ The positional inequity is stark. In games with correlated preferences (everyone
 </p>
 
 If you draw first, celebrate quietly. If you draw second, negotiate a trade, or offer to swap positions with someone in the middle who does not realize they're getting a bad deal.
-
-
-## Finding 3: consensus creates carnage
-
-Not all gift pools are equal. I simulated three different "valuation structures": independent preferences; correlated preferences; negative correlated preferences:
-
-1. every player's valuations are randomly generated; there is no correlation between what you want and what I want; in this way, one person's trash really is another's treasure;
-2. gifts have objective "quality" that everyone partially agrees on; personal taste still varies, but there is consensus that the $100 gift card is better than the novelty socks, for example; in this model, some gifts are just *better*;
-3. players split into camps with opposing tastes (the wine lovers and the teetotalers, for example). Your gain is not my loss, because I did not want that thing anyway.
-
-**Correlated preferences increased stealing by 47%.** 
-
-When consensus exists, desirable gifts become contested resources. The early opener who unwraps something universally good becomes a target for everyone in the order; chains get longer as players fight over the same prizes, and the drama escalates!
-
-Under independent preferences, conflict naturally dissipates: you steal the wine; I did not want the wine. I take the book; you did not want the book.
-
-Negative correlation was the most peaceful. Almost definitionally, every steal takes something the victim would not have ranked highly in the first place; aggression is muted because the incentives do not collide.
-
-If you want peace, curate gifts that are weird and subjective, things that will appeal intensely to specific people, but leave others cold. If you want a bloodbath, add one obviously premium item; that gift will be stolen four times and generate 80% of the evening's drama.
 
 
 ## Finding 4: optimal strategy backfires
