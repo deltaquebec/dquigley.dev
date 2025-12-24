@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 
-### [ˈdæn.jəl ˈkʰw̥ɪ.ɡli]
+### <span class="ipa">[ˈdæn.jəl ˈkʰw̥ɪ.ɡli]</span>
 
 <img src="/images/quigley_daniel_headshot.jpg" alt="Profile Picture" style="float: left; margin-right: 20px; width: 180px;">
 
