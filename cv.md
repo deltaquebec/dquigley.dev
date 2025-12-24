@@ -4,7 +4,7 @@ title: Curriculum Vitæ
 permalink: /cv/
 ---
 
-Full CV (updated September 2024): [Curriculum Vitæ](/assets/quigley_daniel_cv.pdf)
+Full CV (updated September 2025): [Curriculum Vitæ](/assets/quigley_daniel_cv.pdf)
 
 Dissertation: [Neurosymbolic semantics](https://minds.wisconsin.edu/handle/1793/95448)
 
