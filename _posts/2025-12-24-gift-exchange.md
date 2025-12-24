@@ -86,6 +86,21 @@ The final swap has significant implications. So who actually loses? **Player 2.*
 
 The positional inequity is stark. In games with correlated preferences (everyone agrees what's good), Seat 1 achieved an average normalized value of 1.0, the theoretical maximum. Seat 2 averaged 0.67. That's a 33% penalty for drawing the wrong number.
 
+<p align="center"> 
+<img src="/assets/gift/independent_seat_advantage.png" alt="Distribution of scores for seat position for the independent valuation model">
+<em>Distribution of scores for seat position for the independent valuation model</em>
+</p>
+
+<p align="center"> 
+<img src="/assets/gift/correlated_seat_advantage.png" alt="Distribution of scores for seat position for the correlated valuation model">
+<em>Distribution of scores for seat position for the correlated valuation model</em>
+</p>
+
+<p align="center"> 
+<img src="/assets/gift/neg_correlated_seat_advantage.png" alt="Distribution of scores for seat position for the negative correlated valuation model">
+<em>Distribution of scores for seat position for the negative correlated valuation model</em>
+</p>
+
 If you draw first, celebrate quietly. If you draw second, negotiate a trade, or offer to swap positions with someone in the middle who does not realize they're getting a bad deal.
 
 
