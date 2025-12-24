@@ -12,6 +12,10 @@
 /*-- scss:defaults --*/
 // Include theme-specific fonts
 @import url("https://fonts.googleapis.com/css?family=Lexend");
+@font-face {
+  font-family: 'Doulos SIL';
+  src: url('/fonts/DoulosSIL-Regular.woff2') format('woff2');
+}
 @import url("https://fonts.googleapis.com/css2?family=Doulos+SIL&display=swap");
 
 // fonts
