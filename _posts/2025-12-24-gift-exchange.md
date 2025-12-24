@@ -50,6 +50,8 @@ The features I modeled:
 
 - **Biased Selection:** when opening wrapped gifts, agent did not choose uniformly at random, but weighted toward gifts that somehow *looked* good, be they bigger boxes, fancier paper. This (attempts to) model(s) the "judge a book by its cover" heuristic that humans obviously use and obviously should not.
 
+
+
 Then I crossed these behavioral features with different preference structures: games where everyone wants different things (your trash is my treasure) versus games where everyone agrees on quality (everyone wants one thing, nobody wants the other).
 
 Full factorial design: 16 feature combinations; 3 valuation models; 5,000 games each; 240,000 total simulations.
@@ -151,6 +153,21 @@ The aggressive strategy (`always_steal`) actually proves more robust! It does no
 Meanwhile, `always_open` benefits from never triggering retaliation. In a world where grudges are real, the pacifist's ceiling is lower but so is their floor: they never get the best gift, but they never get targeted either.
 
 In socially embedded games, sophistication backfires. This is an instance of "ecological rationality", the idea that simple heuristics often outperform optimization when the environment includes factors the optimizer does not model.
+
+<p align="center"> 
+<img src="/assets/gift/independent_strategy_ranking.png" alt="Distribution of scores for strategy relative to features for the independent valuation model">
+<em>Distribution of scores for strategy relative to features for the independent valuation model: PI partial information; SC social costs; AD adaptive dynamics; BS biased selection</em>
+</p>
+
+<p align="center"> 
+<img src="/assets/gift/correlated_strategy_ranking.png" alt="Distribution of scores for strategy relative to features for the correlated valuation model">
+<em>Distribution of scores for strategy relative to features for the correlated valuation model: PI partial information; SC social costs; AD adaptive dynamics; BS biased selection</em>
+</p>
+
+<p align="center"> 
+<img src="/assets/gift/neg_correlated_strategy_ranking.png" alt="Distribution of scores for strategy relative to features for the negative correlated valuation model">
+<em>Distribution of scores for strategy relative to features for the negative correlated valuation model: PI partial information; SC social costs; AD adaptive dynamics; BS biased selection</em>
+</p>
 
 Sometimes the best strategy is simple aggression; sometimes it is being nice enough that nobody targets you. The *worst* strategy is clever optimization that ignores social consequences; the optimizer is too smart for its own good.
 
