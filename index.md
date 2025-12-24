@@ -13,4 +13,4 @@ Prior to my work at Indiana, I was a PhD student at the [University of Wisconsin
 
 Outside academia, I am a technical advisor for [Obviate AI](https://www.obviate.ai/); additionally, I am contracted with [Eruditis](https://www.linkedin.com/company/eruditis/) as a machine learning scientist.
 
-This site uses the [Atkinson Hyperlegible](https://brailleinstitute.org/freefont) font for the purpose of accessibility for low-vision readers.
+This site uses the [Lexend](https://www.lexend.com/) font for the purpose of accessibility for low-vision readers.
