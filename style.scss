@@ -270,25 +270,43 @@ nav {
   margin-top: 23px;
   font-family: $font-family-sans-serif;
   font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 
   @include mobile {
     float: none;
     margin-top: 9px;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
     font-size: 16px;
   }
 
   a {
-    margin-left: 20px;
     color: var(--text-color);
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
-      margin: 0 10px;
       color: var(--accent-blue);
     }
+  }
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: var(--text-color);
+  font-size: 18px;
+  line-height: 1;
+  
+  &:hover {
+    color: var(--accent-blue);
   }
 }
 
