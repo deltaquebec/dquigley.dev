@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stealing Christmas: the Gift Exchange Game
+title: "Stealing Christmas: the Gift Exchange Game"
 ---
 
 _The tradition of exchanging gifts in a game-like format has multiple regional names across the United States, including ‘White Elephant’, ‘Yankee Swap’, and ‘Dirty Santa’, along with more colorful variations such as ‘Thieving Elves’, and ‘Cutthroat Christmas’. While the modern practice centers on exchanging either practical items or deliberately impractical gifts in an entertaining format, its origins can be traced to early American ‘swap parties’ documented as far back as 1901 in The Hartford Herald._ 
