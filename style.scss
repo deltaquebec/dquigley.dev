@@ -286,7 +286,6 @@ nav {
 
   a {
     color: var(--text-color);
-    text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
@@ -302,6 +301,7 @@ nav {
   padding: 0;
   cursor: pointer;
   color: var(--text-color);
+  font-family: $font-family-sans-serif;
   font-size: 18px;
   line-height: 1;
   
@@ -376,21 +376,4 @@ th, td {
 th {
     background-color: var(--table-header-bg);
     font-weight: bold;
-}
-
-/* Theme Toggle Button */
-.theme-toggle {
-  background: none;
-  border: 1px solid var(--gray);
-  border-radius: 4px;
-  padding: 4px 8px;
-  cursor: pointer;
-  color: var(--text-color);
-  font-family: $font-family-sans-serif;
-  font-size: 14px;
-  
-  &:hover {
-    border-color: var(--accent-blue);
-    color: var(--accent-blue);
-  }
 }
