@@ -8,6 +8,8 @@ _Turn right at the corner of Axiom_
 
 _and Postulate; follow Paradox Street._
 
+_Turn left, and left twice more. You must find the_
+
 _premise; it is left of meaning and right_
 
 _of form. Rest a while in the shade of the_
