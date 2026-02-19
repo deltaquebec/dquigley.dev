@@ -17,6 +17,6 @@ I believe that technical expertise without translation is lost knowledge. Or, pr
 - _Technisches Fachwissen ohne Übersetzung ist verlorenes Wissen_
 - _L'expertise technique sans traduction est un savoir perdu_
 
-Every effort should be made to practice good scientific communication, making knowledge accessible and available. I believe in openness and in free and open access to education and educational materials. All work presented here, unless specified otherwise, is [licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). © Daniel Quigley, 2025. 
+Every effort should be made to practice good scientific communication, making knowledge accessible and available. I believe in openness and in free and open access to education and educational materials. All work presented here, unless specified otherwise, is [licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). © Daniel Quigley, 2026. 
 
 For my artist's page (UNDER CONSTRUCTION), please see: [Academic. Worldbuilder. Artist.](https://dquigley.art/)
