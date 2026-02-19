@@ -4,11 +4,13 @@ title: Professional Research
 permalink: /research/
 ---
 
-My research develops mathematical frameworks for meaning, reasoning, and abstraction, using category theory and formal semantics to study symbolic and subsymbolic approaches to language and cognition. 
+My research develops mathematical frameworks for meaning, reasoning, and abstraction to study symbolic and subsymbolic approaches to language and cognition. My current work applies categorical and relational methods to abstraction and analogy in ARC-style reasoning tasks.
 
-My dissertation proved homomorphisms between intensional semantics and vector spaces, developed a vector logic for extensional formal semantics, and proposed a taxonomy of grounding problems for neurosymbolic AI. My current work applies categorical and relational methods to abstraction and analogy in ARC-style reasoning tasks.
+In addition to my work on abstraction and analogy, I am woking on various aspects of meaning representation and grounding problems, including the geometry and topology of representation spaces, time-evolving semiotics, and typologies of writing systems as relevant to semiotics and meaning representation.
 
+<!---
 Intelligence manifests across substrates, be they neural, artificial, or collective, but research often proceeds in isolation. I am interested in whether formal frameworks can identify shared principles, particularly around representation and generalization.
+
 
 Some core questions of interest include:
 
@@ -16,7 +18,7 @@ Some core questions of interest include:
 - Can category-theoretic methods characterize abstraction substrate-neutrally?
 - How do we measure whether formal models are tracking something cognitively real?
 
-<!---
+
 ### Category-theoretic semantics
 
 **Formal semantics** analyzes language meaning using mathematical structures and logical models, which are categorized as either **extensional** (meaning is derived from observable realities), or **intensional** (meaning depends on context including modalities like necessity and possibility). These frameworks help map linguistic expressions to reality. 
