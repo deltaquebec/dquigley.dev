@@ -65,14 +65,13 @@ Large language models operate over real-valued vector representations, and every
 
 An interesting case is *attention*. In real BERT, *q*ᵀ*k* is a scalar and softmax applies directly. In a complex-valued network, *q*†*k* ∈ ℂ, and softmax requires a real number; a ℂ→ℝ map must be chosen, and the choice is material. The Born rule (|c|²) discards phase; magnitude (|c|) discards phase differently; a phase-preserving construction keeps phase and admits interference between attention contributions. Normalization splits similarly: RMSNorm preserves the argument arg(*x_j*) of each component, while LayerNorm subtracts a token-dependent complex mean and scrambles it. A falsifiable prediction follows: if meaning is carried in absolute phase, phase-preserving attention must compose with RMSNorm, not LayerNorm, or the normalizer destroys exactly what attention uses.
 
-| Column 1 (Standard) | Column 2 (Complex) | Column 3 (Quantum) |
-| --- | --- | --- |
-| **object**: $x \in \mathbb{R}$ | **object**: $z = r e^{i\varphi} \in \mathbb{C}$ | **object**: $\vert\psi\rangle \in \mathcal{H}$, $\Vert\psi\Vert=1$ |
-| **d.o.f.**: 1 per dim | **d.o.f.**: 2 per dim (magnitude, phase) | **d.o.f.**: $2(2^n - 1)$ real for $n$ qubits |
-| **inner product**: $x^\top y \in \mathbb{R}$ | **inner product**: $q^\dagger k \in \mathbb{C}$ | **inner product**: $\langle\phi\vert\psi\rangle \in \mathbb{C}$ |
-| **output**: softmax | **output**: softmax after $\mathbb{C} \to \mathbb{R}$ | **output**: Born rule $\vert\langle\phi\vert\psi\rangle\vert^2$ |
-| **gradient**: $\partial / \partial x$ | **gradient**: Wirtinger $\partial_z,\,\partial_{\bar z}$ | **evolution**: unitary $U\vert\psi\rangle$ |
-| *standard; Word2Vec; GloVe* | *phase semantics; interference* | *variational circuits; quantum kernels; entanglement* |
+| **Feature** | **Real** | **Complex** | **Quantum** |
+| --- | --- | --- | --- |
+| **object** | $x \in \mathbb{R}$ | $z = r e^{i\varphi} \in \mathbb{C}$ | $\vert\psi\rangle \in \mathcal{H}$, $\Vert\psi\Vert=1$ |
+| **degrees of freedom** | 1 per dim | 2 per dim (magnitude, phase) | $2(2^n - 1)$ real for $n$ qubits |
+| **inner product** | $x^\top y \in \mathbb{R}$ | $q^\dagger k \in \mathbb{C}$ | $\langle\phi\vert\psi\rangle \in \mathbb{C}$ |
+| **output** | softmax | softmax after $\mathbb{C} \to \mathbb{R}$ | Born rule $\vert\langle\phi\vert\psi\rangle\vert^2$ |
+| **gradient** | $\partial / \partial x$ | Wirtinger $\partial_z,\,\partial_{\bar z}$ | *evolution:* unitary $U\vert\psi\rangle$ |
 
 My contribution is the mathematical work: Wirtinger gradients for each re-derived component; information-flow audits tracking where phase enters and exits the computation; identification of the singularities the complex extensions introduce; architectural recommendations grounded in the derivations rather than in empirical search. The broader frame is three substrates ( real, complex, quantum) sharing the functional role of a neural representation, but differing in object type, degrees of freedom, inner product, and what counts as an observable output. They differ in which mechanisms can coherently exist at all.
 
