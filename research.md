@@ -33,6 +33,30 @@ This algebra-and-logic pair forms a candidate neurosymbolic architecture accordi
 2. joint optimization of parse, transformation, and correspondence;
 3. correspondence as operation conjugation in the functorial sense.
 
+## Math NLI and inverse problem of formalization
+
+**Natural-language inference for mathematics** is the task of deciding, for a mathematical premise and a hypothetical conclusion stated in ordinary mathematical prose, whether the latter follows from the former. Consider "ABCD is a rhombus whose diagonals have equal length" entailing "ABCD is a square." The hypothesis follows, but not by subtype substitution alone; it requires a plane-geometry theorem. A weaker hypothesis ("ABCD is a parallelogram whose diagonals have equal length") does follow by subtype substitution. Two different kinds of inference step reach two different conclusions from the same premise. A trustworthy NLI system should tell them apart and label which step was responsible for which conclusion.
+
+<p align="center"> 
+<img src="/assets/research/hypothesis.png" alt="Example of alternative hypotheses for inference task">
+</p>
+
+I am interested in the natural-logic tradition (HyNLI, MonaLog/NeuroLog, LangPro), which derives entailments by tracking monotonicity and polarity through syntactic structure without translating to first-order logic. Mathematical prose exceeds the fragment these tools handle; three extensions are needed. Context threading carries polarity tags for terms whose definitions appear paragraphs away. Typed preorder quantifiers handle nested alternation over typed subdomains (the ubiquitous "for every continuous *f* there exists *δ*..."). Symbolic delegation hands formula fragments off to a formula handler and re-embeds the result in the polarity structure. Each step in an output derivation is labeled by its source; trustworthiness, then, becomes a property of the labeling, rather than a property of the proof.
+
+<p align="center"> 
+<img src="/assets/research/nli.png" alt="Example of inference in math prose language">
+</p>
+
+A parallel thread is what I call the **inverse problem of formalization**: given a formal proof in Lean, produce the mathematical prose a human would write. Prior work addresses this direction with bespoke LLM-based translators; each is one-directional and carries no representation reusable by the other direction. 
+
+<p align="center"> 
+<img src="/assets/research/inverse.png" alt="Example of bidirectional inverse problem of formalization">
+</p>
+
+I am interested in a bidirectional interface with a shared representation: the output of the natural-logic engines above serves as the intermediate structure between Lean tactics and mathematical English. Round-trip consistency becomes a specification rather than a coincidence, and the machinery that drives inference in one direction drives translation in the other. A companion database, MathTermsDB, extending the MathGloss line, supplies the terminological and theorem-level knowledge the inference engines consult.
+
+
+
 ### Geometry and topology of semantic space
 
 **Word embeddings** are mathematical objects by construction: finite point clouds in $\mathbb{R}^{300}$ with a natural metric, a definite intrinsic dimension, definite curvature, a definite $k$-nearest-neighbor graph. These properties exist whether or not anyone measures them; the question is what attitude to take toward them. Folk geometry imports two- and three-dimensional intuitions (clusters, directions) to high-dimensional sets, where they rarely survive contact with calibrated estimators. Task evaluation, the engineering default, leaves the object itself uncharacterized. I am interested in the following: treat the point cloud as the metric measure space it is, submit candidate descriptions to falsifiable tests, and accept that several familiar verbal characterizations may fail. That is: what is the semantic space as a mathematical object?
