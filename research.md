@@ -106,7 +106,7 @@ A separate line of work asks not whether to test embedding geometry under discip
 
 A still less explored direction is $p$-adic representation: the metric is ultrametric, every triangle is isosceles, and hierarchical containment is a structural property of the geometry rather than something one optimizes for. The matched-null framework can follow the geometry: draws from an isotropic wrapped Gaussian on hyperbolic space, the corresponding analog on a $p$-adic tree, against which the observed structure of the actual representation can be measured. The discipline travels; only the ambient changes.
 
-## Time, language, and the structures that organize them. Calendars; TAME.
+## Time, language, and the structures that organize them
 
 ### Calendars and the tropical year
 
@@ -154,7 +154,7 @@ I follow the terminological move of reserving *time* for the dimension Comrie ca
 
 I care greatly for the pedagogy of this material as much as its analysis. The terminological disarray is not only a research problem, but a teaching problem: students of Arabic, Hebrew, and Akkadian are routinely handed labels (perfect, imperfect, aorist, preterite) that carry framework-specific commitments incompatible with the morphological systems being described, and the conflation of perfect with perfective in particular costs learners and instructors a great deal of unnecessary confusion. The broader commitment is that a properly organized exposition is as much in order as a formal or typological interest of a contested area, which can substitute for many years of accumulated terminological apprenticeship; this matters more in cross-linguistic morphology than in most areas, because the conventions are particularly entrenched and particularly local.
 
-## Craft and the externalization of tacit knowledge. Typography; semiotics and writing systems.
+## Craft and the externalization of tacit knowledge
 
 ### Historical typography
 
