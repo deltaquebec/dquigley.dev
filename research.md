@@ -13,7 +13,7 @@ In addition to my work on abstraction and analogy, I am woking on various aspect
 
 **Word embeddings** are mathematical objects by construction: finite point clouds in $\mathbb{R}^{300}$ with a natural metric, a definite intrinsic dimension, definite curvature, a definite $k$-nearest-neighbor graph. These properties exist whether or not anyone measures them; the question is what attitude to take toward them. Folk geometry imports two- and three-dimensional intuitions (clusters, directions) to high-dimensional sets, where they rarely survive contact with calibrated estimators. Task evaluation, the engineering default, leaves the object itself uncharacterized. I am interested in the following: treat the point cloud as the metric measure space it is, submit candidate descriptions to falsifiable tests, and accept that several familiar verbal characterizations may fail. That is: what is the semantic space as a mathematical object?
 
-<img src="/assets/research/geometrytopologysemantics.png" alt="Cartoon model of semantic space" style="float: left; margin-left: 20px; width: 240px;">
+<img src="/assets/research/geometrytopologysemantics.png" alt="Cartoon model of semantic space" style="float: left; margin-right: 20px; width: 240px;">
 
 The methodological complication is that geometric statistics on high-dimensional point clouds return non-trivial values on essentially any input, including a Gaussian whose covariance matches the embedding's own. Distance concentration, $k$NN hubness, anisotropy-driven graph structure: each produces qualitative signatures in the range one would intuitively read as evidence of specific embedding properties. The resulting characterization is of a low-dimensional anisotropic manifold with diffuse positive curvature throughout, hosting a small fraction of distributional artifacts that are not where the geometric signal lives. This is a claim about two specific computational artifacts, not about meaning, language, or cognition.
 
@@ -47,23 +47,23 @@ Calendars are human artifacts whose alignment with the heavens, when present at 
 
 Historical typographic design codified the relation between page and text block as proportioning systems intended to survive changes in page size, binding, or paper stock: Van de Graaf divides the page into ninths; Villard de Honnecourt gives a family parameterized by integer *N*; Tufte's wide outer margin is reserved for marginalia; the modular grid generalizes the lot. 
 
-<img src="/assets/research/canongraaf.png" alt="Van de Graaf canon" style="float: left; margin-left: 20px; width: 240px;">
+<img src="/assets/research/canongraaf.png" alt="Van de Graaf canon" style="float: left; margin-right: 20px; width: 240px;">
 
 A **page canon**, formalized, is a scale-equivariant map from a declared frame *W* × *H* to a text-block-and-margins solution; under two stronger invariances (dimensional separability and aspect preservation), the canons nest into three regions, and the four margin modes decompose into two independent binary choices whose side-swap action induces a usable equivalence among canons. The grid canon subsumes the classical families exactly or approximately, with the exact-versus-approximate boundary tracking the invariance class.
 
-<img src="/assets/research/canonhonnecourt.png" alt="Villard de Honnecourt canon" style="float: right; margin-right: 20px; width: 240px;">
+<img src="/assets/research/canonhonnecourt.png" alt="Villard de Honnecourt canon" style="float: right; margin-left: 20px; width: 240px;">
 
 The framework has two executable instantiations. [`page-canons.sty`](https://www.ctan.org/pkg/page-canons) is a LaTeX package implementing the major historical canons under a common interface, with an in-house margin-note and sidenote system with PDF/UA-2 semantic tagging. 
 
-<img src="/assets/research/canontufte.png" alt="Tufte canon" style="float: left; margin-left: 20px; width: 240px;">
+<img src="/assets/research/canontufte.png" alt="Tufte canon" style="float: right; margin-left: 20px; width: 240px;">
 
 A companion Python tool, `page_canon.py`, with a wxPython GUI, handles the design-time side: computing margins for named sizes, custom dimensions, or width-plus-ratio input; handling gutter in two well-defined modes (geometry-like shift versus strict KOMA satzspiegel); emitting LaTeX `geometry` snippets in any unit; rendering recto/verso diagrams with marginpar zones. Both extend naturally to a three-dimensional depth axis for books conceived as volumes rather than as open spreads.
 
-<img src="/assets/research/canonatelier.png" alt="Canon des Ateliers canon" style="float: right; margin-right: 20px; width: 240px;">
+<img src="/assets/research/canonatelier.png" alt="Canon des Ateliers canon" style="float: right; margin-left: 20px; width: 240px;">
 
 Beyond the formal canon work, my typographic interests are art-historical and cognitive at once: the history of design, and of book design specifically; decorated initials and the medieval grammar of page hierarchy; paragraph-level conventions like *per cola et commata*, in which sense-units are broken across lines to cue parsing; the cognitive-science work on how such conventions guide reading. The formalism is one place where these get made computable; the interests themselves are older than the formalism.
 
-<img src="/assets/research/canongrid.png" alt="Grid canon" style="float: left; margin-left: 20px; width: 240px;">
+<img src="/assets/research/canongrid.png" alt="Grid canon" style="float: left; margin-right: 20px; width: 240px;">
 
 
 
