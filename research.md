@@ -8,11 +8,13 @@ My research develops mathematical frameworks for meaning, reasoning, and abstrac
 
 Three themes of interest follow:
 
-1. time and its representations;
-2. meaning, reasoning, and the spaces where they live;
-3. history, craft, and art.
+1. Reasoning, abstraction, and the representations they require. Analogy and abstraction; math NLI and inverse formalization; phase semantics; semantic-space geometry.
+2. Time, language, and the structures that organize them. Calendars; TAME.
+3. Craft and the externalization of tacit knowledge. Typography; semiotics and writing systems.
 
 Among the questions that organize what follows: at what levels does reasoning and abstraction take place, and where do errors enter, in machines, adults, and children? How can we reason over prose-language mathematics, and how lossy is the translation between mathematics and language? What semantics are encoded in complex-valued representations, and is interference a meaningful semantic process? What is semantic space, what are its geometric and topological properties, and is real Euclidean space the right ambient at all? What history of mathematics, culture, art, and science resides in the calendar? How should we study representations of time? What makes for beautiful design, and what does the historical record of design conventions reveal about how aesthetic judgment and cognitive function constrain one another? How do tactile signs like writing relate to language and to the history of cognitive tools?
+
+## Reasoning, abstraction, and the representations they require
 
 ### Analogy and abstraction
 
@@ -39,7 +41,7 @@ This algebra-and-logic pair forms a candidate neurosymbolic architecture accordi
 2. joint optimization of parse, transformation, and correspondence;
 3. correspondence as operation conjugation in the functorial sense.
 
-## Math NLI and inverse problem of formalization
+### Math NLI and inverse problem of formalization
 
 **Natural-language inference for mathematics** is the task of deciding, for a mathematical premise and a hypothetical conclusion stated in ordinary mathematical prose, whether the latter follows from the former. Consider "ABCD is a rhombus whose diagonals have equal length" entailing "ABCD is a square." The hypothesis follows, but not by subtype substitution alone; it requires a plane-geometry theorem. A weaker hypothesis ("ABCD is a parallelogram whose diagonals have equal length") does follow by subtype substitution. Two different kinds of inference step reach two different conclusions from the same premise. A trustworthy NLI system should tell them apart and label which step was responsible for which conclusion.
 
@@ -61,7 +63,7 @@ A parallel thread is what I call the **inverse problem of formalization**: given
 
 I am interested in a bidirectional interface with a shared representation: the output of the natural-logic engines above serves as the intermediate structure between Lean tactics and mathematical English. Round-trip consistency becomes a specification rather than a coincidence, and the machinery that drives inference in one direction drives translation in the other. A companion database, MathTermsDB, extending the MathGloss line, supplies the terminological and theorem-level knowledge the inference engines consult.
 
-## Phase semantics and neural architectures
+### Phase semantics and neural architectures
 
 Large language models operate over real-valued vector representations, and every architectural mechanism (attention, normalization, softmax, gradient flow) was derived on that assumption. If representations are lifted to complex-valued or quantum-state substrates, every such mechanism needs re-derivation. This is the core of the **CBIRD project** (complex-valued BERT and its extensions): work out what each component becomes, what new design choices appear, what does not carry over, and what, if any, semantics reside in the complex space.
 
@@ -104,6 +106,8 @@ A separate line of work asks not whether to test embedding geometry under discip
 
 A still less explored direction is $p$-adic representation: the metric is ultrametric, every triangle is isosceles, and hierarchical containment is a structural property of the geometry rather than something one optimizes for. The matched-null framework can follow the geometry: draws from an isotropic wrapped Gaussian on hyperbolic space, the corresponding analog on a $p$-adic tree, against which the observed structure of the actual representation can be measured. The discipline travels; only the ambient changes.
 
+## Time, language, and the structures that organize them. Calendars; TAME.
+
 ### Calendars and the tropical year
 
 Calendar scholarship is shaped by an astronomical bias. Standard definitions in astronomy, computational calendrics, and history of science place astronomical anchoring at the constitutive center, which excludes systems most observers would still call calendars: the Balinese Pawukon; the Maya Long Count; the ISO 8601 week date; the Mesopotamian schematic calendar that Old Babylonian astronomers themselves used for their astronomical work. I am interested in the broader conception of timekeeping, of calendars from both sides of this divide. For the calendars that do commit to astronomical referents, I am interested in pushing the underlying mathematics as far as it will go; for the wider class, I am interested in working out what a calendar must do structurally, independent of the sky.
@@ -119,6 +123,38 @@ A solar calendar aligns the civil year with the tropical year, but the tropical 
 
 Calendars are human artifacts whose alignment with the heavens, when present at all, is only one commitment among several, made for particular reasons by particular communities. I am interested in this relationship between the arithmetic case and otherwise what makes it conceptually portable to everywhere else.
 
+### Tense, aspect, mood, evidentiality
+
+Natural languages grammaticalize at least four distinct dimensions of an asserted situation beyond its propositional content: 
+
+1. *time* (deictic location relative to speech time or a contextually established reference time);
+2. *aspect* (the situation's internal temporal structure: perfective, imperfective, perfect, progressive, habitual, iterative);
+3. *mood* (the speaker's stance on the proposition's realization: indicative, subjunctive, conditional, jussive, optative);
+4. *evidentiality* (the speaker's information source: direct perception, inference, hearsay, assumption).
+
+What pedagogical grammars call a *tense* is, then, most naturally read as a form occupying a region of this four-dimensional space, as opposed to a primitive semantic category; a region may be a single cell or many, contiguous or not, and the cell-coverage profile of a form is typically the substantive content of that form's grammatical description. 
+
+<p align="center"> 
+<img src="/assets/research/tame.png" alt="Tense as composite of time, aspect, mood, and evidentiality">
+</p>
+
+I follow the terminological move of reserving *time* for the dimension Comrie called tense and *tense* for the composite forms that live in the space, which cleans up the bulk of the inherited confusion between *perfect* (anteriority with current relevance, in Comrie's sense) and *perfective* (a bounded-whole viewpoint); the two are dimensionally orthogonal but routinely conflated by names inherited from Latin grammar. My interest in this area takes a largely descriptively neutral position, at this time, on the major open disputes (the time-or-aspect status of Biblical Hebrew, the polysemy-versus-underspecification analysis of Semitic forms, the temporal status of the Greek verb, the morphological status of Slavic perfectivity, the categorial status of evidentiality with respect to epistemic modality). I am interested in the formal semantics, typology, and diachrony of development of tense, in this sense.
+
+| Concept | Latin | Greek | Cl. Arabic / Bibl. Hebrew | Akkadian (von Soden) |
+|---|---|---|---|---|
+| **past perfective**<br>*"he wrote"* | perfect (*laudāvit*) | aorist (*égrapse*) | *kataba* / *kātab* [S] | preterite (*iprus*) |
+| **past imperfective**<br>*"he was writing"* | imperfect (*laudābat*) | imperfect (*égraphe*) | *kāna ya-ktubu* (periphrasis) [C] | *iparras* + past context |
+| **anterior at present**<br>*"he has written"* | perfect (*laudāvit*)<br>(same form → polysemy) | perfect (*gégraphe*) | *kataba* [S]<br>(same form as above) | perfect (*iptaras*) |
+| **anterior at past**<br>*"he had written"* | pluperfect (*laudāverat*) | pluperfect (*egegráphei*) | *kataba* [S]<br>(same form again) | *iprus* or *iptaras* + context |
+| **habitual present**<br>*"he writes (routinely)"* | present (*laudat*) | present (*gráphei*) | *ya-ktubu* / *yiktob* [P] | durative-present (*iparras*) |
+| **present ongoing**<br>*"he is writing now"* | present (no distinction) | present (no distinction) | *ya-ktubu* [P]<br>(no distinction) | *iparras* (no distinction) |
+| **future**<br>*"he will write"* | future (*laudābit*) | future (*grápsei*) | *ya-ktubu* [P]<br>(same form again) | *iparras* (no distinction) |
+
+**Table: Cross-tradition terminology.** [S] = Semitic suffix conjugation; [P] = Semitic prefix conjugation (was teal); [C] = periphrastic/compound construction (was amber). The Latin *laudāvit* row repeats because the form is itself polysemous between past perfective and anterior at present.
+
+I care greatly for the pedagogy of this material as much as its analysis. The terminological disarray is not only a research problem, but a teaching problem: students of Arabic, Hebrew, and Akkadian are routinely handed labels (perfect, imperfect, aorist, preterite) that carry framework-specific commitments incompatible with the morphological systems being described, and the conflation of perfect with perfective in particular costs learners and instructors a great deal of unnecessary confusion. The broader commitment is that a properly organized exposition is as much in order as a formal or typological interest of a contested area, which can substitute for many years of accumulated terminological apprenticeship; this matters more in cross-linguistic morphology than in most areas, because the conventions are particularly entrenched and particularly local.
+
+## Craft and the externalization of tacit knowledge. Typography; semiotics and writing systems.
 
 ### Historical typography
 
@@ -160,36 +196,7 @@ I also have broader interests in semiotics, writing systems, and agency theory: 
 
 **Writing systems** are graphic systems for representing language. The typological core (logographies, syllabaries, alphabets, abjads, abugidas, alphasyllabaries) classifies systems by which linguistic stratum the graphic units track (semantic, syllabic, segmental, consonantal); no attested system is pure (Chinese has phonetic components, English has morphographic spellings, Korean Hangul is segmental in inventory and syllabic in arrangement). Beyond typology are questions about what writing does to language (Derrida's grammatology, Goody's literacy thesis, Olson's restructuring claim), what writing affords that speech does not (lists, tables, equations, parallel scanning, persistence across time), how writing and its development relate to the capacity to act and how it is constituted in relations among persons, embodied dispositions, material artifacts, and institutional fields, and the cognitive consequences of script structure for reading.
 
-## Tense, aspect, mood, evidentiality
 
-Natural languages grammaticalize at least four distinct dimensions of an asserted situation beyond its propositional content: 
-
-1. *time* (deictic location relative to speech time or a contextually established reference time);
-2. *aspect* (the situation's internal temporal structure: perfective, imperfective, perfect, progressive, habitual, iterative);
-3. *mood* (the speaker's stance on the proposition's realization: indicative, subjunctive, conditional, jussive, optative);
-4. *evidentiality* (the speaker's information source: direct perception, inference, hearsay, assumption).
-
-What pedagogical grammars call a *tense* is, then, most naturally read as a form occupying a region of this four-dimensional space, as opposed to a primitive semantic category; a region may be a single cell or many, contiguous or not, and the cell-coverage profile of a form is typically the substantive content of that form's grammatical description. 
-
-<p align="center"> 
-<img src="/assets/research/tame.png" alt="Tense as composite of time, aspect, mood, and evidentiality">
-</p>
-
-I follow the terminological move of reserving *time* for the dimension Comrie called tense and *tense* for the composite forms that live in the space, which cleans up the bulk of the inherited confusion between *perfect* (anteriority with current relevance, in Comrie's sense) and *perfective* (a bounded-whole viewpoint); the two are dimensionally orthogonal but routinely conflated by names inherited from Latin grammar. My interest in this area takes a largely descriptively neutral position, at this time, on the major open disputes (the time-or-aspect status of Biblical Hebrew, the polysemy-versus-underspecification analysis of Semitic forms, the temporal status of the Greek verb, the morphological status of Slavic perfectivity, the categorial status of evidentiality with respect to epistemic modality). I am interested in the formal semantics, typology, and diachrony of development of tense, in this sense.
-
-| Concept | Latin | Greek | Cl. Arabic / Bibl. Hebrew | Akkadian (von Soden) |
-|---|---|---|---|---|
-| **past perfective**<br>*"he wrote"* | perfect (*laudāvit*) | aorist (*égrapse*) | *kataba* / *kātab* [S] | preterite (*iprus*) |
-| **past imperfective**<br>*"he was writing"* | imperfect (*laudābat*) | imperfect (*égraphe*) | *kāna ya-ktubu* (periphrasis) [C] | *iparras* + past context |
-| **anterior at present**<br>*"he has written"* | perfect (*laudāvit*)<br>(same form → polysemy) | perfect (*gégraphe*) | *kataba* [S]<br>(same form as above) | perfect (*iptaras*) |
-| **anterior at past**<br>*"he had written"* | pluperfect (*laudāverat*) | pluperfect (*egegráphei*) | *kataba* [S]<br>(same form again) | *iprus* or *iptaras* + context |
-| **habitual present**<br>*"he writes (routinely)"* | present (*laudat*) | present (*gráphei*) | *ya-ktubu* / *yiktob* [P] | durative-present (*iparras*) |
-| **present ongoing**<br>*"he is writing now"* | present (no distinction) | present (no distinction) | *ya-ktubu* [P]<br>(no distinction) | *iparras* (no distinction) |
-| **future**<br>*"he will write"* | future (*laudābit*) | future (*grápsei*) | *ya-ktubu* [P]<br>(same form again) | *iparras* (no distinction) |
-
-**Table: Cross-tradition terminology.** [S] = Semitic suffix conjugation; [P] = Semitic prefix conjugation (was teal); [C] = periphrastic/compound construction (was amber). The Latin *laudāvit* row repeats because the form is itself polysemous between past perfective and anterior at present.
-
-I care greatly for the pedagogy of this material as much as its analysis. The terminological disarray is not only a research problem, but a teaching problem: students of Arabic, Hebrew, and Akkadian are routinely handed labels (perfect, imperfect, aorist, preterite) that carry framework-specific commitments incompatible with the morphological systems being described, and the conflation of perfect with perfective in particular costs learners and instructors a great deal of unnecessary confusion. The broader commitment is that a properly organized exposition is as much in order as a formal or typological interest of a contested area, which can substitute for many years of accumulated terminological apprenticeship; this matters more in cross-linguistic morphology than in most areas, because the conventions are particularly entrenched and particularly local.
 
 <!---
 **Agency theory** asks where the capacity to act resides and how it is constituted. Major lines diverge on the answer: Bourdieu locates it in durable embodied dispositions (habitus) generating practice within a structured field of positions; Giddens treats structure as both medium and outcome of action, reproduced through use (structuration); Gell extends it to material objects (art objects, prototypes, indexes) participating as nodes in distributed networks rather than as inert vehicles; Latour's actor-network theory treats humans and non-humans symmetrically as actants in heterogeneous assemblages. The convergence is a single critique: agency is constituted in relations among persons, embodied dispositions, material artifacts, and institutional fields.
