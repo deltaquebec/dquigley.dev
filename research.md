@@ -8,6 +8,30 @@ My research develops mathematical frameworks for meaning, reasoning, and abstrac
 
 In addition to my work on abstraction and analogy, I am woking on various aspects of meaning representation and grounding problems, including the geometry and topology of representation spaces, time-evolving semiotics, and typologies of writing systems as relevant to semiotics and meaning representation.
 
+### Analogy and abstraction
+
+<img src="/assets/research/analogy.png" alt="Tufte canon" style="float: left; margin-right: 20px; width: 240px;">
+
+**Analogy** is the recognition that two situations share a structural relation despite differing in surface content, and the transfer of inference from one to the other across that recognized relation. Its minimal form is the four-term proportion *S* : *S'* :: *T* : *T'*, which asserts that whatever relation holds between *S* and *S'* holds also between *T* and *T'*, and licenses inferring *T'* from *S*, *S'*, *T*. More generally, an analogy is a partial correspondence between two structured representations under which selected relations are preserved; the partiality matters, since perfect correspondence is identity rather than analogy, and the structure-preservation is selective, since not every relation in the source has a counterpart in the target.
+
+**Abstraction** is the operation of moving from a particular to a description that holds across a class of particulars, typically by suppressing features that distinguish members of the class and retaining features they share. The retained features need not be intrinsic: an abstraction can pick out a relation, a role, a pattern of variation, or a position in a larger structure, none of which is a property of any single member taken alone. Abstractions are evaluated by what they let one do (predict, infer, classify, transfer) rather than by fidelity to any one instance; an abstraction that retains too much fails to generalize, and one that retains too little fails to discriminate.
+
+The two are related, but distinct. Abstraction produces the descriptions over which analogy operates; analogy is the transfer move across two such descriptions when their structures align. Analogical reasoning is, therefore, doubly underdetermined: by which abstractions of the source and target are taken as the basis for comparison, and by which sub-structure of those abstractions is held to correspond. 
+
+My colleagues and I have a two-pronged interest in formal analogical reasoning. 
+
+1. A *relational calculus* over a single pairing-closed domain *D*, in which every (*a*, *b*) ∈ *D* × *D* is itself an element of *D*; all relations are endorelations on *D*, and ⊤ = *D* × *D* and ⊥ = ∅ live inside the object language rather than at the meta-level, sidestepping the multi-sorted treatment that schemes such as Haydon-Soboci\'nski require. It is both a logic for reasoning about how objects relate, and a vehicle for exploring relational logic in its own right.
+2. A *generative algebra* over strings, generalizing the notion of a block as a maximal arithmetic progression over the alphabet at step *d* (so "abcd" is a single AP-block at *d* = +1, and repeated-character blocks are the special case *d* = 0); segmentation becomes a shortest-path problem over a directed acyclic graph of admissible AP substrings, with a cost function selecting the segmentation that minimizes transformation complexity.
+
+<p align="center"> 
+<img src="/assets/research/scope.png" alt="Example of character- and block-level scope ambiguity in string analogy">
+</p>
+
+This algebra-and-logic pair forms a candidate neurosymbolic architecture according to the following claims:
+
+1. parse-levels as generator output, rather than ontological strata;
+2. joint optimization of parse, transformation, and correspondence;
+3. correspondence as operation conjugation in the functorial sense.
 
 ### Geometry and topology of semantic space
 
