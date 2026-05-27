@@ -4,9 +4,15 @@ title: Research Interests
 permalink: /research/
 ---
 
-My research develops mathematical frameworks for meaning, reasoning, and abstraction to study symbolic and subsymbolic approaches to language and cognition. My current work applies categorical and relational methods to abstraction and analogy in ARC-style reasoning tasks.
+My research develops mathematical frameworks for meaning, reasoning, and abstraction, with applications across language, cognition, calendars, typography, and the historical record of intellectual craft. The structural abstractions that practitioners across many traditions (astronomers and calendar reformers, book designers, grammarians, sign theorists) accumulated tacitly over centuries can be externalized as parameterized executable formalisms, in which the inherited categories appear as special cases of a richer common object; the same applies to more recent practice (neural-network architectures, vector-space semantics, automated mathematical reasoning), where the received framing has taken something for granted that the richer substrate exposes. The goal in each case is to make disagreements between traditions or intuitions visible, so the formalisms can be combined or compared, rather than treated as rivals, or trusted by default.
 
-In addition to my work on abstraction and analogy, I am woking on various aspects of meaning representation and grounding problems, including the geometry and topology of representation spaces, time-evolving semiotics, and typologies of writing systems as relevant to semiotics and meaning representation.
+Three themes of interest follow:
+
+1. time and its representations;
+2. meaning, reasoning, and the spaces where they live;
+3. history, craft, and art.
+
+Among the questions that organize what follows: at what levels does reasoning and abstraction take place, and where do errors enter, in machines, adults, and children? How can we reason over prose-language mathematics, and how lossy is the translation between mathematics and language? What semantics are encoded in complex-valued representations, and is interference a meaningful semantic process? What is semantic space, what are its geometric and topological properties, and is real Euclidean space the right ambient at all? What history of mathematics, culture, art, and science resides in the calendar? How should we study representations of time? What makes for beautiful design, and what does the historical record of design conventions reveal about how aesthetic judgment and cognitive function constrain one another? How do tactile signs like writing relate to language and to the history of cognitive tools?
 
 ### Analogy and abstraction
 
