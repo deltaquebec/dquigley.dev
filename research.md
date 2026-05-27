@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Professional Research
+title: Research Interests
 permalink: /research/
 ---
 
