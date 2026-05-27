@@ -73,6 +73,8 @@ An interesting case is *attention*. In real BERT, *q*ᵀ*k* is a scalar and soft
 | **output** | softmax | softmax after $\mathbb{C} \to \mathbb{R}$ | Born rule $\vert\langle\phi\vert\psi\rangle\vert^2$ |
 | **gradient** | $\partial / \partial x$ | Wirtinger $\partial_z,\,\partial_{\bar z}$ | *evolution:* unitary $U\vert\psi\rangle$ |
 
+**Table: Comparison and contrasting of features across real space, complex space, and quantum Hilbert space.**
+
 My contribution is the mathematical work: Wirtinger gradients for each re-derived component; information-flow audits tracking where phase enters and exits the computation; identification of the singularities the complex extensions introduce; architectural recommendations grounded in the derivations rather than in empirical search. The broader frame is three substrates ( real, complex, quantum) sharing the functional role of a neural representation, but differing in object type, degrees of freedom, inner product, and what counts as an observable output. They differ in which mechanisms can coherently exist at all.
 
 ### Geometry and topology of semantic space
@@ -179,7 +181,7 @@ I follow the terminological move of reserving *time* for the dimension Comrie ca
 | **present ongoing**<br>*"he is writing now"* | present (no distinction) | present (no distinction) | *ya-ktubu* [P]<br>(no distinction) | *iparras* (no distinction) |
 | **future**<br>*"he will write"* | future (*laudābit*) | future (*grápsei*) | *ya-ktubu* [P]<br>(same form again) | *iparras* (no distinction) |
 
-**Table: Cross-tradition terminology.** [S] = Semitic suffix conjugation (was coral). [P] = Semitic prefix conjugation (was teal). [C] = periphrastic/compound construction (was amber). The Latin *laudāvit* row repeats because the form is itself polysemous between past perfective and anterior at present.
+**Table: Cross-tradition terminology.** [S] = Semitic suffix conjugation; [P] = Semitic prefix conjugation (was teal); [C] = periphrastic/compound construction (was amber). The Latin *laudāvit* row repeats because the form is itself polysemous between past perfective and anterior at present.
 
 I care greatly for the pedagogy of this material as much as its analysis. The terminological disarray is not only a research problem, but a teaching problem: students of Arabic, Hebrew, and Akkadian are routinely handed labels (perfect, imperfect, aorist, preterite) that carry framework-specific commitments incompatible with the morphological systems being described, and the conflation of perfect with perfective in particular costs learners and instructors a great deal of unnecessary confusion. The broader commitment is that a properly organized exposition is as much in order as a formal or typological interest of a contested area, which can substitute for many years of accumulated terminological apprenticeship; this matters more in cross-linguistic morphology than in most areas, because the conventions are particularly entrenched and particularly local.
 
