@@ -8,6 +8,16 @@ My research develops mathematical frameworks for meaning, reasoning, and abstrac
 
 In addition to my work on abstraction and analogy, I am woking on various aspects of meaning representation and grounding problems, including the geometry and topology of representation spaces, time-evolving semiotics, and typologies of writing systems as relevant to semiotics and meaning representation.
 
+
+### Geometry and topology of semantic space
+
+<p align="center"> 
+<img src="/assets/research/geometry_topology_semantics.svg" alt="Cartoon model of semantic space">
+</p>
+
+
+
+
 <!---
 Intelligence manifests across substrates, be they neural, artificial, or collective, but research often proceeds in isolation. I am interested in whether formal frameworks can identify shared principles, particularly around representation and generalization.
 
