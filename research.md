@@ -5,7 +5,7 @@ permalink: /research/
 ---
 
 My research develops mathematical frameworks for meaning, reasoning, and abstraction, with applications across language, cognition, calendars, typography, and the historical record of intellectual craft. The goal in each case is to make differences between traditions or intuitions visible, such that formalisms can be combined or compared, rather than treated as rivals, or trusted by default.
-
+<!--- 
 Three themes of interest follow:
 
 1. Reasoning, abstraction, and the representations they require. Analogy and abstraction; math NLI and inverse formalization; phase semantics; semantic-space geometry.
@@ -13,7 +13,7 @@ Three themes of interest follow:
 3. Craft and the externalization of tacit knowledge. Typography; semiotics and writing systems.
 
 Among the questions that organize what follows: at what levels does reasoning and abstraction take place, and where do errors enter, in machines, adults, and children? How can we reason over prose-language mathematics, and how lossy is the translation between mathematics and language? What semantics are encoded in complex-valued representations, and is interference a meaningful semantic process? What is semantic space, what are its geometric and topological properties, and is real Euclidean space the right ambient at all? What history of mathematics, culture, art, and science resides in the calendar? How should we study representations of time? What makes for beautiful design, and what does the historical record of design conventions reveal about how aesthetic judgment and cognitive function constrain one another? How do tactile signs like writing relate to language and to the history of cognitive tools?
-
+-->
 ## Reasoning, abstraction, and the representations they require
 
 ### Analogy and abstraction
