@@ -45,6 +45,28 @@ A solar calendar aligns the civil year with the tropical year, but the tropical 
 Calendars are human artifacts whose alignment with the heavens, when present at all, is only one commitment among several, made for particular reasons by particular communities. I am interested in this relationship between the arithmetic case and otherwise what makes it conceptually portable to everywhere else.
 
 
+### Historical typography
+
+Historical typographic design codified the relation between page and text block as proportioning systems intended to survive changes in page size, binding, or paper stock: Van de Graaf divides the page into ninths; Villard de Honnecourt gives a family parameterized by integer *N*; Tufte's wide outer margin is reserved for marginalia; the modular grid generalizes the lot. 
+
+<img src="/assets/canon_graaf.png" alt="Van de Graaf canon" style="float: left; margin-right: 20px; width: 240px;">
+
+A **page canon**, formalized, is a scale-equivariant map from a declared frame *W* × *H* to a text-block-and-margins solution; under two stronger invariances (dimensional separability and aspect preservation), the canons nest into three regions, and the four margin modes decompose into two independent binary choices whose side-swap action induces a usable equivalence among canons. The grid canon subsumes the classical families exactly or approximately, with the exact-versus-approximate boundary tracking the invariance class.
+
+<img src="/assets/canon_honnecourt.png" alt="Villard de Honnecourt canon" style="float: right; margin-right: 20px; width: 240px;">
+
+The framework has two executable instantiations. [`page-canons.sty`](https://www.ctan.org/pkg/page-canons) is a LaTeX package implementing the major historical canons under a common interface, with an in-house margin-note and sidenote system with PDF/UA-2 semantic tagging. 
+
+<img src="/assets/canon_tufte.png" alt="Tufte canon" style="float: left; margin-right: 20px; width: 240px;">
+
+A companion Python tool, `page_canon.py`, with a wxPython GUI, handles the design-time side: computing margins for named sizes, custom dimensions, or width-plus-ratio input; handling gutter in two well-defined modes (geometry-like shift versus strict KOMA satzspiegel); emitting LaTeX `geometry` snippets in any unit; rendering recto/verso diagrams with marginpar zones. Both extend naturally to a three-dimensional depth axis for books conceived as volumes rather than as open spreads.
+
+<img src="/assets/canon_atelier.png" alt="Canon des Ateliers canon" style="float: right; margin-right: 20px; width: 240px;">
+
+Beyond the formal canon work, my typographic interests are art-historical and cognitive at once: the history of design, and of book design specifically; decorated initials and the medieval grammar of page hierarchy; paragraph-level conventions like *per cola et commata*, in which sense-units are broken across lines to cue parsing; the cognitive-science work on how such conventions guide reading. The formalism is one place where these get made computable; the interests themselves are older than the formalism.
+
+<img src="/assets/canon_grid.png" alt="Grid canon" style="float: left; margin-right: 20px; width: 240px;">
+
 <!---
 Intelligence manifests across substrates, be they neural, artificial, or collective, but research often proceeds in isolation. I am interested in whether formal frameworks can identify shared principles, particularly around representation and generalization.
 
