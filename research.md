@@ -4,7 +4,7 @@ title: Research Interests
 permalink: /research/
 ---
 
-My research develops mathematical frameworks for meaning, reasoning, and abstraction, with applications across language, cognition, calendars, typography, and the historical record of intellectual craft. The structural abstractions that practitioners across many traditions (astronomers and calendar reformers, book designers, grammarians, sign theorists) accumulated tacitly over centuries can be externalized as parameterized executable formalisms, in which the inherited categories appear as special cases of a richer common object; the same applies to more recent practice (neural-network architectures, vector-space semantics, automated mathematical reasoning), where the received framing has taken something for granted that the richer substrate exposes. The goal in each case is to make disagreements between traditions or intuitions visible, so the formalisms can be combined or compared, rather than treated as rivals, or trusted by default.
+My research develops mathematical frameworks for meaning, reasoning, and abstraction, with applications across language, cognition, calendars, typography, and the historical record of intellectual craft. The goal in each case is to make differences between traditions or intuitions visible, such that formalisms can be combined or compared, rather than treated as rivals, or trusted by default.
 
 Three themes of interest follow:
 
