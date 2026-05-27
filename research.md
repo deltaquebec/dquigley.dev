@@ -14,7 +14,7 @@ Three themes of interest follow:
 
 Among the questions that organize what follows: at what levels does reasoning and abstraction take place, and where do errors enter, in machines, adults, and children? How can we reason over prose-language mathematics, and how lossy is the translation between mathematics and language? What semantics are encoded in complex-valued representations, and is interference a meaningful semantic process? What is semantic space, what are its geometric and topological properties, and is real Euclidean space the right ambient at all? What history of mathematics, culture, art, and science resides in the calendar? How should we study representations of time? What makes for beautiful design, and what does the historical record of design conventions reveal about how aesthetic judgment and cognitive function constrain one another? How do tactile signs like writing relate to language and to the history of cognitive tools?
 -->
-## Reasoning, abstraction, and the representations they require
+## Reasoning, abstraction, and representations
 
 ### Analogy and abstraction
 
@@ -106,7 +106,7 @@ A separate line of work asks not whether to test embedding geometry under discip
 
 A still less explored direction is $p$-adic representation: the metric is ultrametric, every triangle is isosceles, and hierarchical containment is a structural property of the geometry rather than something one optimizes for. The matched-null framework can follow the geometry: draws from an isotropic wrapped Gaussian on hyperbolic space, the corresponding analog on a $p$-adic tree, against which the observed structure of the actual representation can be measured. The discipline travels; only the ambient changes.
 
-## Time, language, and the structures that organize them
+## Time and language
 
 ### Calendars and the tropical year
 
@@ -154,7 +154,7 @@ I follow the terminological move of reserving *time* for the dimension Comrie ca
 
 I care greatly for the pedagogy of this material as much as its analysis. The terminological disarray is not only a research problem, but a teaching problem: students of Arabic, Hebrew, and Akkadian are routinely handed labels (perfect, imperfect, aorist, preterite) that carry framework-specific commitments incompatible with the morphological systems being described, and the conflation of perfect with perfective in particular costs learners and instructors a great deal of unnecessary confusion. The broader commitment is that a properly organized exposition is as much in order as a formal or typological interest of a contested area, which can substitute for many years of accumulated terminological apprenticeship; this matters more in cross-linguistic morphology than in most areas, because the conventions are particularly entrenched and particularly local.
 
-## Craft and the externalization of tacit knowledge
+## Craft and externalization of tacit knowledge
 
 ### Historical typography
 
