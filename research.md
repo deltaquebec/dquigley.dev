@@ -70,7 +70,23 @@ A companion Python tool, `page_canon.py`, with a wxPython GUI, handles the desig
 Beyond the formal canon work, my typographic interests are art-historical and cognitive at once: the history of design, and of book design specifically; decorated initials and the medieval grammar of page hierarchy; paragraph-level conventions like *per cola et commata*, in which sense-units are broken across lines to cue parsing; the cognitive-science work on how such conventions guide reading. The formalism is one place where these get made computable; the interests themselves are older than the formalism.
 
 
+### Semiotics and writing systems
 
+I also have broader interests in semiotics, writing systems, and agency theory: classical sign theories (Saussure, Peirce, Hjelmslev, Morris, Eco, Barthes, Kress) and the structural moves that let them be compared; writing systems as typological objects (logographies, syllabaries, alphabets, abjads, abugidas, alphasyllabaries) and the grammatological tradition that situates them (Derrida); theories of distributed and material agency (Gell, Bourdieu, Latour, Giddens).
+
+<p align="center"> 
+<img src="/assets/research/semiots.png" alt="Tabled comparison of verious semiotics">
+</p>
+
+**Semiotics** studies how signs mean: the correlation of form and content, the codes that license those correlations, and the production, uptake, and effects of signs in situated use. The field carries multiple incompatible foundational vocabularies (Saussure's dyadic signifier-signified, Peirce's triadic representamen-object-interpretant, Hjelmslev's expression-content stratification, Morris's syntax-semantics-pragmatics partition, Eco's codes and subcodes, Barthes's denotation-connotation-myth layering, Kress's multimodal design and interest) that continue to bear theoretical weight, despite resisting consolidation. The questions I follow are the comparative-foundational one of how these vocabularies relate and where they can be combined, and the descriptive-pragmatic one of what semiotics captures well in situated practice (classrooms, interfaces, archives, scientific notation).
+
+<p align="center"> 
+<img src="/assets/research/writ.png" alt="Example mapping of language sign to written sign">
+</p>
+
+**Writing systems** are graphic systems for representing language. The typological core (logographies, syllabaries, alphabets, abjads, abugidas, alphasyllabaries) classifies systems by which linguistic stratum the graphic units track (semantic, syllabic, segmental, consonantal); no attested system is pure (Chinese has phonetic components, English has morphographic spellings, Korean Hangul is segmental in inventory and syllabic in arrangement). Beyond typology are questions about what writing does to language (Derrida's grammatology, Goody's literacy thesis, Olson's restructuring claim), what writing affords that speech does not (lists, tables, equations, parallel scanning, persistence across time), and the cognitive consequences of script structure for reading.
+
+**Agency theory** asks where the capacity to act resides and how it is constituted. Major lines diverge on the answer: Bourdieu locates it in durable embodied dispositions (habitus) generating practice within a structured field of positions; Giddens treats structure as both medium and outcome of action, reproduced through use (structuration); Gell extends it to material objects (art objects, prototypes, indexes) participating as nodes in distributed networks rather than as inert vehicles; Latour's actor-network theory treats humans and non-humans symmetrically as actants in heterogeneous assemblages. The convergence is a single critique: agency is constituted in relations among persons, embodied dispositions, material artifacts, and institutional fields.
 
 <!---
 Intelligence manifests across substrates, be they neural, artificial, or collective, but research often proceeds in isolation. I am interested in whether formal frameworks can identify shared principles, particularly around representation and generalization.
