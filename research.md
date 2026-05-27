@@ -12,7 +12,7 @@ In addition to my work on abstraction and analogy, I am woking on various aspect
 ### Geometry and topology of semantic space
 
 <p align="center"> 
-<img src="/assets/research/geometry_topology_semantics.svg" alt="Cartoon model of semantic space">
+<img src="/assets/research/geometry_topology_semantics.svg" alt="Cartoon model of semantic space",style="float: left; margin-right: 20px; width: 180px;">
 </p>
 
 
