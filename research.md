@@ -14,7 +14,7 @@ In addition to my work on abstraction and analogy, I am woking on various aspect
 **Word embeddings** are mathematical objects by construction: finite point clouds in $\mathbb{R}^{300}$ with a natural metric, a definite intrinsic dimension, definite curvature, a definite $k$-nearest-neighbor graph. These properties exist whether or not anyone measures them; the question is what attitude to take toward them. Folk geometry imports two- and three-dimensional intuitions (clusters, directions) to high-dimensional sets, where they rarely survive contact with calibrated estimators. Task evaluation, the engineering default, leaves the object itself uncharacterized. I am interested in the following: treat the point cloud as the metric measure space it is, submit candidate descriptions to falsifiable tests, and accept that several familiar verbal characterizations may fail. That is: what is the semantic space as a mathematical object?
 
 <p align="center"> 
-<img src="/assets/research/geometry_topology_semantics.svg" alt="Cartoon model of semantic space">
+<img src="/assets/research/geometrytopologysemantics.png" alt="Cartoon model of semantic space" width="125%">
 </p>
 
 
