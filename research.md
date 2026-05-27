@@ -63,7 +63,9 @@ A companion Python tool, `page_canon.py`, with a wxPython GUI, handles the desig
 
 Beyond the formal canon work, my typographic interests are art-historical and cognitive at once: the history of design, and of book design specifically; decorated initials and the medieval grammar of page hierarchy; paragraph-level conventions like *per cola et commata*, in which sense-units are broken across lines to cue parsing; the cognitive-science work on how such conventions guide reading. The formalism is one place where these get made computable; the interests themselves are older than the formalism.
 
-<img src="/assets/canongrid.png" alt="Grid canon" style="float: left; margin-left: 20px; width: 240px;">
+<img src="/assets/canongrid.png" alt="Grid canon">
+
+
 
 <!---
 Intelligence manifests across substrates, be they neural, artificial, or collective, but research often proceeds in isolation. I am interested in whether formal frameworks can identify shared principles, particularly around representation and generalization.
