@@ -61,11 +61,11 @@ A **page canon**, formalized, is a scale-equivariant map from a declared frame *
 
 The framework has two executable instantiations. [`page-canons.sty`](https://www.ctan.org/pkg/page-canons) is a LaTeX package implementing the major historical canons under a common interface, with an in-house margin-note and sidenote system with PDF/UA-2 semantic tagging. 
 
-<img src="/assets/research/canonatelier.png" alt="Canon des Ateliers canon" style="float: right; margin-left: 20px; width: 240px;">
+<img src="/assets/research/canonatelier.png" alt="Canon des Ateliers canon" style="float: left; margin-right: 20px; width: 240px;">
 
 A companion Python tool, `page_canon.py`, with a wxPython GUI, handles the design-time side: computing margins for named sizes, custom dimensions, or width-plus-ratio input; handling gutter in two well-defined modes (geometry-like shift versus strict KOMA satzspiegel); emitting LaTeX `geometry` snippets in any unit; rendering recto/verso diagrams with marginpar zones. Both extend naturally to a three-dimensional depth axis for books conceived as volumes rather than as open spreads.
 
-<img src="/assets/research/canongrid.png" alt="Grid canon" style="float: left; margin-right: 20px; width: 240px;">
+<img src="/assets/research/canongrid.png" alt="Grid canon" style="float: right; margin-left: 20px; width: 240px;">
 
 Beyond the formal canon work, my typographic interests are art-historical and cognitive at once: the history of design, and of book design specifically; decorated initials and the medieval grammar of page hierarchy; paragraph-level conventions like *per cola et commata*, in which sense-units are broken across lines to cue parsing; the cognitive-science work on how such conventions guide reading. The formalism is one place where these get made computable; the interests themselves are older than the formalism.
 
