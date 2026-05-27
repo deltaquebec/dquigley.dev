@@ -150,11 +150,69 @@ I also have broader interests in semiotics, writing systems, and agency theory: 
 <img src="/assets/research/writ.png" alt="Example mapping of language sign to written sign">
 </p>
 
-**Writing systems** are graphic systems for representing language. The typological core (logographies, syllabaries, alphabets, abjads, abugidas, alphasyllabaries) classifies systems by which linguistic stratum the graphic units track (semantic, syllabic, segmental, consonantal); no attested system is pure (Chinese has phonetic components, English has morphographic spellings, Korean Hangul is segmental in inventory and syllabic in arrangement). Beyond typology are questions about what writing does to language (Derrida's grammatology, Goody's literacy thesis, Olson's restructuring claim), what writing affords that speech does not (lists, tables, equations, parallel scanning, persistence across time), and the cognitive consequences of script structure for reading.
+**Writing systems** are graphic systems for representing language. The typological core (logographies, syllabaries, alphabets, abjads, abugidas, alphasyllabaries) classifies systems by which linguistic stratum the graphic units track (semantic, syllabic, segmental, consonantal); no attested system is pure (Chinese has phonetic components, English has morphographic spellings, Korean Hangul is segmental in inventory and syllabic in arrangement). Beyond typology are questions about what writing does to language (Derrida's grammatology, Goody's literacy thesis, Olson's restructuring claim), what writing affords that speech does not (lists, tables, equations, parallel scanning, persistence across time), how writing and its development relate to the capacity to act and how it is constituted in relations among persons, embodied dispositions, material artifacts, and institutional fields, and the cognitive consequences of script structure for reading.
 
-**Agency theory** asks where the capacity to act resides and how it is constituted. Major lines diverge on the answer: Bourdieu locates it in durable embodied dispositions (habitus) generating practice within a structured field of positions; Giddens treats structure as both medium and outcome of action, reproduced through use (structuration); Gell extends it to material objects (art objects, prototypes, indexes) participating as nodes in distributed networks rather than as inert vehicles; Latour's actor-network theory treats humans and non-humans symmetrically as actants in heterogeneous assemblages. The convergence is a single critique: agency is constituted in relations among persons, embodied dispositions, material artifacts, and institutional fields.
+## Tense, aspect, mood, evidentiality
+
+Natural languages grammaticalize at least four distinct dimensions of an asserted situation beyond its propositional content: 
+
+1. *time* (deictic location relative to speech time or a contextually established reference time);
+2. *aspect* (the situation's internal temporal structure: perfective, imperfective, perfect, progressive, habitual, iterative);
+3. *mood* (the speaker's stance on the proposition's realization: indicative, subjunctive, conditional, jussive, optative);
+4. *evidentiality* (the speaker's information source: direct perception, inference, hearsay, assumption).
+
+What pedagogical grammars call a *tense* is, then, most naturally read as a form occupying a region of this four-dimensional space, as opposed to a primitive semantic category; a region may be a single cell or many, contiguous or not, and the cell-coverage profile of a form is typically the substantive content of that form's grammatical description. 
+
+<p align="center"> 
+<img src="/assets/research/tame.png" alt="Tense as composite of time, aspect, mood, and evidentiality">
+</p>
+
+I follow the terminological move of reserving *time* for the dimension Comrie called tense and *tense* for the composite forms that live in the space, which cleans up the bulk of the inherited confusion between *perfect* (anteriority with current relevance, in Comrie's sense) and *perfective* (a bounded-whole viewpoint); the two are dimensionally orthogonal but routinely conflated by names inherited from Latin grammar. My interest in this area takes a largely descriptively neutral position, at this time, on the major open disputes (the time-or-aspect status of Biblical Hebrew, the polysemy-versus-underspecification analysis of Semitic forms, the temporal status of the Greek verb, the morphological status of Slavic perfectivity, the categorial status of evidentiality with respect to epistemic modality). I am interested in the formal semantics, typology, and diachrony of development of tense, in this sense.
+
+Here is the conversion into a Markdown table.
+
+*(Note: Since standard Markdown tables do not support background colors like the LaTeX `\cellcolor` command, I have added bracketed text labels—**[Coral]**, **[Amber]**, and **[Teal]**—to indicate the color-coding referenced in the caption. I also converted the LaTeX diacritic commands like `\=a` and `\'e` into standard Unicode characters, and `\to` into →.)*
+
+| Concept | Latin | Greek | Cl. Arabic / Bibl. Hebrew | Akkadian (von Soden) |
+| --- | --- | --- | --- | --- |
+| **past perfective**<br>
+
+<br>*"he wrote"* | perfect (*laudāvit*) | aorist (*égrapse*) | **[Coral]** *kataba* / *kātab* | preterite (*iprus*) |
+| **past imperfective**<br>
+
+<br>*"he was writing"* | imperfect (*laudābat*) | imperfect (*égraphe*) | **[Amber]** *kāna ya-ktubu* (periphrasis) | *iparras* + past context |
+| **anterior at present**<br>
+
+<br>*"he has written"* | perfect (*laudāvit*)<br>
+
+<br>same form → polysemy | perfect (*gégraphe*) | **[Coral]** *kataba*<br>
+
+<br>same form as above | perfect (*iptaras*) |
+| **anterior at past**<br>
+
+<br>*"he had written"* | pluperfect (*laudāverat*) | pluperfect (*egegráphei*) | **[Coral]** *kataba*<br>
+
+<br>same form again | *iprus* or *iptaras* + context |
+| **habitual present**<br>
+
+<br>*"he writes (routinely)"* | present (*laudat*) | present (*gráphei*) | **[Teal]** *ya-ktubu* / *yiktob* | durative-present (*iparras*) |
+| **present ongoing**<br>
+
+<br>*"he is writing now"* | present (no distinction) | present (no distinction) | **[Teal]** *ya-ktubu*<br>
+
+<br>no distinction | *iparras* (no distinction) |
+| **future**<br>
+
+<br>*"he will write"* | future (*laudābit*) | future (*grápsei*) | **[Teal]** *ya-ktubu*<br>
+
+<br>same form again | *iparras* (no distinction) |
+
+I care greatly for the pedagogy of this material as much as its analysis. The terminological disarray is not only a research problem, but a teaching problem: students of Arabic, Hebrew, and Akkadian are routinely handed labels (perfect, imperfect, aorist, preterite) that carry framework-specific commitments incompatible with the morphological systems being described, and the conflation of perfect with perfective in particular costs learners and instructors a great deal of unnecessary confusion. The broader commitment is that a properly organized exposition is as much in order as a formal or typological interest of a contested area, which can substitute for many years of accumulated terminological apprenticeship; this matters more in cross-linguistic morphology than in most areas, because the conventions are particularly entrenched and particularly local.
 
 <!---
+**Agency theory** asks where the capacity to act resides and how it is constituted. Major lines diverge on the answer: Bourdieu locates it in durable embodied dispositions (habitus) generating practice within a structured field of positions; Giddens treats structure as both medium and outcome of action, reproduced through use (structuration); Gell extends it to material objects (art objects, prototypes, indexes) participating as nodes in distributed networks rather than as inert vehicles; Latour's actor-network theory treats humans and non-humans symmetrically as actants in heterogeneous assemblages. The convergence is a single critique: agency is constituted in relations among persons, embodied dispositions, material artifacts, and institutional fields.
+
+
 Intelligence manifests across substrates, be they neural, artificial, or collective, but research often proceeds in isolation. I am interested in whether formal frameworks can identify shared principles, particularly around representation and generalization.
 
 
