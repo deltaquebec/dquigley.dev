@@ -21,7 +21,22 @@ The methodological complication is that geometric statistics on high-dimensional
 
 Any geometric statistic on a high-dimensional point cloud is susceptible to the same class of artifacts (distance concentration, anisotropy-driven hubness, rank-deficient covariance), so the matched-null framework ports directly. The static-embedding case is the cleanest first application. Transformer-derived contextual representations are context-dependent, layer-specific, and trained against objectives unlike static ones; whether the diffuse-manifold picture survives, breaks down, or stratifies across layers is an open question worth asking. Other classes of high-dimensional representation (image embeddings, gene-expression vectors, neural activation patterns) face the same calibration problem when claims about "cluster structure" or "tree-like organization" are at stake, and the matched-null framework should travel.
 
+<img src="/assets/hyperbolic.png" alt="Hyperbolic space" style="float: left; margin-right: 20px; width: 240px;">
 
+A separate line of work asks not whether to test embedding geometry under discipline, but which geometry the embeddings should live in. The motivation for hyperbolic embeddings, for example, is that linguistic structure has hierarchical aspects (knowledge graphs, taxonomies, syntactic parse trees, sense lattices), and a space with negative curvature accommodates exponential branching at constant volume in a way Euclidean space does not. The matched-null testing reported here partially updates the motivation: for the static distributional embeddings I examined, the tree-likeness signal (low Gromov $\delta$) tracks the covariance null, and the local curvature is positive throughout. Hyperbolic embedding is the wrong tool for those particular point clouds; that result is about what GloVe and Word2Vec specifically contain, not about whether hyperbolic geometry is appropriate for representing objects that are hierarchical by construction. Parse trees, knowledge graphs, and taxonomic ontologies remain natural targets; so do contextual representations, whose empirical geometry has not been tested under the same discipline and could stratify across layers in ways the static case does not predict. 
+
+<img src="/assets/padic.png" alt="3-adic space" style="float: right; margin-left: 20px; width: 240px;">
+
+A still less explored direction is $p$-adic representation: the metric is ultrametric, every triangle is isosceles, and hierarchical containment is a structural property of the geometry rather than something one optimizes for. The matched-null framework can follow the geometry: draws from an isotropic wrapped Gaussian on hyperbolic space, the corresponding analog on a $p$-adic tree, against which the observed structure of the actual representation can be measured. The discipline travels; only the ambient changes.
+
+---
+
+Choices flagged:
+
+- **"Hyperbolic embedding is the wrong tool for those particular point clouds"** is the strong version. It's defensible: low Gromov δ tracking the null *and* positive κ̄ both point the opposite direction from where hyperbolic embedding would help. If you want it softer, *"hyperbolic embedding does not earn its motivation from those particular point clouds"* is the same content with less edge.
+- **"Could stratify across layers"** is a controlled gesture at the Ethayarajh and Cai-style results on BERT anisotropy and layer-dependence, without committing to anything specific. Easy to make it more concrete if you have particular results in mind.
+- **The closing technical detail** (wrapped Gaussian, $p$-adic analog) is what earns "the discipline travels": it shows you've actually thought about how the framework ports. If the website audience is more general than the paper's, I can cut it and leave just the punchline; the paragraph still works.
+- **What's not here:** I dropped the tensor-product sentence (`$\dim(N)^n$`) and the Cayley-graph branching formula from your original draft. Both are correct in their own contexts but reading them in 2026 NLP context invites the modern-attention objection, and the paragraph works without them. Tell me if you want either restored.
 
 <!---
 Intelligence manifests across substrates, be they neural, artificial, or collective, but research often proceeds in isolation. I am interested in whether formal frameworks can identify shared principles, particularly around representation and generalization.
