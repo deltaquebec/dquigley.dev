@@ -55,7 +55,26 @@ A parallel thread is what I call the **inverse problem of formalization**: given
 
 I am interested in a bidirectional interface with a shared representation: the output of the natural-logic engines above serves as the intermediate structure between Lean tactics and mathematical English. Round-trip consistency becomes a specification rather than a coincidence, and the machinery that drives inference in one direction drives translation in the other. A companion database, MathTermsDB, extending the MathGloss line, supplies the terminological and theorem-level knowledge the inference engines consult.
 
+## Phase semantics and neural architectures
 
+Large language models operate over real-valued vector representations, and every architectural mechanism (attention, normalization, softmax, gradient flow) was derived on that assumption. If representations are lifted to complex-valued or quantum-state substrates, every such mechanism needs re-derivation. This is the core of the **CBIRD project** (complex-valued BERT and its extensions): work out what each component becomes, what new design choices appear, what does not carry over, and what, if any, semantics reside in the complex space.
+
+<p align="center"> 
+<img src="/assets/research/cbird.png" alt="Example of real, complex, and quantum Hilbert spaces">
+</p>
+
+An interesting case is *attention*. In real BERT, *q*ᵀ*k* is a scalar and softmax applies directly. In a complex-valued network, *q*†*k* ∈ ℂ, and softmax requires a real number; a ℂ→ℝ map must be chosen, and the choice is material. The Born rule (|c|²) discards phase; magnitude (|c|) discards phase differently; a phase-preserving construction keeps phase and admits interference between attention contributions. Normalization splits similarly: RMSNorm preserves the argument arg(*x_j*) of each component, while LayerNorm subtracts a token-dependent complex mean and scrambles it. A falsifiable prediction follows: if meaning is carried in absolute phase, phase-preserving attention must compose with RMSNorm, not LayerNorm, or the normalizer destroys exactly what attention uses.
+
+| Column 1 (Standard) | Column 2 (Complex) | Column 3 (Quantum) |
+| --- | --- | --- |
+| **object**: $x \in \mathbb{R}$ | **object**: $z = r e^{i\varphi} \in \mathbb{C}$ | **object**: $\vert\psi\rangle \in \mathcal{H}$, $\Vert\psi\Vert=1$ |
+| **d.o.f.**: 1 per dim | **d.o.f.**: 2 per dim (magnitude, phase) | **d.o.f.**: $2(2^n - 1)$ real for $n$ qubits |
+| **inner product**: $x^\top y \in \mathbb{R}$ | **inner product**: $q^\dagger k \in \mathbb{C}$ | **inner product**: $\langle\phi\vert\psi\rangle \in \mathbb{C}$ |
+| **output**: softmax | **output**: softmax after $\mathbb{C} \to \mathbb{R}$ | **output**: Born rule $\vert\langle\phi\vert\psi\rangle\vert^2$ |
+| **gradient**: $\partial / \partial x$ | **gradient**: Wirtinger $\partial_z,\,\partial_{\bar z}$ | **evolution**: unitary $U\vert\psi\rangle$ |
+| *standard; Word2Vec; GloVe* | *phase semantics; interference* | *variational circuits; quantum kernels; entanglement* |
+
+My contribution is the mathematical work: Wirtinger gradients for each re-derived component; information-flow audits tracking where phase enters and exits the computation; identification of the singularities the complex extensions introduce; architectural recommendations grounded in the derivations rather than in empirical search. The broader frame is three substrates ( real, complex, quantum) sharing the functional role of a neural representation, but differing in object type, degrees of freedom, inner product, and what counts as an observable output. They differ in which mechanisms can coherently exist at all.
 
 ### Geometry and topology of semantic space
 
