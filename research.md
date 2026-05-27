@@ -169,43 +169,17 @@ What pedagogical grammars call a *tense* is, then, most naturally read as a form
 
 I follow the terminological move of reserving *time* for the dimension Comrie called tense and *tense* for the composite forms that live in the space, which cleans up the bulk of the inherited confusion between *perfect* (anteriority with current relevance, in Comrie's sense) and *perfective* (a bounded-whole viewpoint); the two are dimensionally orthogonal but routinely conflated by names inherited from Latin grammar. My interest in this area takes a largely descriptively neutral position, at this time, on the major open disputes (the time-or-aspect status of Biblical Hebrew, the polysemy-versus-underspecification analysis of Semitic forms, the temporal status of the Greek verb, the morphological status of Slavic perfectivity, the categorial status of evidentiality with respect to epistemic modality). I am interested in the formal semantics, typology, and diachrony of development of tense, in this sense.
 
-Here is the conversion into a Markdown table.
-
-*(Note: Since standard Markdown tables do not support background colors like the LaTeX `\cellcolor` command, I have added bracketed text labels—**[Coral]**, **[Amber]**, and **[Teal]**—to indicate the color-coding referenced in the caption. I also converted the LaTeX diacritic commands like `\=a` and `\'e` into standard Unicode characters, and `\to` into →.)*
-
 | Concept | Latin | Greek | Cl. Arabic / Bibl. Hebrew | Akkadian (von Soden) |
-| --- | --- | --- | --- | --- |
-| **past perfective**<br>
+|---|---|---|---|---|
+| **past perfective**<br>*"he wrote"* | perfect (*laudāvit*) | aorist (*égrapse*) | *kataba* / *kātab* [S] | preterite (*iprus*) |
+| **past imperfective**<br>*"he was writing"* | imperfect (*laudābat*) | imperfect (*égraphe*) | *kāna ya-ktubu* (periphrasis) [C] | *iparras* + past context |
+| **anterior at present**<br>*"he has written"* | perfect (*laudāvit*)<br>(same form → polysemy) | perfect (*gégraphe*) | *kataba* [S]<br>(same form as above) | perfect (*iptaras*) |
+| **anterior at past**<br>*"he had written"* | pluperfect (*laudāverat*) | pluperfect (*egegráphei*) | *kataba* [S]<br>(same form again) | *iprus* or *iptaras* + context |
+| **habitual present**<br>*"he writes (routinely)"* | present (*laudat*) | present (*gráphei*) | *ya-ktubu* / *yiktob* [P] | durative-present (*iparras*) |
+| **present ongoing**<br>*"he is writing now"* | present (no distinction) | present (no distinction) | *ya-ktubu* [P]<br>(no distinction) | *iparras* (no distinction) |
+| **future**<br>*"he will write"* | future (*laudābit*) | future (*grápsei*) | *ya-ktubu* [P]<br>(same form again) | *iparras* (no distinction) |
 
-<br>*"he wrote"* | perfect (*laudāvit*) | aorist (*égrapse*) | **[Coral]** *kataba* / *kātab* | preterite (*iprus*) |
-| **past imperfective**<br>
-
-<br>*"he was writing"* | imperfect (*laudābat*) | imperfect (*égraphe*) | **[Amber]** *kāna ya-ktubu* (periphrasis) | *iparras* + past context |
-| **anterior at present**<br>
-
-<br>*"he has written"* | perfect (*laudāvit*)<br>
-
-<br>same form → polysemy | perfect (*gégraphe*) | **[Coral]** *kataba*<br>
-
-<br>same form as above | perfect (*iptaras*) |
-| **anterior at past**<br>
-
-<br>*"he had written"* | pluperfect (*laudāverat*) | pluperfect (*egegráphei*) | **[Coral]** *kataba*<br>
-
-<br>same form again | *iprus* or *iptaras* + context |
-| **habitual present**<br>
-
-<br>*"he writes (routinely)"* | present (*laudat*) | present (*gráphei*) | **[Teal]** *ya-ktubu* / *yiktob* | durative-present (*iparras*) |
-| **present ongoing**<br>
-
-<br>*"he is writing now"* | present (no distinction) | present (no distinction) | **[Teal]** *ya-ktubu*<br>
-
-<br>no distinction | *iparras* (no distinction) |
-| **future**<br>
-
-<br>*"he will write"* | future (*laudābit*) | future (*grápsei*) | **[Teal]** *ya-ktubu*<br>
-
-<br>same form again | *iparras* (no distinction) |
+**Table: Cross-tradition terminology.** [S] = Semitic suffix conjugation (was coral). [P] = Semitic prefix conjugation (was teal). [C] = periphrastic/compound construction (was amber). The Latin *laudāvit* row repeats because the form is itself polysemous between past perfective and anterior at present.
 
 I care greatly for the pedagogy of this material as much as its analysis. The terminological disarray is not only a research problem, but a teaching problem: students of Arabic, Hebrew, and Akkadian are routinely handed labels (perfect, imperfect, aorist, preterite) that carry framework-specific commitments incompatible with the morphological systems being described, and the conflation of perfect with perfective in particular costs learners and instructors a great deal of unnecessary confusion. The broader commitment is that a properly organized exposition is as much in order as a formal or typological interest of a contested area, which can substitute for many years of accumulated terminological apprenticeship; this matters more in cross-linguistic morphology than in most areas, because the conventions are particularly entrenched and particularly local.
 
