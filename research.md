@@ -4,6 +4,24 @@ title: Research Interests
 permalink: /research/
 ---
 
+
+My work treats meaning, reasoning, and abstraction as mathematical objects: analogy and the algebra of structural transfer; natural-language inference for mathematics, and its inverse, the recovery of prose from formal proof; the geometry and topology of semantic space; complex- and quantum-valued neural architectures; the formal structure of representations of time in calendrics and of tense in natural language; page canons of historical typography.
+
+What has drawn me lately is the discipline these share. Each takes an informal notion, fixes it as a precise object, then refuses to trust any claim about that object until it has been checked against something that could have falsified it. I take meaning, inference, and abstraction to be the real targets, and the behavior of learning intelligences to be where they have become something one can measure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---
 My research develops mathematical frameworks for meaning, reasoning, and abstraction, with applications across language, cognition, calendars, typography, and the historical record of intellectual craft. The goal in each case is to make differences between traditions or intuitions visible, such that formalisms can be combined or compared, rather than treated as rivals, or trusted by default.
 
 ## Reasoning, abstraction, and representations
@@ -190,7 +208,7 @@ I also have broader interests in semiotics, writing systems, and agency theory: 
 
 
 
-<!---
+
 **Agency theory** asks where the capacity to act resides and how it is constituted. Major lines diverge on the answer: Bourdieu locates it in durable embodied dispositions (habitus) generating practice within a structured field of positions; Giddens treats structure as both medium and outcome of action, reproduced through use (structuration); Gell extends it to material objects (art objects, prototypes, indexes) participating as nodes in distributed networks rather than as inert vehicles; Latour's actor-network theory treats humans and non-humans symmetrically as actants in heterogeneous assemblages. The convergence is a single critique: agency is constituted in relations among persons, embodied dispositions, material artifacts, and institutional fields.
 
 
