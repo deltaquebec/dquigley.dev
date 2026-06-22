@@ -12,6 +12,6 @@
     setTheme(next);
   }
   
-  setTheme(localStorage.getItem('theme') || 'light');
+  setTheme(localStorage.getItem('theme') || 'dark');
   window.cycleTheme = cycleTheme;
 })();
