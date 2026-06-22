@@ -26,15 +26,16 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/monogrambg/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="dquigleydev" />
     <link rel="manifest" href="/assets/favicon/monogrambg/site.webmanifest" />
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#191919">
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+          <a href="{{ site.baseurl }}/" class="site-avatar" aria-label="Home"><img src="{{ site.avatar }}" alt="" role="presentation" /></a>
+          <div class="site-meta">
+            <p class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></p>
             <p class="site-description">{{ site.description }}</p>
           </div>
           <nav>
@@ -43,7 +44,7 @@
             <a href="{{ site.baseurl }}/cv">CV</a>
             <a href="{{ site.baseurl }}/posts">Posts</a>
             <a href="{{ site.baseurl }}/about">About</a>
-            <button class="theme-toggle" onclick="cycleTheme()" aria-label="Toggle theme">◐</button>
+            <button class="theme-toggle" onclick="cycleTheme()" aria-label="Switch color theme"><span aria-hidden="true">&#9680;</span></button>
           </nav>
         </header>
       </div>
@@ -55,6 +56,7 @@
       <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
+          <p class="footer-links"><a href="{{ site.baseurl }}/sitemap/">Sitemap</a></p>
         </footer>
       </div>
     </div>
