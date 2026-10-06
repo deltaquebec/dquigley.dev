@@ -8,11 +8,15 @@ I am interested in _meaning_, broadly construed. My work treats meaning, reasoni
 
 ### Vector logic for formal semantics
 
+For a fuller exposition, see: [Vector logic](/assets/research/vector_logic_statement.pdf).
+
 Formal semantics interprets expressions in typed models, and neural language models represent them as vectors. I study which parts of a typed semantics admit an exact encoding in vector spaces, and what form semantic computation takes where linearity fails. In the base construction, each typed domain embeds as a basis of a free vector space, and every semantic function lifts to a unique multilinear map with composition preserved. On a finite domain, Montague's individuals and their negations are the only nonconstant Boolean functionals that act linearly on encoded sets. Once they range over two or more elements, determiners and modal operators, belief among them, compute by linear accumulation and a decision. In a categorical treatment, the lexicon determines which maps between models preserve denotation.
 
 Since an embedding layer is a linear map on the free carrier, a rank criterion decides whether a learned geometry decodes the truth conditions of a lexicon exactly, and at what least dimension. Pretrained word embeddings miss the criterion for every predicate tested. Constrained to exact decoding at the same dimension, a geometry retains about 80 to 99 percent of the pretrained variance. Under stated bridging hypotheses, the results yield refutable predictions about transformers and about speakers. Known data already refute one of them, a threshold semantics for generics. I am extending the framework to counterfactuals, hyperintensionality, measure frames, product modalities, and the causal structure of spacetime.
 
 ### Abstraction and analogy
+
+For a fuller exposition, see: [Abstraction and analogy](/assets/research/abstraction_analogy_statement.pdf).
 
 Analogy problems ask a solver to extract a change from a demonstrated pair and to apply it elsewhere, as in Copycat's letter strings (_abc_ is to _abd_ as _xyz_ is to what?) and the ARC puzzles of the Abstraction and Reasoning Corpus. I am interested in the mathematical structures underlying such analogy-making, and so study the algebra a domain must carry for this task to be well posed. Read as an equal change between pairs, an analogy is well posed exactly when the observations form a torsor: one group of changes acts on them freely and transitively. Each variation on the torsor leaves a kind of algebraic trace: boundaries yield partial actions, saturation an aperiodic monoid, symmetry a coset of answers counted by a stabilizer index, and coordinates a carry cocycle, the carry of longhand addition. Copycat's answer _wyz_, for instance, comes from a symmetry of _abc_.
 
