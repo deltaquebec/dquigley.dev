@@ -16,7 +16,7 @@ Since an embedding layer is a linear map on the free carrier, a rank criterion d
 
 ### Abstraction and analogy
 
-For a fuller exposition, see: [Abstraction and analogy](/assets/research/abstraction_analogy_statement.pdf).
+For a fuller exposition, see: [Abstraction and analogy](/assets/research/analogies_abstraction_statement.pdf).
 
 Analogy problems ask a solver to extract a change from a demonstrated pair and to apply it elsewhere, as in Copycat's letter strings (_abc_ is to _abd_ as _xyz_ is to what?) and the ARC puzzles of the Abstraction and Reasoning Corpus. I am interested in the mathematical structures underlying such analogy-making, and so study the algebra a domain must carry for this task to be well posed. Read as an equal change between pairs, an analogy is well posed exactly when the observations form a torsor: one group of changes acts on them freely and transitively. Each variation on the torsor leaves a kind of algebraic trace: boundaries yield partial actions, saturation an aperiodic monoid, symmetry a coset of answers counted by a stabilizer index, and coordinates a carry cocycle, the carry of longhand addition. Copycat's answer _wyz_, for instance, comes from a symmetry of _abc_.
 
