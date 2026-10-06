@@ -4,10 +4,19 @@ title: Research Interests
 permalink: /research/
 ---
 
+I am interested in _meaning_, broadly construed. My work treats meaning, reasoning, and abstraction as mathematical objects. What has drawn me lately is the discipline these share, in that each takes an informal notion, fixes it as a precise object, then check that object against something that could have falsified it. I take meaning, inference, and abstraction to be the real targets, and the behavior of learning intelligences to be where they have become something we can measure.
 
-My work treats meaning, reasoning, and abstraction as mathematical objects: analogy and the algebra of structural transfer; natural-language inference for mathematics, and its inverse, the recovery of prose from formal proof; the geometry and topology of semantic space; complex- and quantum-valued neural architectures; the formal structure of representations of time in calendrics and of tense in natural language; page canons of historical typography.
+### Vector logic for formal semantics
 
-What has drawn me lately is the discipline these share. Each takes an informal notion, fixes it as a precise object, then refuses to trust any claim about that object until it has been checked against something that could have falsified it. I take meaning, inference, and abstraction to be the real targets, and the behavior of learning intelligences to be where they have become something one can measure.
+Formal semantics interprets expressions in typed models, and neural language models represent them as vectors. I study which parts of a typed semantics admit an exact encoding in vector spaces, and what form semantic computation takes where linearity fails. In the base construction, each typed domain embeds as a basis of a free vector space, and every semantic function lifts to a unique multilinear map with composition preserved. On a finite domain, Montague's individuals and their negations are the only nonconstant Boolean functionals that act linearly on encoded sets. Once they range over two or more elements, determiners and modal operators, belief among them, compute by linear accumulation and a decision. In a categorical treatment, the lexicon determines which maps between models preserve denotation.
+
+Since an embedding layer is a linear map on the free carrier, a rank criterion decides whether a learned geometry decodes the truth conditions of a lexicon exactly, and at what least dimension. Pretrained word embeddings miss the criterion for every predicate tested. Constrained to exact decoding at the same dimension, a geometry retains about 80 to 99 percent of the pretrained variance. Under stated bridging hypotheses, the results yield refutable predictions about transformers and about speakers. Known data already refute one of them, a threshold semantics for generics. I am extending the framework to counterfactuals, hyperintensionality, measure frames, product modalities, and the causal structure of spacetime.
+
+**Abstraction and analogy**
+
+Analogy problems ask a solver to extract a change from a demonstrated pair and to apply it elsewhere, as in Copycat's letter strings (_abc_ is to _abd_ as _xyz_ is to what?) and the ARC puzzles of the Abstraction and Reasoning Corpus. I am interested in the mathematical structures underlying such analogy-making, and so study the algebra a domain must carry for this task to be well posed. Read as an equal change between pairs, an analogy is well posed exactly when the observations form a torsor: one group of changes acts on them freely and transitively. Each variation on the torsor leaves a kind of algebraic trace: boundaries yield partial actions, saturation an aperiodic monoid, symmetry a coset of answers counted by a stabilizer index, and coordinates a carry cocycle, the carry of longhand addition. Copycat's answer _wyz_, for instance, comes from a symmetry of _abc_.
+
+These results predict where human answers should split, and identify the problems on which a correct output can follow from an unintended rule. With colleagues, I am developing a calculus of relations with the expressive power of first-order logic, for stating rival theories and evaluating their relative computational costs.
 
 
 
