@@ -59,3 +59,8 @@ Govind's seminar sets no limits on how students use AI, and relies on discussion
 Govind frames the seminar's larger question as what a university should keep if AI disrupts it. The apple pie is a practice: keep the history and context of each structure alongside its axioms, since a computation omits the reasons the structure exists at all.
 
 
+## Sources
+
+- Govind Menon, *Scaling Mathematical Folklore*, announcement for APMA 1970, Brown University, Fall 2026
+- Allyn Jackson, [Encountering the Roots of Mathematics](https://www.ias.edu/ideas/encountering-roots-mathematics), *The Institute Letter*, Spring/Summer 2026
+- Mary S. Morgan and Margaret Morrison, eds., *Models as Mediators*, Cambridge University Press, 1999
