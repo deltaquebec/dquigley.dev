@@ -48,6 +48,21 @@ Part of the answer, it turns out, lies in geometry. The Legendre transform carri
 
 Hilbert's apple pie is the project that grew from that question. Its name pairs Hilbert's foundational impulse, which he applied to the foundations of geometry, with Carl Sagan's remark, which becomes a question to ask of any formal system: to appreciate one of its features, what must we build first? For the Lagrangian, the list runs from smooth manifolds and the Legendre transform to Lagrange's treatise and the classroom habit of setting the question aside.
 
+## Philosophy
+
+The philosophy rests on the conviction that _a formalism is too interesting to leave as bare formalism_. Choosing a formalism for a target brings questions with it, and so the apple pie answers them at every structure.
+
+| Point | Inquiry | 
+| --- | --- | 
+| Commitments | What do we assume once we choose the formalism? | 
+| History | Whose tradition do we inherit? | 
+| Culture | Which community's idea of a result comes with it? |
+| Rigor | What can we establish, as against assert? | 
+| Plausibility | What do we tacitly claim about the target? | 
+
+In teaching, the philosophy is stating the structure beneath each recipe; in conversation, it means asking which of these questions a disagreement concerns; in research, a claim that one thing models another comes with a statement of to what the claim commits. Certainly, the questions blur for young formalisms: the transformer layer's tradition is under a decade old, and coincides with the community that uses it, so its history and its culture receive perhaps a lighter exposition, though this is hardly grounds for more or less importance for it.
+
+
 ## Precedent
 
 The search for human understanding inside a formalism has a precedent in the Mathematical Folklore seminar that Govind Menon and Akshay Venkatesh led at the Institute for Advanced Study in 2025–26. Govind now runs it for seniors at Brown. The seminar reads the primary texts that originated concepts central to mathematics today. Venkatesh described its motive as reviving mathematics as a humanistic discipline, and Govind's announcement for Brown is a kind of poem in five words: "Mathematics is about human understanding".
