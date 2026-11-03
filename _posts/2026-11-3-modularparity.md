@@ -346,7 +346,7 @@ This is why the sum of the decimal digits has the same remainder modulo 9 as the
 
 ## The special case of two
 
-The number 2 has a structural privilege: among nontrivial moduli, it is the only one with a single nonzero class. The distinction between divisible and not divisible exhausts its two possible remainders. Three has two nonzero classes and four has three, so for larger moduli, a question about divisibility leaves more unresolved! Retaining those distinctions lets us calculate, exclude impossible solutions, and reconstruct quantities from partial information.
+Among nontrivial moduli, 2 is the only one with a single nonzero class; the distinction between divisible and not divisible exhausts its two possible remainders. Three has two nonzero classes and four has three, so for larger moduli, a question about divisibility leaves more unresolved! Retaining those distinctions lets us calculate, exclude impossible solutions, and reconstruct quantities from partial information.
 
 The generalization of parity is, therefore, an arithmetic of the information preserved when we identify integers that differ by a multiple of a chosen modulus.
 
