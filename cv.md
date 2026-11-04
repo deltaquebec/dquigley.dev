@@ -4,7 +4,7 @@ title: Curriculum Vitæ
 permalink: /cv/
 ---
 
-Full CV (updated July 2026): [Curriculum Vitæ](/assets/quigley_daniel_cv.pdf)
+Full CV (updated November 2026): [Curriculum Vitæ](/assets/quigley_daniel_cv.pdf)
 
 Dissertation: [Neurosymbolic semantics](https://minds.wisconsin.edu/handle/1793/95448)
 
@@ -47,4 +47,7 @@ One-page summary of PhD Research (updated June 2022): [Summary of Research]({{ s
 
 * **Anthropology**
   - writing systems; calendrical systems; archaeoastornomy; power and social relations; gender; ethnoarchaeology
+ 
+* **History**
+  - history of mathematics; history of logic and computing; history of linguistics; calendars; oral history
 
