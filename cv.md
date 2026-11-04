@@ -25,7 +25,7 @@ One-page summary of PhD Research (updated June 2022): [Summary of Research]({{ s
 - **PhD in Linguistics**: [University of Wisconsin - Milwaukee](https://uwm.edu/)
 - **MA in Linguistics**: [University of Wisconsin - Milwaukee](https://uwm.edu/)
 - **MSc Honors College Certificate in Theoretical Physics**: [Universiteit Utrecht](https://www.uu.nl/en)
-- **BSc with Majors in**: Physics, Astronomy, Mathematics, Linguistics, and Anthropology - [University of Wisconsin - Madison](https://www.wisc.edu/). Proud to have set a university record with this quintuple major.
+- **BS with Majors in**: Physics, Astronomy, Mathematics, Linguistics, and Anthropology - [University of Wisconsin - Madison](https://www.wisc.edu/). Proud to have set a university record with this quintuple major.
 
 
 ### Professional Interests
